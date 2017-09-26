@@ -1,0 +1,23 @@
+LEAPQ2007.py is a python implementation of the LEAP-Q questionnaire.
+
+It requires psychopy in order to run.
+
+It is designed to be able to be run in any language.
+In order to add a language, simply add a folder in LEAP_text
+with a three-letter code for that language.  Remember to
+add the language to the list in the python script.
+
+Simple response questions have no special syntax and should
+just take up one line.
+
+Dropdown multiple choice questions have the following syntax:
+
+!X;QUESTION;POSSIBLE ANSWER 1;POSSIBLE ANSWER2...
+
+Questions that require participants to respond in a list (e.g.,
+please list all the languages you speak) have the following
+syntax:
+
+!L;N;PROMPT
+
+Where N is the maximum length of the response list (e.g., 5).
