@@ -1,0 +1,5 @@
+;
+English;ENG
+French;FRA
+German;DEU
+Hungarian;HUN

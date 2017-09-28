@@ -1,2 +1,7 @@
 Dominant Languages
-!L;5;Please list all of the languages you know in order of dominance.
+!T;Please select the languages you know in order of dominance.
+!X;1. ;lg-choices.txt
+!X;2. ;lg-choices.txt
+!X;3. ;lg-choices.txt
+!X;4. ;lg-choices.txt
+!X;5. ;lg-choices.txt

@@ -21,6 +21,8 @@ lgs = [
     'THK'
 ]
 
+supqs = ['X', 'L']
+
 
 dlg = gui.Dlg(title="Language selection")
 # dlg.addField('Test', 'test')
@@ -37,7 +39,7 @@ if dlg.OK:
 
     # print cheminT
 
-    nbqs = 3
+    nbqs = 5
 
     for qnb in range(nbqs):
         with open(cheminT + str(qnb) + ".txt") as f:
@@ -48,12 +50,29 @@ if dlg.OK:
             for l in lines:
                 l = l.strip()
 
-                if l[0] == '!': # special question type
-                
-                    if l[1] == "X": # multiple choice question
-                        l = l.split(';')[1:] # remove initial X
-                        dlgQ.addField(l[0]+': ', choices=l[1:])
+                if l[0] == '#': # ignore field
+                    break
 
+                elif l[0] == '!': # special question type
+
+                    if l[1] == "T": # add text
+                        l = l.split(';')[1:]
+                        dlgQ.addText(l[0])
+                
+                    elif l[1] == "X": # multiple choice question
+                        l = l.split(';')[1:] # remove initial X
+                        choiceText = l[0]
+                        choiceFile = l[1]
+                        ## open file and fetch contents
+                        with open(cheminT+choiceFile) as cf:
+                            clines = cf.readlines()
+                            choix = {}
+                            for c in clines:
+                                c = c.strip().split(';')
+                                choix[c[0]] = c[1]
+                        dlgQ.addField(l[0], choices=choix.keys())
+
+                        
                     elif l[1] == "L": # list multiple answers
                         l = l.split(';')
                         nbrep = int(l[1])
@@ -62,12 +81,15 @@ if dlg.OK:
                         for i in range(nbrep):
                             dlgQ.addField()
 
+                    elif l[1] not in supqs:
+                        print 'Error. Question type not supported.'
 
                 else: # simple input
                     dlgQ.addField(l+': ')
                     
             rep = dlgQ.show()
-            print(rep)
+            
+            print rep 
 
 else:
     core.quit()
