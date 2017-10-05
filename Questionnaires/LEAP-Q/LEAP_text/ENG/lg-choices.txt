@@ -1,5 +1,6 @@
 ;
-English;ENG
-French;FRA
-German;DEU
-Hungarian;HUN
+ENG;English
+FRA;French
+DEU;German
+ARA;Arabic
+HUN;Hungarian
