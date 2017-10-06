@@ -1,0 +1,7 @@
+Dominant languages
+PROMPT;Please use the drop-down menus to inidcate the languages you speak in order of dominance.
+x;dom_lg_1;Language 1;lg-choices.txt
+x;dom_lg_2;Language 2;lg-choices.txt
+x;dom_lg_3;Language 3;lg-choices.txt
+x;dom_lg_4;Language 4;lg-choices.txt
+x;dom_lg_5;Language 5;lg-choices.txt
