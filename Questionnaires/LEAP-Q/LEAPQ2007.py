@@ -6,17 +6,30 @@ from numpy import nan
 
 #####
 
+def translate(x):
+    global trad
+    if x in trad.keys():
+        return trad[x]
+    else:
+        print "No translation yet available for this item."
+
 def fetchRep(dlg, dbLabels):
     global dico
+    global trad
     rep = dlg.show()
 
     for n,i in enumerate(rep):
-        dico[dbLabels[n]] = i
+        if i in trad.keys():
+            dico[dbLabels[n]] = trad[i]
+        else:
+            dico[dbLabels[n]] = i
     print dico
     return rep    
 
 def displayQuestion(chemin, questionFile):
     global dico
+    global trad
+
     with open(chemin + questionFile) as f:
         lines = f.readlines()
         dlgQ = gui.Dlg(title=lines[0])
@@ -46,25 +59,31 @@ def displayQuestion(chemin, questionFile):
                 
             elif qType == 'x': # drop-down choice quesiton
                 choiceFile = l[3] # these questions should have an additional field with filename
-                choix = {}
                 # fill dico with choices from choiceFile
                 with open(cheminT + choiceFile) as xf:
                     choiceLines = xf.readlines()
+                    displayOptions = []
+
                     for choice in choiceLines:
                         choice = choice.strip().split(';')
-                        choix[choice[1]] = choice[0]
+                        displayOptions.append(choice[1])
+                        
+                        # Create translation pair in choix dict
+                        trad[choice[0]] = choice[1]
+                        trad[choice[1]] = choice[0]
+                        
                         
                 # print choix
                 dlgQ.addField(
                     label=displayLabel,
-                    choices=choix.keys()
+                    choices=displayOptions
                 )
                 # rep = dlgQ.show()
                 # print rep
 
             elif qType == 'p': # % answers based on previous answers, requires dico to have content
-                print displayLabel
-                displayLabel = dico[displayLabel]
+                # print displayLabel
+                displayLabel = translate(dico[displayLabel])
                 if displayLabel != '':
                     dlgQ.addField(label=displayLabel)
 
@@ -137,6 +156,7 @@ if dlg.OK:
     cheminT = "./LEAP_text/" + lg + "/" # location of text
 
     dico = {}
+    trad = {}
 
     
 
