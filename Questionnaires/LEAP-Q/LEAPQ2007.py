@@ -4,18 +4,28 @@ from psychopy import gui, misc, core
 import pandas as pd
 from numpy import nan
 
-#####
+####################
 
 def translate(x):
+    '''
+    Simply return the translation for x if in translation dictionary.
+    '''
+
     global trad
+    
     if x in trad.keys():
         return trad[x]
     else:
         print "No translation yet available for this item."
 
 def fetchRep(dlg, dbLabels):
+    '''
+    Receive input from user and store answer with correct (lg-independent) label for db.
+    '''
+
     global dico
     global trad
+    
     rep = dlg.show()
 
     for n,i in enumerate(rep):
@@ -27,6 +37,10 @@ def fetchRep(dlg, dbLabels):
     return rep    
 
 def displayQuestion(chemin, questionFile):
+    '''
+    Open a question file and generate dialogue box with content.
+    '''
+
     global dico
     global trad
 
@@ -53,9 +67,6 @@ def displayQuestion(chemin, questionFile):
 
             if qType == 't': # free text input
                 dlgQ.addField(displayLabel + ': ')
-                # rep = dlgQ.show()
-                # print rep
-
                 
             elif qType == 'x': # drop-down choice quesiton
                 choiceFile = l[3] # these questions should have an additional field with filename
@@ -73,47 +84,28 @@ def displayQuestion(chemin, questionFile):
                         trad[choice[1]] = choice[0]
                         
                         
-                # print choix
                 dlgQ.addField(
                     label=displayLabel,
                     choices=displayOptions
                 )
-                # rep = dlgQ.show()
-                # print rep
 
             elif qType == 'p': # % answers based on previous answers, requires dico to have content
-                # print displayLabel
+
                 displayLabel = translate(dico[displayLabel])
+                
                 if displayLabel != '':
                     dlgQ.addField(label=displayLabel)
+                # If no lg to treat, should leave final column empty
 
-                # rep = dlgQ.show()
-
-                
-                # break
         fetchRep(dlgQ, dbLabels)
 
-
-        # rep = dlgQ.show()
-        # print rep    
-
-        # if len(rep) == len(dbLabels):
-            # print "OK!"
-            # dico = {}
-        # for n,i in enumerate(rep):
-        #     dico[dbLabels[n]] = i
-            
-        # print dico
-
-        # else:
-        #     print "ERROR"
         return
 
 
 
 
 
-#####
+####################
 
 '''
 Langauge codes:
@@ -158,20 +150,12 @@ if dlg.OK:
     dico = {}
     trad = {}
 
-    
-
-    # Basic info
-    # displayQuestion(cheminT, 'basic_info.txt')
-    
-    # Language questions
     qs = range(5)
 
     for q in qs:
         qFile = 'q' + str(q) + '.txt'
         displayQuestion(cheminT, qFile)
-            
-
-
+         
 else:
     core.quit()
 
