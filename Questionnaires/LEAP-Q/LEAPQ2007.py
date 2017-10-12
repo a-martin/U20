@@ -126,7 +126,7 @@ lgs = [
 
 supqs = ['X', 'L']
 
-cols = list(pd.read_csv('columns.csv'))
+# cols = list(pd.read_csv('columns.csv'))
 
 # CHOOSE LANGUAGE
 dlg = gui.Dlg(title="Language selection")
@@ -138,16 +138,23 @@ if dlg.OK:
     # RUN QUESTIONNAIRE
     
     lg = ok_dlg[0] # fetch langauge info
-    sujet = ok_dlg[1] # fetch subject number
+    noSujet = ok_dlg[1] # fetch subject number
+    codeSujet = lg + str(noSujet) # final suj no will be p ex ENG0001
 
+    dataFile = 'data/' + codeSujet + '.csv'
 
-    # df = pd.DataFrame(columns=cols)
+    
+    # initialize df with all column names and make 'sujet' index col
+    # df = pd.DataFrame(columns=cols, index_col=0)
+    df = pd.read_csv('columns.csv', index_col='sujet')
+    
     # tmp = pd.Series([nan]*len(cols), index=cols)
     # df.append(tmp, index=sujet)
     
     cheminT = "./LEAP_text/" + lg + "/" # location of text
 
     dico = {}
+    dico['lg'] = lg
     trad = {}
 
     qs = range(5)
@@ -155,11 +162,17 @@ if dlg.OK:
     for q in qs:
         qFile = 'q' + str(q) + '.txt'
         displayQuestion(cheminT, qFile)
-         
+
+    # recover responses from dico and put them into df
+    rep = pd.DataFrame(dico, index=[codeSujet])
+    rep.index.rename('sujet', inplace=True)
+
+    df = df.append(rep)
+    df.to_csv(dataFile)
+    
 else:
     core.quit()
 
-allData = pd.read_csv('quest_data.csv', index_col=0)
 
 
     
