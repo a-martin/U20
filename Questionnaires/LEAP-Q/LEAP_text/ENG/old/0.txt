@@ -1,5 +1,0 @@
-Subject information
-Last name
-First name
-Age
-#!X;Gender;Male;Female;Prefer not to say

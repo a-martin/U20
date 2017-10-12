@@ -1,8 +1,0 @@
-Language use
-PROMPT;Please list what percentage of the time you are currently and on average exposed to each language.
-PROMPT;Your percentages should add up to 100%.  Use only numbers (no % sign).
-l;use_lg_1;dom_lg_1
-l;use_lg_2;dom_lg_2
-l;use_lg_3;dom_lg_3
-l;use_lg_4;dom_lg_4
-l;use_lg_5;dom_lg_5

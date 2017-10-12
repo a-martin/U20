@@ -18,6 +18,24 @@ def translate(x):
     else:
         print "No translation yet available for this item."
 
+def displayPrompt(promptFile):
+    '''
+    Display a prompt from a text file.
+    '''
+
+    with open(promptFile) as f:
+        lines = f.readlines()
+        dlgP = gui.Dlg(title=lines[0])
+        lines = lines[1:] # extract title line from file
+
+        for l in lines:
+            l = l.strip()
+            dlgP.addText(l)
+
+    dlgP.show()
+            
+    return 
+            
 def fetchRep(dlg, dbLabels):
     '''
     Receive input from user and store answer with correct (lg-independent) label for db.
@@ -100,9 +118,31 @@ def displayQuestion(chemin, questionFile):
         fetchRep(dlgQ, dbLabels)
 
         return
+        
+def doLgQ(chemin, language):
+    '''
+    For language, display and record series of questions about the acquisition and use of language.
+    '''
 
+    global dico
+    global trad
 
+    if language == '':
+        return
+    
+    lgDisplay = translate(language)
+    
+    with open(cheminT+'lg-prompt.txt') as f:
+         lines = f.readlines()
+         dlgPrompt = gui.Dlg(title=lgDisplay)
+         prompt = lines[0].format(lgDisplay)
+         dlgPrompt.addText(prompt)
+         dlgPrompt.show()
 
+ 
+
+    return
+    
 
 
 ####################
@@ -136,7 +176,7 @@ ok_dlg = dlg.show() # display dlg and select lg, returns list
 
 if dlg.OK:
     # RUN QUESTIONNAIRE
-    
+    # Initialize langauge and subject info
     lg = ok_dlg[0] # fetch langauge info
     noSujet = ok_dlg[1] # fetch subject number
     codeSujet = lg + str(noSujet) # final suj no will be p ex ENG0001
@@ -145,11 +185,7 @@ if dlg.OK:
 
     
     # initialize df with all column names and make 'sujet' index col
-    # df = pd.DataFrame(columns=cols, index_col=0)
-    df = pd.read_csv('columns.csv', index_col='sujet')
-    
-    # tmp = pd.Series([nan]*len(cols), index=cols)
-    # df.append(tmp, index=sujet)
+    df = pd.read_csv('columns.csv', index_col='sujet') 
     
     cheminT = "./LEAP_text/" + lg + "/" # location of text
 
@@ -157,12 +193,35 @@ if dlg.OK:
     dico['lg'] = lg
     trad = {}
 
-    qs = range(5)
+    # PART ONE
+    qs = range(2)
 
     for q in qs:
         qFile = 'q' + str(q) + '.txt'
         displayQuestion(cheminT, qFile)
 
+    # PART TWO
+    # Fetch participant's reported lgs in order of dominance
+    lgs = [
+        dico['dom_lg_1'],
+        dico['dom_lg_2'],
+        dico['dom_lg_3'],
+        dico['dom_lg_4'],
+        dico['dom_lg_5'],
+    ]
+
+    print lgs
+
+    transitionPromptF = cheminT + 'transition.txt'
+    displayPrompt(transitionPromptF)
+
+      
+    for langue in lgs:
+        doLgQ(cheminT, langue)
+
+
+    
+    # SAVE DATA
     # recover responses from dico and put them into df
     rep = pd.DataFrame(dico, index=[codeSujet])
     rep.index.rename('sujet', inplace=True)

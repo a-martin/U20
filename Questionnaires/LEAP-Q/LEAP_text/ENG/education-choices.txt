@@ -1,0 +1,8 @@
+;
+0;Less than high school
+1;High school
+2;Professional training
+3;Some university
+4;University (undergraduate)
+5;Postgraduate
+6;PhD or MD

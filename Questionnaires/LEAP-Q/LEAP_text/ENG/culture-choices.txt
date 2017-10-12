@@ -1,0 +1,7 @@
+;
+uk;British
+english;English
+scottish;Scottish
+welsh;Welsh
+irish;Irish
+us;American
