@@ -1,0 +1,6 @@
+Proficiency
+PROMPT;On a scale from zero to ten, please select your level of proficiency in
+PROMPT;speaking, understanding, and reading the language.
+x;prof_speak;Speaking;proficiency-choices.txt
+x;prof_understand;Understanding;proficiency-choices.txt
+x;prof_read;Reading;proficiency-choices.txt

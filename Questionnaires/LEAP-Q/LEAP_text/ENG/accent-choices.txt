@@ -1,0 +1,12 @@
+;click for scale
+0;0 - none
+1;1 - almost none
+2;2 - very light
+3;3 - light
+4;4 - some
+5;5 - moderate
+6;6 - considerable
+7;7 - heavy
+8;8 - very heavy
+9;9 - extremely heavy
+10;10 - pervasive

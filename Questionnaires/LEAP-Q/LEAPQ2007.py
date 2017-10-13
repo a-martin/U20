@@ -54,7 +54,7 @@ def fetchRep(dlg, dbLabels):
     print dico
     return rep    
 
-def displayQuestion(chemin, questionFile):
+def displayQuestion(chemin, questionFile, n=''):
     '''
     Open a question file and generate dialogue box with content.
     '''
@@ -62,6 +62,9 @@ def displayQuestion(chemin, questionFile):
     global dico
     global trad
 
+    if n != '':
+        n = '_lg' + n
+    
     with open(chemin + questionFile) as f:
         lines = f.readlines()
         dlgQ = gui.Dlg(title=lines[0])
@@ -79,7 +82,7 @@ def displayQuestion(chemin, questionFile):
                 dlgQ.addText(l[1])
                 continue
 
-            dbLabel = l[1] # name of variable in db
+            dbLabel = l[1]+n # name of variable in db
             dbLabels.append(dbLabel)
             displayLabel = l[2] # text displayed to participant (in lg)
 
@@ -119,7 +122,7 @@ def displayQuestion(chemin, questionFile):
 
         return
         
-def doLgQ(chemin, language):
+def doLgQ(chemin, language, n):
     '''
     For language, display and record series of questions about the acquisition and use of language.
     '''
@@ -131,7 +134,8 @@ def doLgQ(chemin, language):
         return
     
     lgDisplay = translate(language)
-    
+
+    # Prompt
     with open(cheminT+'lg-prompt.txt') as f:
          lines = f.readlines()
          dlgPrompt = gui.Dlg(title=lgDisplay)
@@ -139,9 +143,20 @@ def doLgQ(chemin, language):
          dlgPrompt.addText(prompt)
          dlgPrompt.show()
 
- 
+    aspects = [
+        'ages.txt',
+        'years.txt',
+        'proficiency.txt',
+        'contributions.txt',
+        'accent.txt',
+        'accent-id.txt'
+    ]
 
+    for aspect in aspects:
+        displayQuestion(cheminT, aspect, n)     
+    
     return
+    
     
 
 
@@ -157,20 +172,16 @@ Vietnamese / VIE
 
 '''
 
-lgs = [
+displayLgs = [
     'ENG',
     'THA',
     'VIE',
     'THK'
 ]
 
-supqs = ['X', 'L']
-
-# cols = list(pd.read_csv('columns.csv'))
-
 # CHOOSE LANGUAGE
 dlg = gui.Dlg(title="Language selection")
-dlg.addField('Language: ', choices=lgs)
+dlg.addField('Language: ', choices=displayLgs)
 dlg.addField('Subject number: ')
 ok_dlg = dlg.show() # display dlg and select lg, returns list
 
@@ -184,17 +195,17 @@ if dlg.OK:
     dataFile = 'data/' + codeSujet + '.csv'
 
     
-    # initialize df with all column names and make 'sujet' index col
+    # Initialize df with all column names and make 'sujet' index col
     df = pd.read_csv('columns.csv', index_col='sujet') 
     
-    cheminT = "./LEAP_text/" + lg + "/" # location of text
+    cheminT = "./LEAP_text/" + lg + "/" # location of text files
 
     dico = {}
     dico['lg'] = lg
     trad = {}
 
     # PART ONE
-    qs = range(2)
+    qs = range(8)
 
     for q in qs:
         qFile = 'q' + str(q) + '.txt'
@@ -210,19 +221,17 @@ if dlg.OK:
         dico['dom_lg_5'],
     ]
 
-    print lgs
-
     transitionPromptF = cheminT + 'transition.txt'
     displayPrompt(transitionPromptF)
 
       
-    for langue in lgs:
-        doLgQ(cheminT, langue)
+    for n,langue in enumerate(lgs):
+        doLgQ(cheminT, langue, str(n+1))
 
 
     
     # SAVE DATA
-    # recover responses from dico and put them into df
+    # Recover responses from dico and put them into df
     rep = pd.DataFrame(dico, index=[codeSujet])
     rep.index.rename('sujet', inplace=True)
 
@@ -235,13 +244,3 @@ else:
 
 
     
-
-
-
-
-
-
-
-
-
-

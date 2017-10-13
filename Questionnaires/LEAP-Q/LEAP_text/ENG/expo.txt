@@ -1,0 +1,9 @@
+Current exposition
+PROMPT;Please rate to what extent you are currently exposed
+PROMPT;to the language in the following contexts:
+x;expo_friends;Interacting with friends;expo-choices.txt
+x;expo_family;Interacting with family;expo-choices.txt
+x;expo_tv;Watching TV;expo-choices.txt
+x;expo_music;Listening to the radio/music;expo-choices.txt
+x;expo_reading;Reading;expo-choices.txt
+x;expo_selfinstruct;Language lab/self instruction;expo-choices.txt
