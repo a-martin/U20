@@ -11,12 +11,10 @@ def translate(x):
     Simply return the translation for x if in translation dictionary.
     '''
 
-    global trad
-    
-    if x in trad.keys():
-        return trad[x]
+    if x != '':
+        return iso.ix[x]['LanguageName']
     else:
-        print "No translation yet available for this item."
+        return x
 
 def displayPrompt(promptFile):
     '''
@@ -101,8 +99,9 @@ def displayQuestion(chemin, questionFile, n=''):
                         displayOptions.append(choice[1])
                         
                         # Create translation pair in choix dict
-                        trad[choice[0]] = choice[1]
                         trad[choice[1]] = choice[0]
+                        if choice[0] not in strNos:
+                            trad[choice[0]] = choice[1]
                         
                         
                 dlgQ.addField(
@@ -148,6 +147,7 @@ def doLgQ(chemin, language, n):
         'years.txt',
         'proficiency.txt',
         'contributions.txt',
+        'expo.txt',
         'accent.txt',
         'accent-id.txt'
     ]
@@ -174,10 +174,12 @@ Vietnamese / VIE
 
 displayLgs = [
     'ENG',
-    'THA',
-    'VIE',
-    'THK'
+    # 'THA',
+    # 'VIE',
+    # 'THK'
 ]
+
+strNos = [str(i) for i in range(10)]
 
 # CHOOSE LANGUAGE
 dlg = gui.Dlg(title="Language selection")
@@ -186,30 +188,46 @@ dlg.addField('Subject number: ')
 ok_dlg = dlg.show() # display dlg and select lg, returns list
 
 if dlg.OK:
+
     # RUN QUESTIONNAIRE
+    
     # Initialize langauge and subject info
     lg = ok_dlg[0] # fetch langauge info
     noSujet = ok_dlg[1] # fetch subject number
     codeSujet = lg + str(noSujet) # final suj no will be p ex ENG0001
 
     dataFile = 'data/' + codeSujet + '.csv'
-
-    
+        
     # Initialize df with all column names and make 'sujet' index col
     df = pd.read_csv('columns.csv', index_col='sujet') 
     
     cheminT = "./LEAP_text/" + lg + "/" # location of text files
+    iso = pd.read_csv(cheminT + 'lgs.csv', sep=';', keep_default_na=False)
+    iso = iso.set_index('ISOCAPS')
 
     dico = {}
     dico['lg'] = lg
     trad = {}
 
+    # WELCOME
+    welcomePromptF = cheminT + 'welcome.txt'
+    displayPrompt(welcomePromptF)
+    
     # PART ONE
-    qs = range(8)
+    qs = [
+        'q0.txt', # basic info, name, etc
+        'q1.txt', # dominant languages (REQUIRED)
+        'q2.txt', # order of acquisition
+        'q3.txt', # langauge use
+        'q4.txt', # reading preferences
+        'q5.txt', # speaking preferences
+        # 'q6.txt', # culture
+        'q7.txt', # education
+    ]
 
+    
     for q in qs:
-        qFile = 'q' + str(q) + '.txt'
-        displayQuestion(cheminT, qFile)
+        displayQuestion(cheminT, q)
 
     # PART TWO
     # Fetch participant's reported lgs in order of dominance
@@ -221,6 +239,7 @@ if dlg.OK:
         dico['dom_lg_5'],
     ]
 
+    # DISPLAY TRANSITION TEXT TO PART TWO
     transitionPromptF = cheminT + 'transition.txt'
     displayPrompt(transitionPromptF)
 
@@ -237,6 +256,10 @@ if dlg.OK:
 
     df = df.append(rep)
     df.to_csv(dataFile)
+
+    # DISPLAY ENDING TEXT
+    endPromptF = cheminT + 'fin.txt'
+    displayPrompt(endPromptF)
     
 else:
     core.quit()

@@ -1,0 +1,4 @@
+Welcome
+Welcome to the language questionnaire.  You will be asked a series
+of questions about your language knowledge and experience.
+Please press OK to continue.

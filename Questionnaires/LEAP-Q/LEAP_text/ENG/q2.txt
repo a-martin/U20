@@ -1,5 +1,5 @@
 Order of acquisition
-PROMPT;Please use the drop-down menus to inidcate the languages you speak in order of age of acquisition.
+PROMPT;Please use the drop-down menus to indicate the languages you speak in order of age of acquisition.
 x;acq_lg_1;Language 1;lg-choices.txt
 x;acq_lg_2;Language 2;lg-choices.txt
 x;acq_lg_3;Language 3;lg-choices.txt
