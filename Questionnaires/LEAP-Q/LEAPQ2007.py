@@ -49,40 +49,43 @@ def fetchRep(dlg, dbLabels):
             dico[dbLabels[n]] = trad[i]
         else:
             dico[dbLabels[n]] = i
-    print dico
+    # print dico
     return rep    
 
-def displayQuestion(chemin, questionFile, n=''):
+def displayQuestion(chemin, questionFile, n='', language=''):
     '''
     Open a question file and generate dialogue box with content.
+    If it is a question related to a specific language, store data with
+    n tag (the order of dominance) and display the language name.
     '''
 
     global dico
     global trad
 
+    # if lg-spec question, append the dominance order to db variable
     if n != '':
         n = '_lg' + n
     
     with open(chemin + questionFile) as f:
         lines = f.readlines()
-        dlgQ = gui.Dlg(title=lines[0])
+        dlgQ = gui.Dlg(title=lines[0]) # make dialogue box title first line of file
         lines = lines[1:] # extract title line from file
         dbLabels = []
 
-        for l in lines:
-            l = l.strip()
-            l = l.split(';')
+        for l in lines: # run through other lines of file
+            l = l.strip() # remove trailing whitespace
+            l = l.split(';') # parse line
 
             # Fetch question type
-            qType = l[0]
+            qType = l[0] # first cell is question type
 
             if qType == 'PROMPT': # simply display text
-                dlgQ.addText(l[1])
+                dlgQ.addText(l[1].format(language)) # attempt to add lg
                 continue
 
             dbLabel = l[1]+n # name of variable in db
             dbLabels.append(dbLabel)
-            displayLabel = l[2] # text displayed to participant (in lg)
+            displayLabel = l[2].format(language) # text displayed to participant (in lg)
 
             if qType == 't': # free text input
                 dlgQ.addField(displayLabel + ': ')
@@ -100,7 +103,7 @@ def displayQuestion(chemin, questionFile, n=''):
                         
                         # Create translation pair in choix dict
                         trad[choice[1]] = choice[0]
-                        if choice[0] not in strNos:
+                        if choice[0] not in strNos and choice[0] not '':
                             trad[choice[0]] = choice[1]
                         
                         
@@ -111,7 +114,7 @@ def displayQuestion(chemin, questionFile, n=''):
 
             elif qType == 'p': # % answers based on previous answers, requires dico to have content
 
-                displayLabel = translate(dico[displayLabel])
+                displayLabel = translate(dico[displayLabel]) # convert ISO to lg name
                 
                 if displayLabel != '':
                     dlgQ.addField(label=displayLabel)
@@ -129,6 +132,7 @@ def doLgQ(chemin, language, n):
     global dico
     global trad
 
+    # if no language is stored, then move on to next part of questionnaire
     if language == '':
         return
     
@@ -142,6 +146,7 @@ def doLgQ(chemin, language, n):
          dlgPrompt.addText(prompt)
          dlgPrompt.show()
 
+    # text files that contain different questions about lg use
     aspects = [
         'ages.txt',
         'years.txt',
@@ -153,7 +158,7 @@ def doLgQ(chemin, language, n):
     ]
 
     for aspect in aspects:
-        displayQuestion(cheminT, aspect, n)     
+        displayQuestion(cheminT, aspect, n, lgDisplay)     
     
     return
     
@@ -172,6 +177,7 @@ Vietnamese / VIE
 
 '''
 
+# choices for lg to complete the questionnaire in
 displayLgs = [
     'ENG',
     # 'THA',
@@ -260,6 +266,8 @@ if dlg.OK:
     # DISPLAY ENDING TEXT
     endPromptF = cheminT + 'fin.txt'
     displayPrompt(endPromptF)
+
+    core.quit()
     
 else:
     core.quit()

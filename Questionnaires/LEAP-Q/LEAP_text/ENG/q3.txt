@@ -1,5 +1,5 @@
 Language use
-PROMPT;Please list what percentage of the time you are currently and on average exposed to each language.
+PROMPT;Please list what percentage of the time you are typically exposed to each language.
 PROMPT;Give numbers only (i.e., omit the % sign).  Your figures should add up to 100%.
 p;use_lg_1;dom_lg_1
 p;use_lg_2;dom_lg_2
