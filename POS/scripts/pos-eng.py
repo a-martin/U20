@@ -9,6 +9,12 @@ import codecs # for utf-8 file handling
 #########################
 ## FUNCTION DEFINITIONS ##
 
+def commas(x):
+    'Turn list into comma-separated string.'
+    form = [str(i) for i in x]
+    return ','.join(form)
+    
+
 def instructies(x):
     'Display instructions on screen and wait for participant to press button'
     win.flip()
@@ -25,10 +31,24 @@ def playStim(x):
     core.wait(x.getDuration())
     return
 
+
+def makeButton(buttonName):
+    button = visual.Rect(
+        win,
+        width=buttonWidth,
+        height=buttonHeight,
+        fillColor=buttonColor,
+        pos=buttonPositions[buttonName],
+        autoDraw=True
+    )
+    button.draw()
+    return button
+
     
 def doTrial(essaiID, trialsAll):
 
     trial = trialsAll.ix[essaiID]
+    mouse = event.Mouse()
     
     win.flip()
     visual.TextStim(
@@ -38,19 +58,43 @@ def doTrial(essaiID, trialsAll):
     ).draw()
     win.flip()
     playStim(trial['soundFile'])
-    event.waitKeys()
+    # event.waitKeys()
 
     if trial['type'] == 'training':
-        visual.Rect(
-            win,
-            width=buttonWidth,
-            height=buttonHeight,
-            fillColor="lightgrey"
-        ).draw()
-        win.flip()
-        event.waitKeys()
+        buttonNames = [
+            'A',
+            'B'
+        ]
 
+    elif trial['type'] == 'test':
+        buttonNames = [
+            'A',
+            'B',
+            'C',
+            'D'
+        ]
 
+    else:
+        buttonNames = []
+
+    buttons = [makeButton(buttonName) for buttonName in buttonNames]
+    
+    win.flip()
+    # event.waitKeys()
+
+    clicked = False    
+    while not clicked:
+        for n, button in enumerate(buttons):
+            if button.contains(mouse):
+                button.setFillColor(hoverColor)
+                win.flip()
+            else:
+                button.setFillColor(buttonColor)
+                win.flip()
+            if mouse.isPressedIn(button):
+                clicked = True
+                response = n
+                print response
 
 
 
@@ -115,10 +159,6 @@ sujet = lg + expInfo['Booth code'] + expInfo['Subject number']
 genre = expInfo['Gender']
 age = expInfo['Age']
 
-def commas(x):
-    'Turn list into comma-separated string.'
-    form = [str(i) for i in x]
-    return ','.join(form)
 
 # create comma-separated string of subjInfo
 subjInfo = commas([sujet, datum, genre, age])
@@ -126,6 +166,19 @@ subjInfo = commas([sujet, datum, genre, age])
 # data file
 fileName = '../data/{}.csv'.format(sujet)
 dataFile = codecs.open(fileName, 'w+', encoding='utf-8')
+
+buttonWidth = 280
+buttonHeight = 80
+
+buttonPositions = {
+    'A': (buttonWidth/2*-1, buttonHeight/2),
+    'B': (buttonWidth/2, buttonHeight/2),
+    'C': (buttonWidth/2*-1, buttonHeight/2*-1),
+    'D': (buttonWidth/2, buttonHeight/2*-1)
+}
+
+hoverColor = "grey"
+buttonColor = "lightgrey"
 
 #########################
 
