@@ -1,0 +1,3 @@
+ID,type,soundFile,displayPhrase
+0,training,x.wav,PURPLE
+1,test,y.wav,ORANGE
