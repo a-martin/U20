@@ -2,6 +2,108 @@
 
 import re
 import pandas as pd
+import random
+
+
+
+##
+
+def drawSet(ID, df):
+    if ID != 'dem':
+        train = pd.concat([df.sample(5)] * 3)
+        test = df.copy()
+    elif ID == 'dem':
+        # repeat four times and drop one line
+        train = pd.concat([df] * 4)[:15]
+        # repeat three times and drop two lines
+        test = pd.concat([df] * 3)[:10]
+
+    return {'train': train, 'test': test}
+
+##
+
+
+lex = pd.read_csv('../stimuli/vocab.csv')
+
+noms = pd.read_csv('../stimuli/nouns.csv')
+adjs = lex[lex.cat=='adj']
+nums = lex[lex.cat=='num']
+
+# sample 20 nouns..half will be repeated, thus 30 trials
+noms = noms.sample(20)
+repeatNoms = noms.sample(10)
+noms = pd.concat([noms, repeatNoms])
+
+mods = pd.read_csv('../stimuli/modifiers.csv')
+
+
+innerID, outerID = cond.split('-')
+IDs = [innerID, outerID]
+
+inOutSets = {ID:mods[mods.cat==ID].sample(frac=1).reset_index(drop=True) for ID in IDs}
+
+
+
+inner, outer = [drawSet(ID, inOutSets[ID]) for ID in IDs]
+        
+
+
+
+
+
+# sample 5 adjs or nums to repeat 3 times, thus 15 trials
+condition = True
+if condition:
+    adjs = mods[mods.cat=='adj'].sample(5)
+    adjs = pd.concat([adjs, adjs, adjs])
+else:
+    nums = mods[mods.cat=='num'].sample(5)
+    nums = pd.concat([nums, nums, nums])
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 abx = pd.read_csv('stim_list.csv', sep=';')
 

@@ -9,6 +9,19 @@ import codecs # for utf-8 file handling
 #########################
 ## FUNCTION DEFINITIONS ##
 
+def draw1ModSet(ID, df):
+    if ID != 'dem':
+        train = pd.concat([df.sample(5)] * 3)
+        test = df.copy()
+    elif ID == 'dem':
+        # repeat four times and drop one line
+        train = pd.concat([df] * 4)[:15]
+        # repeat three times and drop two lines
+        test = pd.concat([df] * 3)[:10]
+
+    return {'train': train, 'test': test}
+
+
 def commas(x):
     'Turn list into comma-separated string.'
     form = [str(i) for i in x]
@@ -150,22 +163,63 @@ datum = data.getDateStr(format="%Y-%m-%d %H:%M")
 
 # dialogue box
 dlg = gui.DlgFromDict(expInfo, title='Start parameters')
-if dlg.OK:
+if dlg.OK:    if ID == 'adj' or ID == 'num':
+
     misc.toFile('../data/lastParams.pickle', expInfo)
 else:
     core.quit()
+
     
+conds = ['adj-dem', 'num-dem', 'adj-num']
+# use subject number to assign condition
+cond = conds[int(expInfo['Subject number']) % 3]
+print cond
+
+
 sujet = lg + expInfo['Booth code'] + expInfo['Subject number']
 genre = expInfo['Gender']
 age = expInfo['Age']
 
 
 # create comma-separated string of subjInfo
-subjInfo = commas([sujet, datum, genre, age])
+subjInfo = commas([sujet, datum, genre, age, cond])
     
 # data file
 fileName = '../data/{}.csv'.format(sujet)
 dataFile = codecs.open(fileName, 'w+', encoding='utf-8')
+
+
+# GENERATE TRIALS
+
+# Nouns
+noms = pd.read_csv('../stimuli/nouns.csv')
+
+# sample 20 nouns..half will be repeated, thus 30 trials
+noms = noms.sample(20)
+repeatNoms = noms.sample(10)
+noms = pd.concat([noms, repeatNoms])
+
+
+# Modifiers
+mods = pd.read_csv('../stimuli/modifiers.csv')
+
+# condition name contains two modifier types
+innerID, outerID = cond.split('-')
+IDs = [innerID, outerID]
+
+# create a dict with each mod type as key and associated df (shuffled) as values
+inOutSets = {ID:mods[mods.cat==ID].sample(frac=1).reset_index(drop=True) for ID in IDs}
+
+# create correct number of single mod trials depending on mod type
+inner, outer = [draw1ModSet(ID, inOutSets[ID]) for ID in IDs]
+
+
+
+
+
+
+
+# BUTTON PARAMETERS
 
 buttonWidth = 280
 buttonHeight = 80
