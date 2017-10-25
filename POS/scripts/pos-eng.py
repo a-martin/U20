@@ -58,6 +58,53 @@ def makeButton(buttonName):
     return button
 
     
+def waitClick(mouse, buttons):
+    clicked = False    
+    while not clicked:
+        for n, button in enumerate(buttons):
+            if button.contains(mouse):
+                button.setFillColor(hoverColor)
+                win.flip()
+            else:
+                button.setFillColor(buttonColor)
+                win.flip()
+            if mouse.isPressedIn(button):
+                clicked = True
+                response = n
+                # print response
+
+    # erase buttons
+    for button in buttons: button.setAutoDraw(False)
+    win.flip()
+    return response
+    
+    
+def initializeTrial(displayText, buttonNames):
+
+    mouse = event.Mouse()
+    
+    win.flip()
+
+    # draw text stimulus
+    text = visual.TextStim(
+        win,
+        text=displayText,
+        color='black',
+        pos=(0,150)
+    ).draw()
+
+    # text.setAutoDraw(True)
+    
+    # create button objects (they will keep drawing themselves until turned off)
+    buttons = [makeButton(buttonName) for buttonName in buttonNames]
+    
+    win.flip()
+
+
+    
+    return mouse, buttons
+    
+    
 def doTrial(essaiID, trialsAll):
 
     trial = trialsAll.ix[essaiID]
@@ -90,6 +137,7 @@ def doTrial(essaiID, trialsAll):
     else:
         buttonNames = []
 
+    # create button objects (they will keep drawing themselves until turned off)
     buttons = [makeButton(buttonName) for buttonName in buttonNames]
     
     win.flip()
@@ -109,11 +157,28 @@ def doTrial(essaiID, trialsAll):
                 response = n
                 print response
 
+    # erase buttons
+    for button in buttons: button.setAutoDraw(False)
+    win.flip()
+
+    return resposne
 
 
+def doTrainingTrial(trial):
 
-    return
+    
+    
+    mouse, buttons = initializeTrial(
+        displayText=trial.displayText,
+        buttonNames=['A', 'B']
+    )
 
+    response = waitClick(mouse, buttons)
+
+        
+
+    return response
+    
 #########################
 
 
@@ -163,8 +228,7 @@ datum = data.getDateStr(format="%Y-%m-%d %H:%M")
 
 # dialogue box
 dlg = gui.DlgFromDict(expInfo, title='Start parameters')
-if dlg.OK:    if ID == 'adj' or ID == 'num':
-
+if dlg.OK:    
     misc.toFile('../data/lastParams.pickle', expInfo)
 else:
     core.quit()
@@ -264,12 +328,16 @@ win.flip()
 consigne = u'''INSTRUCTIONS.'''
 instructies(consigne)
 
-trialsAll = pd.read_csv('tmpTrials.csv', index_col=0)
+# trialsAll = pd.read_csv('tmpTrials.csv', index_col=0)
 
-for essaiID in trialsAll.index:
-    doTrial(essaiID, trialsAll)
+# for essaiID in trialsAll.index:
+#     response = doTrial(essaiID, trialsAll)
 
+training = pd.read_csv('tmpTrainingTrials.csv')
 
+for trialID in training.index:
+    print training.ix[trialID]
+    response = doTrainingTrial(training.ix[trialID])
 
 
 
