@@ -4,6 +4,7 @@ from psychopy import core, gui, misc, data, visual, event, sound
 import pandas as pd
 import numpy as np
 import codecs # for utf-8 file handling
+import random
 
 
 #########################
@@ -45,7 +46,7 @@ def playStim(x):
     return
 
 
-def makeButton(buttonName):
+def makeButton(buttonName, buttonText):
     button = visual.Rect(
         win,
         width=buttonWidth,
@@ -55,52 +56,83 @@ def makeButton(buttonName):
         autoDraw=True
     )
     button.draw()
-    return button
+
+    text = visual.TextStim(
+        win,
+        text=buttonText,
+        color="black",
+        pos=buttonPositions[buttonName],
+    )
+    text.setAutoDraw(True)
+    text.draw()
+    
+    return button, text
 
     
 def waitClick(mouse, buttons):
-    clicked = False    
+    
+    clicked = False
     while not clicked:
+        # button is a tuple where 0 is shape obj and 1 is text
         for n, button in enumerate(buttons):
-            if button.contains(mouse):
-                button.setFillColor(hoverColor)
+            if button[0].contains(mouse):
+                button[0].setFillColor(hoverColor)
                 win.flip()
             else:
-                button.setFillColor(buttonColor)
+                button[0].setFillColor(buttonColor)
                 win.flip()
-            if mouse.isPressedIn(button):
+            if mouse.isPressedIn(button[0]):
                 clicked = True
                 response = n
                 # print response
 
     # erase buttons
-    for button in buttons: button.setAutoDraw(False)
+    for button in buttons:
+        button[0].setAutoDraw(False)
+        button[1].setAutoDraw(False)
+
     win.flip()
+    
     return response
     
     
-def initializeTrial(displayText, buttonNames):
+def initializeTrial(displayText, buttonNames, buttonTexts):
 
     mouse = event.Mouse()
     
     win.flip()
 
-    # draw text stimulus
-    text = visual.TextStim(
+   
+    # draw text stimulus and consigne
+    cons = visual.TextStim(
+        win,
+        text="Phrase to be translated:",
+        color="black",
+        pos=(0,260),
+        height=16
+    )
+    cons.setAutoDraw(True)
+    cons.draw()
+    
+    eng = visual.TextStim(
         win,
         text=displayText,
         color='black',
-        pos=(0,150)
-    ).draw()
-
-    # text.setAutoDraw(True)
+        pos=(0,200),
+        height=36
+    )
+    eng.setAutoDraw(True)
+    eng.draw()
     
     # create button objects (they will keep drawing themselves until turned off)
-    buttons = [makeButton(buttonName) for buttonName in buttonNames]
-    
+    buttonsAssc = {}
+    for n,i in enumerate(buttonNames):
+        buttonsAssc[i] = buttonTexts[n]
+
+    buttons = [makeButton(location, buttonsAssc[location]) for location in buttonsAssc.keys()]
+        
+        
     win.flip()
-
-
     
     return mouse, buttons
     
@@ -166,16 +198,21 @@ def doTrial(essaiID, trialsAll):
 
 def doTrainingTrial(trial):
 
-    
-    
+
+    # buttonTexts = ['0', '1', '2', '3']
+    buttonTexts = ['0', '1']
+    random.shuffle(buttonTexts)
+   
     mouse, buttons = initializeTrial(
         displayText=trial.displayText,
-        buttonNames=['A', 'B']
+        buttonNames=['A', 'B'],
+        buttonTexts=buttonTexts
     )
 
+    print buttons
+    
     response = waitClick(mouse, buttons)
 
-        
 
     return response
     
@@ -338,7 +375,6 @@ training = pd.read_csv('tmpTrainingTrials.csv')
 for trialID in training.index:
     print training.ix[trialID]
     response = doTrainingTrial(training.ix[trialID])
-
 
 
 
