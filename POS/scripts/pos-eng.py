@@ -40,7 +40,6 @@ def instructies(x):
 
 
 def playStim(x):
-    x = sound.Sound('../stimuli/'+x)
     x.play()
     core.wait(x.getDuration())
     return
@@ -63,17 +62,18 @@ def makeButton(buttonName, buttonText):
         color="black",
         pos=buttonPositions[buttonName],
     )
+    # textstim does not have autodraw as attribute before creation
     text.setAutoDraw(True)
     text.draw()
     
     return button, text
 
     
-def waitClick(mouse, buttons):
+def getClick(mouse, buttons, cons, eng):
     
     clicked = False
     while not clicked:
-        # button is a tuple where 0 is shape obj and 1 is text
+        # button is a tuple where 0 is shape obj and 1 is text obj
         for n, button in enumerate(buttons):
             if button[0].contains(mouse):
                 button[0].setFillColor(hoverColor)
@@ -83,22 +83,21 @@ def waitClick(mouse, buttons):
                 win.flip()
             if mouse.isPressedIn(button[0]):
                 clicked = True
-                response = n
+                responseButton = n
                 # print response
 
-    # erase buttons
-    for button in buttons:
-        button[0].setAutoDraw(False)
-        button[1].setAutoDraw(False)
-
+    responseText = buttons[responseButton][1]
+                
+   
+        
     win.flip()
     
-    return response
+    return responseButton, responseText.text
     
     
 def initializeTrial(displayText, buttonNames, buttonTexts):
 
-    mouse = event.Mouse()
+    mouse = event.Mouse(visible=False)
     
     win.flip()
 
@@ -134,87 +133,191 @@ def initializeTrial(displayText, buttonNames, buttonTexts):
         
     win.flip()
     
-    return mouse, buttons
+    return mouse, buttons, cons, eng
     
     
-def doTrial(essaiID, trialsAll):
+def makePhrase(words):
 
-    trial = trialsAll.ix[essaiID]
-    mouse = event.Mouse()
+    stimulus = [sound.Sound('../stimuli/'+i+'-trim.wav') for i in words]
+
+    return stimulus
     
-    win.flip()
-    visual.TextStim(
-        win,
-        text=trial['displayPhrase'],
-        color='black'
-    ).draw()
-    win.flip()
-    playStim(trial['soundFile'])
-    # event.waitKeys()
 
-    if trial['type'] == 'training':
-        buttonNames = [
-            'A',
-            'B'
-        ]
 
-    elif trial['type'] == 'test':
-        buttonNames = [
-            'A',
-            'B',
-            'C',
-            'D'
-        ]
+def doTrainingTrial(noun, modifier, nTrial):
 
-    else:
-        buttonNames = []
-
-    # create button objects (they will keep drawing themselves until turned off)
-    buttons = [makeButton(buttonName) for buttonName in buttonNames]
+    core.wait(0.5)
     
-    win.flip()
-    # event.waitKeys()
+    engText = modifier + ' ' + noun
+    prenom = modifier + ' ' + noun
+    postnom = noun + ' ' + modifier
 
-    clicked = False    
-    while not clicked:
-        for n, button in enumerate(buttons):
-            if button.contains(mouse):
-                button.setFillColor(hoverColor)
-                win.flip()
-            else:
-                button.setFillColor(buttonColor)
-                win.flip()
-            if mouse.isPressedIn(button):
-                clicked = True
-                response = n
-                print response
-
-    # erase buttons
-    for button in buttons: button.setAutoDraw(False)
-    win.flip()
-
-    return resposne
-
-
-def doTrainingTrial(trial):
-
-
-    # buttonTexts = ['0', '1', '2', '3']
-    buttonTexts = ['0', '1']
+    buttonTexts = [prenom, postnom]
     random.shuffle(buttonTexts)
    
-    mouse, buttons = initializeTrial(
-        displayText=trial.displayText,
+    mouse, buttons, cons, eng = initializeTrial(
+        displayText=engText,
         buttonNames=['A', 'B'],
-        buttonTexts=buttonTexts
+        buttonTexts=['-----'] * len(buttonTexts)
     )
 
-    print buttons
+    # sound
+    stims = makePhrase([noun, modifier])
+    for stim in stims:
+        playStim(stim)
+
+    core.wait(0.5)
+
+    consBisText = "...click on the choice that matches what you heard... ({}/30)".format(nTrial+1)
+    consBis = visual.TextStim(
+        win,
+        text=consBisText,
+        pos=(0,125),
+        color="black",
+        height=16,
+        italic=True
+    )
+    consBis.setAutoDraw(True)
+    win.flip()
     
-    response = waitClick(mouse, buttons)
+    # update button text from dashes to actual content
+    for n,button in enumerate(buttons):
+        button[1].text = buttonTexts[n]
+        
+    # activate mouse
+    mouse.setVisible(True)
+        
+    responseButton, response = getClick(mouse, buttons, cons, eng)
+    # print response
+    if response == postnom:
+        correct = 1
+    else:
+        correct = 0
+
+    print correct
+
+    if correct == 1:
+        buttons[responseButton][0].setFillColor('green')
+    else:
+        buttons[responseButton][0].setFillColor('red')
+
+    win.flip()
+    core.wait(1)
+    
+    # erase objects
+    for button in buttons:
+        button[0].setAutoDraw(False)
+        button[1].setAutoDraw(False)
+
+    cons.setAutoDraw(False)
+    eng.setAutoDraw(False) 
+    consBis.setAutoDraw(False)
+
+    
+    return response, correct
 
 
-    return response
+def doTraining(nouns, modifiers):
+
+    i = 0
+    while i < 5:
+        modifier = modifiers.ix[i]
+        modifierWord = modifier.word
+        number = modifier.nb
+        if number == 'plur':
+            nounWord = nouns.ix[i].plur
+        else:
+            nounWord = nouns.ix[i].sing
+
+        response, correct = doTrainingTrial(nounWord, modifierWord, i)
+        if correct == 1:
+            i += 1
+        else:
+            continue
+    
+    return
+
+
+
+def doTestTrial(noun, modifier, nTrial):
+
+    core.wait(0.5)
+    
+    engText = modifier + ' ' + noun
+    prenom = modifier + ' ' + noun
+    postnom = noun + ' ' + modifier
+
+    buttonTexts = [prenom, postnom]
+    random.shuffle(buttonTexts)
+   
+    mouse, buttons, cons, eng = initializeTrial(
+        displayText=engText,
+        buttonNames=['A', 'B'],
+        buttonTexts=['-----'] * len(buttonTexts)
+    )
+
+    # sound
+    stims = makePhrase([noun, modifier])
+    for stim in stims:
+        playStim(stim)
+
+    core.wait(0.5)
+
+    consBisText = "...click on the choice that matches what you heard... ({}/30)".format(nTrial+1)
+    consBis = visual.TextStim(
+        win,
+        text=consBisText,
+        pos=(0,125),
+        color="black",
+        height=16,
+        italic=True
+    )
+    consBis.setAutoDraw(True)
+    win.flip()
+    
+    # update button text from dashes to actual content
+    for n,button in enumerate(buttons):
+        button[1].text = buttonTexts[n]
+        
+    # activate mouse
+    mouse.setVisible(True)
+        
+    responseButton, response = getClick(mouse, buttons, cons, eng)
+    # print response
+    if response == postnom:
+        correct = 1
+    else:
+        correct = 0
+
+    print correct
+
+    if correct == 1:
+        buttons[responseButton][0].setFillColor('green')
+    else:
+        buttons[responseButton][0].setFillColor('red')
+
+    win.flip()
+    core.wait(1)
+    
+    # erase objects
+    for button in buttons:
+        button[0].setAutoDraw(False)
+        button[1].setAutoDraw(False)
+
+    cons.setAutoDraw(False)
+    eng.setAutoDraw(False) 
+    consBis.setAutoDraw(False)
+
+    
+    return response, correct
+
+
+
+
+
+
+
+
     
 #########################
 
@@ -296,9 +399,9 @@ dataFile = codecs.open(fileName, 'w+', encoding='utf-8')
 noms = pd.read_csv('../stimuli/nouns.csv')
 
 # sample 20 nouns..half will be repeated, thus 30 trials
-noms = noms.sample(20)
-repeatNoms = noms.sample(10)
-noms = pd.concat([noms, repeatNoms])
+nomsSample = noms.sample(20)
+repeatNoms = nomsSample.sample(10)
+trainingNoms = pd.concat([nomsSample, repeatNoms]).reset_index(range(30), drop=True)
 
 
 # Modifiers
@@ -314,8 +417,9 @@ inOutSets = {ID:mods[mods.cat==ID].sample(frac=1).reset_index(drop=True) for ID 
 # create correct number of single mod trials depending on mod type
 inner, outer = [draw1ModSet(ID, inOutSets[ID]) for ID in IDs]
 
+trainingModifiers = pd.concat([inner['train'], outer['train']]).reset_index(range(30), drop=True)
 
-
+testModifiers = pd.concat([inner['test'], outer['test']]).reset_index(range(20), drop=True)
 
 
 
@@ -332,7 +436,7 @@ buttonPositions = {
     'D': (buttonWidth/2, buttonHeight/2*-1)
 }
 
-hoverColor = "grey"
+hoverColor = "#C0C0C0"
 buttonColor = "lightgrey"
 
 #########################
@@ -348,14 +452,14 @@ if plein_ecran:
     win = visual.Window(
         fullscr=True,
         allowGUI=False,
-        color="grey",
+        color="lightgrey",
         colorSpace="rgb",
         units="pix"
     )
 else:
     win = visual.Window(
         [800,800],
-        color="grey",
+        color="lightgrey",
         colorSpace="rgb",
         units="pix"
     )
@@ -365,20 +469,14 @@ win.flip()
 consigne = u'''INSTRUCTIONS.'''
 instructies(consigne)
 
-# trialsAll = pd.read_csv('tmpTrials.csv', index_col=0)
 
-# for essaiID in trialsAll.index:
-#     response = doTrial(essaiID, trialsAll)
-
-training = pd.read_csv('tmpTrainingTrials.csv')
-
-for trialID in training.index:
-    print training.ix[trialID]
-    response = doTrainingTrial(training.ix[trialID])
+doTraining(trainingNoms, trainingModifiers)
 
 
 
 
+trainingOver = u'''Félicitations !'''
+instructies(trainingOver)
 
 
 
