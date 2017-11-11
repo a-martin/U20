@@ -6,7 +6,6 @@ import numpy as np
 import codecs # for utf-8 file handling
 import random
 
-
 #########################
 ## FUNCTION DEFINITIONS ##
 
@@ -220,7 +219,7 @@ def doTrainingTrial(noun, modifier, nTrial):
 def doTraining(nouns, modifiers):
 
     i = 0
-    while i < 5:
+    while i < 2:
         modifier = modifiers.ix[i]
         modifierWord = modifier.word
         number = modifier.nb
@@ -239,31 +238,46 @@ def doTraining(nouns, modifiers):
 
 
 
-def doTestTrial(noun, modifier, nTrial):
+def doTestTrial(nTrial, noun, modOuter, modInner=None):
 
     core.wait(0.5)
-    
-    engText = modifier + ' ' + noun
-    prenom = modifier + ' ' + noun
-    postnom = noun + ' ' + modifier
 
-    buttonTexts = [prenom, postnom]
+    if modInner is str:
+        buttonNames = ['A', 'B', 'C', 'D']
+
+        engText = modOuter + ' ' + modInner + ' ' + noun
+
+        prenom1 = modOuter + ' ' + modInner + ' ' + noun
+        prenom2 = modInner + ' ' + modOuter + ' ' + noun
+        postnom1 = noun + ' ' + modInner + ' ' + modOuter
+        postnom2 = noun + ' ' + modOuter + ' ' + modInner
+        
+        buttonTexts = [prenom1, prenom2, postnom1, postnom2]
+
+        
+    else:
+        buttonNames = ['A', 'B']
+
+        engText = modOuter + ' ' + noun
+    
+        prenom = modOuter + ' ' + noun
+        postnom = noun + ' ' + modOuter
+
+        buttonTexts = [prenom, postnom]
+
+
     random.shuffle(buttonTexts)
    
     mouse, buttons, cons, eng = initializeTrial(
         displayText=engText,
-        buttonNames=['A', 'B'],
+        buttonNames=buttonNames,
         buttonTexts=['-----'] * len(buttonTexts)
     )
 
-    # sound
-    stims = makePhrase([noun, modifier])
-    for stim in stims:
-        playStim(stim)
 
-    core.wait(0.5)
+    core.wait(1)
 
-    consBisText = "...click on the choice that matches what you heard... ({}/30)".format(nTrial+1)
+    consBisText = "...click on the choice that the speaker would most likely say... ({}/50)".format(nTrial+1)
     consBis = visual.TextStim(
         win,
         text=consBisText,
@@ -283,19 +297,9 @@ def doTestTrial(noun, modifier, nTrial):
     mouse.setVisible(True)
         
     responseButton, response = getClick(mouse, buttons, cons, eng)
-    # print response
-    if response == postnom:
-        correct = 1
-    else:
-        correct = 0
 
-    print correct
-
-    if correct == 1:
-        buttons[responseButton][0].setFillColor('green')
-    else:
-        buttons[responseButton][0].setFillColor('red')
-
+    buttons[responseButton][0].setFillColor('blue')
+    
     win.flip()
     core.wait(1)
     
@@ -309,11 +313,14 @@ def doTestTrial(noun, modifier, nTrial):
     consBis.setAutoDraw(False)
 
     
-    return response, correct
+    return response
 
 
-
-
+def doTest(trials):
+    for i in range(2): # trials.index
+        row = trials.ix[i]
+        doTestTrial(i+1, row.noun, row.outer, row.inner)
+    return
 
 
 
@@ -419,8 +426,35 @@ inner, outer = [draw1ModSet(ID, inOutSets[ID]) for ID in IDs]
 
 trainingModifiers = pd.concat([inner['train'], outer['train']]).reset_index(range(30), drop=True)
 
-testModifiers = pd.concat([inner['test'], outer['test']]).reset_index(range(20), drop=True)
+testSingModifiers = pd.concat([inner['test'], outer['test']]).reset_index(range(20), drop=True)
 
+cols = ['noun', 'outer', 'inner']
+trials = pd.DataFrame(columns=cols)
+
+for mod in testSingModifiers.index:
+    row = testSingModifiers.ix[mod]
+    nb = row.nb
+    if nb == 'sing':
+        noun = noms.ix[noms.sample(1).index[0]].sing
+    else:
+        noun = noms.ix[noms.sample(1).index[0]].plur
+
+    modifier = row.word
+
+    trial = pd.DataFrame([{'noun':noun, 'outer':modifier}], columns=cols)
+    trials = trials.append(trial, ignore_index=True)
+
+
+   
+if cond == 'dem-num':
+    
+    
+# elif cond == 'dem-adj':
+#     # do something else
+# elif cond == 'num-adj':
+#     # do something encore else
+
+    
 
 
 
@@ -475,8 +509,21 @@ doTraining(trainingNoms, trainingModifiers)
 
 
 
-trainingOver = u'''Félicitations !'''
+trainingOver = u'''Training over.'''
 instructies(trainingOver)
+
+# for n,trial in enumerate(testTrials):
+#     doTestTrial(n, trial.noun, trial.outer, trial.inner)
+
+
+doTest(trials)
+
+end = u'''Fin.'''
+instructies(end)
+
+# doTestTrial(4, 'cheeses', 'these')
+
+# doTestTrial(6, 'cheeses', 'these', 'four')
 
 
 
