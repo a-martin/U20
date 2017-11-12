@@ -1,0 +1,7 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+26.0,those three bananas,bananas those three,three those bananas,bananas three those,dem-num,2017-11-12 15:56,M,three,those,bananas,bananas three those,3.0,ENG1001,0.0
+26.0,these six trays,six these trays,trays six these,trays these six,dem-num,2017-11-12 15:56,M,six,these,trays,six these trays,1.0,ENG1001,1.0
+26.0,these eight trays,trays eight these,eight these trays,trays these eight,dem-num,2017-11-12 15:56,M,eight,these,trays,eight these trays,2.0,ENG1001,2.0
+26.0,three cows,cows three,,,dem-num,2017-11-12 15:56,M,,three,cows,cows three,1.0,ENG1001,3.0
+26.0,those two handbags,handbags two those,two those handbags,handbags those two,dem-num,2017-11-12 15:56,M,two,those,handbags,two those handbags,2.0,ENG1001,4.0
+26.0,those ten shirts,ten those shirts,shirts ten those,shirts those ten,dem-num,2017-11-12 15:56,M,ten,those,shirts,shirts ten those,2.0,ENG1001,5.0
