@@ -240,7 +240,7 @@ def doTraining(nouns, modifiers):
     i = 0
 
     # until counter reaches 30 correct trials, loop
-    while i < 2: # 30
+    while i < 30: # 30
         # recover mod (the row includes category and number info)
         modifier = modifiers.ix[i]
         # recover actual word
@@ -376,7 +376,7 @@ def doTest(trials):
     global testDf
 
     # run through pre-determined trials
-    for i in range(6): # trials.index
+    for i in trials.index: # trials.index
         row = trials.ix[i] # extract trial from df
         # do trial and recover response information and location of possible responses
         response, responseButton, buttonA, buttonB, buttonC, buttonD = doTestTrial(i, row.noun, row.outer, row.inner)

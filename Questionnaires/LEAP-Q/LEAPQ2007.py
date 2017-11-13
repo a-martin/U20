@@ -103,7 +103,7 @@ def displayQuestion(chemin, questionFile, n='', language=''):
                         
                         # Create translation pair in choix dict
                         trad[choice[1]] = choice[0]
-                        if choice[0] not in strNos and choice[0] not '':
+                        if choice[0] not in strNos and choice[0] != '':
                             trad[choice[0]] = choice[1]
                         
                         
