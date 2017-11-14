@@ -538,6 +538,8 @@ trials = pd.DataFrame(columns=cols)
 for mod in testSingModifiers.index:
     row = testSingModifiers.ix[mod]
     nb = row.nb
+    if type(nb) != str:
+        nb = 'sing'
 
     noun = noms.ix[noms.sample(1).index[0]][nb]
     modifier = row.word
