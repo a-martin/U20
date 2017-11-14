@@ -247,6 +247,8 @@ def doTraining(nouns, modifiers):
         modifierWord = modifier.word
         # find if mod is plur or sing
         number = modifier.nb
+        if type(number) != str:
+            number = 'sing'
         # recover noun that agrees in nb with mod
         nounWord = nouns.ix[i][number]
 
