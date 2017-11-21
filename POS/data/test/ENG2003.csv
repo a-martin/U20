@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+19.0,pitcher green,green pitcher,,,dem-adj,2017-11-14 17:05,F,,green,pitcher,pitcher green,0.0,ENG2003,0.0
+19.0,this wooden pineapple,pineapple this wooden,pineapple wooden this,wooden this pineapple,dem-adj,2017-11-14 17:05,F,wooden,this,pineapple,pineapple wooden this,2.0,ENG2003,1.0
+19.0,that striped cow,striped that cow,cow striped that,cow that striped,dem-adj,2017-11-14 17:05,F,striped,that,cow,cow striped that,2.0,ENG2003,2.0
+19.0,those hats,hats those,,,dem-adj,2017-11-14 17:05,F,,those,hats,hats those,1.0,ENG2003,3.0
+19.0,furry handbag,handbag furry,,,dem-adj,2017-11-14 17:05,F,,furry,handbag,handbag furry,1.0,ENG2003,4.0
+19.0,shovel spotted,spotted shovel,,,dem-adj,2017-11-14 17:05,F,,spotted,shovel,shovel spotted,0.0,ENG2003,5.0
+19.0,suitcases those stone,stone those suitcases,those stone suitcases,suitcases stone those,dem-adj,2017-11-14 17:05,F,stone,those,suitcases,suitcases stone those,3.0,ENG2003,6.0
+19.0,orange leaf,leaf orange,,,dem-adj,2017-11-14 17:05,F,,orange,leaf,leaf orange,1.0,ENG2003,7.0
+19.0,that shoe,shoe that,,,dem-adj,2017-11-14 17:05,F,,that,shoe,shoe that,1.0,ENG2003,8.0
+19.0,wooden these trays,trays wooden these,these wooden trays,trays these wooden,dem-adj,2017-11-14 17:05,F,wooden,these,trays,trays wooden these,1.0,ENG2003,9.0
+19.0,bowls these,these bowls,,,dem-adj,2017-11-14 17:05,F,,these,bowls,bowls these,0.0,ENG2003,10.0
+19.0,this shovel,shovel this,,,dem-adj,2017-11-14 17:05,F,,this,shovel,shovel this,1.0,ENG2003,11.0
+19.0,those striped cars,striped those cars,cars those striped,cars striped those,dem-adj,2017-11-14 17:05,F,striped,those,cars,cars striped those,3.0,ENG2003,12.0
+19.0,this green suitcase,suitcase green this,suitcase this green,green this suitcase,dem-adj,2017-11-14 17:05,F,green,this,suitcase,suitcase green this,1.0,ENG2003,13.0
+19.0,these leaves,leaves these,,,dem-adj,2017-11-14 17:05,F,,these,leaves,leaves these,1.0,ENG2003,14.0
+19.0,trays those orange,orange those trays,trays orange those,those orange trays,dem-adj,2017-11-14 17:05,F,orange,those,trays,trays orange those,2.0,ENG2003,15.0
+19.0,blue this duck,this blue duck,duck blue this,duck this blue,dem-adj,2017-11-14 17:05,F,blue,this,duck,duck blue this,2.0,ENG2003,16.0
+19.0,pear stone,stone pear,,,dem-adj,2017-11-14 17:05,F,,stone,pear,pear stone,0.0,ENG2003,17.0
+19.0,lamp wooden,wooden lamp,,,dem-adj,2017-11-14 17:05,F,,wooden,lamp,lamp wooden,0.0,ENG2003,18.0
+19.0,furry these hats,hats furry these,hats these furry,these furry hats,dem-adj,2017-11-14 17:05,F,furry,these,hats,hats furry these,1.0,ENG2003,19.0
+19.0,spatulas these wooden,spatulas wooden these,wooden these spatulas,these wooden spatulas,dem-adj,2017-11-14 17:05,F,wooden,these,spatulas,spatulas wooden these,1.0,ENG2003,20.0
+19.0,these furry pineapples,pineapples these furry,furry these pineapples,pineapples furry these,dem-adj,2017-11-14 17:05,F,furry,these,pineapples,pineapples furry these,3.0,ENG2003,21.0
+19.0,pineapple purple this,pineapple this purple,purple this pineapple,this purple pineapple,dem-adj,2017-11-14 17:05,F,purple,this,pineapple,pineapple purple this,0.0,ENG2003,22.0
+19.0,this pear,pear this,,,dem-adj,2017-11-14 17:05,F,,this,pear,pear this,1.0,ENG2003,23.0
+19.0,chair this spotted,spotted this chair,chair spotted this,this spotted chair,dem-adj,2017-11-14 17:05,F,spotted,this,chair,chair spotted this,2.0,ENG2003,24.0
+19.0,wooden those shirts,shirts wooden those,shirts those wooden,those wooden shirts,dem-adj,2017-11-14 17:05,F,wooden,those,shirts,shirts wooden those,1.0,ENG2003,25.0
+19.0,dirty ribbon,ribbon dirty,,,dem-adj,2017-11-14 17:05,F,,dirty,ribbon,ribbon dirty,1.0,ENG2003,26.0
+19.0,suitcases dirty these,these dirty suitcases,dirty these suitcases,suitcases these dirty,dem-adj,2017-11-14 17:05,F,dirty,these,suitcases,suitcases dirty these,0.0,ENG2003,27.0
+19.0,stone these pineapples,pineapples stone these,pineapples these stone,these stone pineapples,dem-adj,2017-11-14 17:05,F,stone,these,pineapples,pineapples stone these,1.0,ENG2003,28.0
+19.0,leaves purple those,those purple leaves,purple those leaves,leaves those purple,dem-adj,2017-11-14 17:05,F,purple,those,leaves,leaves purple those,0.0,ENG2003,29.0
+19.0,these purple pears,purple these pears,pears purple these,pears these purple,dem-adj,2017-11-14 17:05,F,purple,these,pears,pears purple these,2.0,ENG2003,30.0
+19.0,couch that furry,couch furry that,that furry couch,furry that couch,dem-adj,2017-11-14 17:05,F,furry,that,couch,couch furry that,1.0,ENG2003,31.0
+19.0,duck blue,blue duck,,,dem-adj,2017-11-14 17:05,F,,blue,duck,duck blue,0.0,ENG2003,32.0
+19.0,leaves purple those,leaves those purple,those purple leaves,purple those leaves,dem-adj,2017-11-14 17:05,F,purple,those,leaves,leaves purple those,0.0,ENG2003,33.0
+19.0,pillow that orange,pillow orange that,orange that pillow,that orange pillow,dem-adj,2017-11-14 17:05,F,orange,that,pillow,pillow orange that,1.0,ENG2003,34.0
+19.0,cherry spotted that,cherry that spotted,that spotted cherry,spotted that cherry,dem-adj,2017-11-14 17:05,F,spotted,that,cherry,cherry spotted that,0.0,ENG2003,35.0
+19.0,bananas furry these,furry these bananas,bananas these furry,these furry bananas,dem-adj,2017-11-14 17:05,F,furry,these,bananas,bananas furry these,0.0,ENG2003,36.0
+19.0,cherries stone those,cherries those stone,stone those cherries,those stone cherries,dem-adj,2017-11-14 17:05,F,stone,those,cherries,cherries stone those,0.0,ENG2003,37.0
+19.0,those dirty pillows,dirty those pillows,pillows those dirty,pillows dirty those,dem-adj,2017-11-14 17:05,F,dirty,those,pillows,pillows dirty those,3.0,ENG2003,38.0
+19.0,furry that cow,cow furry that,cow that furry,that furry cow,dem-adj,2017-11-14 17:05,F,furry,that,cow,cow furry that,1.0,ENG2003,39.0
+19.0,blue this chair,chair blue this,this blue chair,chair this blue,dem-adj,2017-11-14 17:05,F,blue,this,chair,chair blue this,1.0,ENG2003,40.0
+19.0,horses these,these horses,,,dem-adj,2017-11-14 17:05,F,,these,horses,horses these,0.0,ENG2003,41.0
+19.0,those spotted bowls,bowls spotted those,spotted those bowls,bowls those spotted,dem-adj,2017-11-14 17:05,F,spotted,those,bowls,bowls spotted those,1.0,ENG2003,42.0
+19.0,furry this ribbon,this furry ribbon,ribbon furry this,ribbon this furry,dem-adj,2017-11-14 17:05,F,furry,this,ribbon,ribbon furry this,2.0,ENG2003,43.0
+19.0,shovel striped,striped shovel,,,dem-adj,2017-11-14 17:05,F,,striped,shovel,shovel striped,0.0,ENG2003,44.0
+19.0,purple dart,dart purple,,,dem-adj,2017-11-14 17:05,F,,purple,dart,dart purple,1.0,ENG2003,45.0
+19.0,that spotted lamp,lamp that spotted,lamp spotted that,spotted that lamp,dem-adj,2017-11-14 17:05,F,spotted,that,lamp,lamp spotted that,2.0,ENG2003,46.0
+19.0,banana that,that banana,,,dem-adj,2017-11-14 17:05,F,,that,banana,banana that,0.0,ENG2003,47.0
+19.0,cow that,that cow,,,dem-adj,2017-11-14 17:05,F,,that,cow,cow that,0.0,ENG2003,48.0
+19.0,those lamps,lamps those,,,dem-adj,2017-11-14 17:05,F,,those,lamps,lamps those,1.0,ENG2003,49.0

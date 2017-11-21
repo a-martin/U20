@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+21.0,banana this striped,banana striped this,this striped banana,striped this banana,dem-adj,2017-11-16 15:24,F,striped,this,banana,banana striped this,1.0,ENG1003,0.0
+21.0,pear that,that pear,,,dem-adj,2017-11-16 15:24,F,,that,pear,pear that,0.0,ENG1003,1.0
+21.0,scarf orange,orange scarf,,,dem-adj,2017-11-16 15:24,F,,orange,scarf,scarf orange,0.0,ENG1003,2.0
+21.0,this striped vase,striped this vase,vase this striped,vase striped this,dem-adj,2017-11-16 15:24,F,striped,this,vase,vase striped this,3.0,ENG1003,3.0
+21.0,blue that pillow,pillow that blue,that blue pillow,pillow blue that,dem-adj,2017-11-16 15:24,F,blue,that,pillow,pillow blue that,3.0,ENG1003,4.0
+21.0,suitcase wooden this,wooden this suitcase,suitcase this wooden,this wooden suitcase,dem-adj,2017-11-16 15:24,F,wooden,this,suitcase,suitcase wooden this,0.0,ENG1003,5.0
+21.0,pineapples these purple,pineapples purple these,these purple pineapples,purple these pineapples,dem-adj,2017-11-16 15:24,F,purple,these,pineapples,pineapples purple these,1.0,ENG1003,6.0
+21.0,that cherry,cherry that,,,dem-adj,2017-11-16 15:24,F,,that,cherry,cherry that,1.0,ENG1003,7.0
+21.0,stone pig,pig stone,,,dem-adj,2017-11-16 15:24,F,,stone,pig,pig stone,1.0,ENG1003,8.0
+21.0,furry bowl,bowl furry,,,dem-adj,2017-11-16 15:24,F,,furry,bowl,bowl furry,1.0,ENG1003,9.0
+21.0,blue this shirt,shirt this blue,shirt blue this,this blue shirt,dem-adj,2017-11-16 15:24,F,blue,this,shirt,shirt blue this,2.0,ENG1003,10.0
+21.0,suitcase wooden,wooden suitcase,,,dem-adj,2017-11-16 15:24,F,,wooden,suitcase,suitcase wooden,0.0,ENG1003,11.0
+21.0,that stone cherry,cherry stone that,cherry that stone,stone that cherry,dem-adj,2017-11-16 15:24,F,stone,that,cherry,cherry stone that,1.0,ENG1003,12.0
+21.0,pear this striped,striped this pear,pear striped this,this striped pear,dem-adj,2017-11-16 15:24,F,striped,this,pear,pear striped this,2.0,ENG1003,13.0
+21.0,vase this,this vase,,,dem-adj,2017-11-16 15:24,F,,this,vase,vase this,0.0,ENG1003,14.0
+21.0,bowls dirty those,dirty those bowls,those dirty bowls,bowls those dirty,dem-adj,2017-11-16 15:24,F,dirty,those,bowls,bowls dirty those,0.0,ENG1003,15.0
+21.0,this lamp,lamp this,,,dem-adj,2017-11-16 15:24,F,,this,lamp,lamp this,1.0,ENG1003,16.0
+21.0,key dirty that,key that dirty,that dirty key,dirty that key,dem-adj,2017-11-16 15:24,F,dirty,that,key,key dirty that,0.0,ENG1003,17.0
+21.0,striped cherry,cherry striped,,,dem-adj,2017-11-16 15:24,F,,striped,cherry,cherry striped,1.0,ENG1003,18.0
+21.0,pig this furry,this furry pig,furry this pig,pig furry this,dem-adj,2017-11-16 15:24,F,furry,this,pig,pig furry this,3.0,ENG1003,19.0
+21.0,spatulas these spotted,these spotted spatulas,spotted these spatulas,spatulas spotted these,dem-adj,2017-11-16 15:24,F,spotted,these,spatulas,spatulas spotted these,3.0,ENG1003,20.0
+21.0,shovel dirty,dirty shovel,,,dem-adj,2017-11-16 15:24,F,,dirty,shovel,shovel dirty,0.0,ENG1003,21.0
+21.0,ducks those dirty,dirty those ducks,ducks dirty those,those dirty ducks,dem-adj,2017-11-16 15:24,F,dirty,those,ducks,ducks dirty those,2.0,ENG1003,22.0
+21.0,pitchers dirty those,pitchers those dirty,dirty those pitchers,those dirty pitchers,dem-adj,2017-11-16 15:24,F,dirty,those,pitchers,pitchers dirty those,0.0,ENG1003,23.0
+21.0,spatulas these,these spatulas,,,dem-adj,2017-11-16 15:24,F,,these,spatulas,spatulas these,0.0,ENG1003,24.0
+21.0,this striped chair,chair striped this,striped this chair,chair this striped,dem-adj,2017-11-16 15:24,F,striped,this,chair,chair striped this,1.0,ENG1003,25.0
+21.0,those striped hats,hats striped those,hats those striped,striped those hats,dem-adj,2017-11-16 15:24,F,striped,those,hats,hats striped those,1.0,ENG1003,26.0
+21.0,shoe spotted,spotted shoe,,,dem-adj,2017-11-16 15:24,F,,spotted,shoe,shoe spotted,0.0,ENG1003,27.0
+21.0,shoe wooden this,shoe this wooden,wooden this shoe,this wooden shoe,dem-adj,2017-11-16 15:24,F,wooden,this,shoe,shoe wooden this,0.0,ENG1003,28.0
+21.0,chair this,this chair,,,dem-adj,2017-11-16 15:24,F,,this,chair,chair this,0.0,ENG1003,29.0
+21.0,green pear,pear green,,,dem-adj,2017-11-16 15:24,F,,green,pear,pear green,1.0,ENG1003,30.0
+21.0,keys green these,keys these green,these green keys,green these keys,dem-adj,2017-11-16 15:24,F,green,these,keys,keys green these,0.0,ENG1003,31.0
+21.0,those cows,cows those,,,dem-adj,2017-11-16 15:24,F,,those,cows,cows those,1.0,ENG1003,32.0
+21.0,darts dirty these,these dirty darts,dirty these darts,darts these dirty,dem-adj,2017-11-16 15:24,F,dirty,these,darts,darts dirty these,0.0,ENG1003,33.0
+21.0,shirt purple,purple shirt,,,dem-adj,2017-11-16 15:24,F,,purple,shirt,shirt purple,0.0,ENG1003,34.0
+21.0,spatulas these stone,these stone spatulas,spatulas stone these,stone these spatulas,dem-adj,2017-11-16 15:24,F,stone,these,spatulas,spatulas stone these,2.0,ENG1003,35.0
+21.0,those orange bowls,bowls those orange,orange those bowls,bowls orange those,dem-adj,2017-11-16 15:24,F,orange,those,bowls,bowls orange those,3.0,ENG1003,36.0
+21.0,suitcase blue,blue suitcase,,,dem-adj,2017-11-16 15:24,F,,blue,suitcase,suitcase blue,0.0,ENG1003,37.0
+21.0,box this spotted,box spotted this,spotted this box,this spotted box,dem-adj,2017-11-16 15:24,F,spotted,this,box,box spotted this,1.0,ENG1003,38.0
+21.0,pitchers orange these,orange these pitchers,these orange pitchers,pitchers these orange,dem-adj,2017-11-16 15:24,F,orange,these,pitchers,pitchers orange these,0.0,ENG1003,39.0
+21.0,these ribbons,ribbons these,,,dem-adj,2017-11-16 15:24,F,,these,ribbons,ribbons these,1.0,ENG1003,40.0
+21.0,hat this spotted,hat spotted this,spotted this hat,this spotted hat,dem-adj,2017-11-16 15:24,F,spotted,this,hat,hat spotted this,1.0,ENG1003,41.0
+21.0,this orange shirt,orange this shirt,shirt this orange,shirt orange this,dem-adj,2017-11-16 15:24,F,orange,this,shirt,shirt orange this,3.0,ENG1003,42.0
+21.0,furry these pillows,pillows these furry,these furry pillows,pillows furry these,dem-adj,2017-11-16 15:24,F,furry,these,pillows,pillows furry these,3.0,ENG1003,43.0
+21.0,those pillows,pillows those,,,dem-adj,2017-11-16 15:24,F,,those,pillows,pillows those,1.0,ENG1003,44.0
+21.0,pillow dirty this,this dirty pillow,pillow this dirty,dirty this pillow,dem-adj,2017-11-16 15:24,F,dirty,this,pillow,pillow dirty this,0.0,ENG1003,45.0
+21.0,scarves wooden these,these wooden scarves,wooden these scarves,scarves these wooden,dem-adj,2017-11-16 15:24,F,wooden,these,scarves,scarves wooden these,0.0,ENG1003,46.0
+21.0,furry this pear,this furry pear,pear this furry,pear furry this,dem-adj,2017-11-16 15:24,F,furry,this,pear,pear furry this,3.0,ENG1003,47.0
+21.0,couches those,those couches,,,dem-adj,2017-11-16 15:24,F,,those,couches,couches those,0.0,ENG1003,48.0
+21.0,bowl that orange,that orange bowl,orange that bowl,bowl orange that,dem-adj,2017-11-16 15:24,F,orange,that,bowl,bowl orange that,3.0,ENG1003,49.0
