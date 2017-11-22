@@ -39,6 +39,11 @@ for fname in files:
 vocab = pd.read_csv('../../stimuli/vocab.csv')
 nouns = vocab[vocab.cat=='noun'].copy()
 nounList = list(vocab.sing) + list(vocab.plur)
+
+mods = pd.read_csv('../../stimuli/modifiers.csv')
+nums = mods[mods.cat=='num']
+dems = mods[mods.cat=='dem']
+adjs = mods[mods.cat=='adj']
         
 def isPost(i):
 
@@ -52,7 +57,15 @@ def isPost(i):
         return 1
     else:
         return 0
-    
+
+
+def checkResp(outer, inner, response):
+    if response[1] in list(inner.word) and response[2] in list(outer.word):
+        return 1
+    else:
+        return 0
+
+                
 def isIso(i):
 
     row = df.ix[i]
@@ -61,15 +74,27 @@ def isIso(i):
         return nan
 
     cond = row.cond
-
+    response = row.response.split(' ')
     
+    # check that noun is first
+    if response[0] not in nounList:
+        return 0
 
+    if cond == 'dem-adj':
+        outer = dems
+        inner = adjs
 
+    elif cond == 'dem-num':
+        outer = dems
+        inner = nums
 
+    elif cond == 'num-adj':
+        outer = nums
+        inner = adjs
 
-    iso = 0
-       
-    return iso
+    return checkResp(outer, inner, response)
+        
+            
 
 df['nbMods'] = df.modInner.map(lambda x: 2 if x is not nan else 1)
 df['iso'] = df.index.map(lambda x: isIso(x))
