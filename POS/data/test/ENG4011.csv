@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+18.0,cows three furry,cows furry three,three furry cows,furry three cows,num-adj,2017-11-23 16:23,M,furry,three,cows,cows three furry,0.0,ENG4011,0.0
+18.0,pillow purple,purple pillow,,,num-adj,2017-11-23 16:23,M,,purple,pillow,pillow purple,0.0,ENG4011,1.0
+18.0,ribbons five dirty,ribbons dirty five,dirty five ribbons,five dirty ribbons,num-adj,2017-11-23 16:23,M,dirty,five,ribbons,ribbons dirty five,1.0,ENG4011,2.0
+18.0,striped nine pineapples,nine striped pineapples,pineapples striped nine,pineapples nine striped,num-adj,2017-11-23 16:23,M,striped,nine,pineapples,pineapples striped nine,2.0,ENG4011,3.0
+18.0,bananas three purple,three purple bananas,purple three bananas,bananas purple three,num-adj,2017-11-23 16:23,M,purple,three,bananas,bananas purple three,3.0,ENG4011,4.0
+18.0,dirty hat,hat dirty,,,num-adj,2017-11-23 16:23,M,,dirty,hat,hat dirty,1.0,ENG4011,5.0
+18.0,lamps wooden four,lamps four wooden,wooden four lamps,four wooden lamps,num-adj,2017-11-23 16:23,M,wooden,four,lamps,lamps wooden four,0.0,ENG4011,6.0
+18.0,darts nine,nine darts,,,num-adj,2017-11-23 16:23,M,,nine,darts,darts nine,0.0,ENG4011,7.0
+18.0,shoes ten,ten shoes,,,num-adj,2017-11-23 16:23,M,,ten,shoes,shoes ten,0.0,ENG4011,8.0
+18.0,banana furry,furry banana,,,num-adj,2017-11-23 16:23,M,,furry,banana,banana furry,0.0,ENG4011,9.0
+18.0,blue chair,chair blue,,,num-adj,2017-11-23 16:23,M,,blue,chair,chair blue,1.0,ENG4011,10.0
+18.0,spotted hat,hat spotted,,,num-adj,2017-11-23 16:23,M,,spotted,hat,hat spotted,1.0,ENG4011,11.0
+18.0,couches seven dirty,dirty seven couches,couches dirty seven,seven dirty couches,num-adj,2017-11-23 16:23,M,dirty,seven,couches,couches dirty seven,2.0,ENG4011,12.0
+18.0,three purple shoes,shoes three purple,shoes purple three,purple three shoes,num-adj,2017-11-23 16:23,M,purple,three,shoes,shoes purple three,2.0,ENG4011,13.0
+18.0,bananas seven,seven bananas,,,num-adj,2017-11-23 16:23,M,,seven,bananas,bananas seven,0.0,ENG4011,14.0
+18.0,three furry spatulas,spatulas furry three,furry three spatulas,spatulas three furry,num-adj,2017-11-23 16:23,M,furry,three,spatulas,spatulas furry three,1.0,ENG4011,15.0
+18.0,lamps orange five,lamps five orange,five orange lamps,orange five lamps,num-adj,2017-11-23 16:23,M,orange,five,lamps,lamps orange five,0.0,ENG4011,16.0
+18.0,eight stone couches,stone eight couches,couches eight stone,couches stone eight,num-adj,2017-11-23 16:23,M,stone,eight,couches,couches stone eight,3.0,ENG4011,17.0
+18.0,furry ten cherries,cherries ten furry,cherries furry ten,ten furry cherries,num-adj,2017-11-23 16:23,M,furry,ten,cherries,cherries furry ten,2.0,ENG4011,18.0
+18.0,furry three lamps,three furry lamps,lamps furry three,lamps three furry,num-adj,2017-11-23 16:23,M,furry,three,lamps,lamps furry three,2.0,ENG4011,19.0
+18.0,tray stone,stone tray,,,num-adj,2017-11-23 16:23,M,,stone,tray,tray stone,0.0,ENG4011,20.0
+18.0,eight hats,hats eight,,,num-adj,2017-11-23 16:23,M,,eight,hats,hats eight,1.0,ENG4011,21.0
+18.0,pillow green,green pillow,,,num-adj,2017-11-23 16:23,M,,green,pillow,pillow green,0.0,ENG4011,22.0
+18.0,handbags stone eight,stone eight handbags,eight stone handbags,handbags eight stone,num-adj,2017-11-23 16:23,M,stone,eight,handbags,handbags stone eight,0.0,ENG4011,23.0
+18.0,cars three stone,stone three cars,cars stone three,three stone cars,num-adj,2017-11-23 16:23,M,stone,three,cars,cars stone three,2.0,ENG4011,24.0
+18.0,hats two,two hats,,,num-adj,2017-11-23 16:23,M,,two,hats,hats two,0.0,ENG4011,25.0
+18.0,bananas spotted two,spotted two bananas,two spotted bananas,bananas two spotted,num-adj,2017-11-23 16:23,M,spotted,two,bananas,bananas spotted two,0.0,ENG4011,26.0
+18.0,shoes two stone,shoes stone two,two stone shoes,stone two shoes,num-adj,2017-11-23 16:23,M,stone,two,shoes,shoes stone two,1.0,ENG4011,27.0
+18.0,furry four cows,four furry cows,cows four furry,cows furry four,num-adj,2017-11-23 16:23,M,furry,four,cows,cows furry four,3.0,ENG4011,28.0
+18.0,wooden pillow,pillow wooden,,,num-adj,2017-11-23 16:23,M,,wooden,pillow,pillow wooden,1.0,ENG4011,29.0
+18.0,box one stone,box stone one,stone one box,one stone box,num-adj,2017-11-23 16:23,M,stone,one,box,box stone one,1.0,ENG4011,30.0
+18.0,couches six furry,couches furry six,furry six couches,six furry couches,num-adj,2017-11-23 16:23,M,furry,six,couches,couches furry six,1.0,ENG4011,31.0
+18.0,spatulas four green,spatulas green four,green four spatulas,four green spatulas,num-adj,2017-11-23 16:23,M,green,four,spatulas,spatulas green four,1.0,ENG4011,32.0
+18.0,furry five keys,five furry keys,keys furry five,keys five furry,num-adj,2017-11-23 16:23,M,furry,five,keys,keys furry five,2.0,ENG4011,33.0
+18.0,five cows,cows five,,,num-adj,2017-11-23 16:23,M,,five,cows,cows five,1.0,ENG4011,34.0
+18.0,box orange,orange box,,,num-adj,2017-11-23 16:23,M,,orange,box,box orange,0.0,ENG4011,35.0
+18.0,wooden three pineapples,pineapples wooden three,pineapples three wooden,three wooden pineapples,num-adj,2017-11-23 16:23,M,wooden,three,pineapples,pineapples wooden three,1.0,ENG4011,36.0
+18.0,keys seven wooden,seven wooden keys,wooden seven keys,keys wooden seven,num-adj,2017-11-23 16:23,M,wooden,seven,keys,keys wooden seven,3.0,ENG4011,37.0
+18.0,one pear,pear one,,,num-adj,2017-11-23 16:23,M,,one,pear,pear one,1.0,ENG4011,38.0
+18.0,striped pillow,pillow striped,,,num-adj,2017-11-23 16:23,M,,striped,pillow,pillow striped,1.0,ENG4011,39.0
+18.0,suitcases six,six suitcases,,,num-adj,2017-11-23 16:23,M,,six,suitcases,suitcases six,0.0,ENG4011,40.0
+18.0,spatulas three,three spatulas,,,num-adj,2017-11-23 16:23,M,,three,spatulas,spatulas three,0.0,ENG4011,41.0
+18.0,purple three chairs,three purple chairs,chairs three purple,chairs purple three,num-adj,2017-11-23 16:23,M,purple,three,chairs,chairs purple three,3.0,ENG4011,42.0
+18.0,two blue cows,blue two cows,cows blue two,cows two blue,num-adj,2017-11-23 16:23,M,blue,two,cows,cows blue two,2.0,ENG4011,43.0
+18.0,trays green seven,green seven trays,trays seven green,seven green trays,num-adj,2017-11-23 16:23,M,green,seven,trays,trays green seven,0.0,ENG4011,44.0
+18.0,wooden nine pears,pears nine wooden,pears wooden nine,nine wooden pears,num-adj,2017-11-23 16:23,M,wooden,nine,pears,pears wooden nine,2.0,ENG4011,45.0
+18.0,chairs furry two,two furry chairs,chairs two furry,furry two chairs,num-adj,2017-11-23 16:23,M,furry,two,chairs,chairs furry two,0.0,ENG4011,46.0
+18.0,boxes four,four boxes,,,num-adj,2017-11-23 16:23,M,,four,boxes,boxes four,0.0,ENG4011,47.0
+18.0,striped seven ribbons,ribbons striped seven,seven striped ribbons,ribbons seven striped,num-adj,2017-11-23 16:23,M,striped,seven,ribbons,ribbons striped seven,1.0,ENG4011,48.0
+18.0,six striped pineapples,pineapples six striped,striped six pineapples,pineapples striped six,num-adj,2017-11-23 16:23,M,striped,six,pineapples,pineapples striped six,3.0,ENG4011,49.0

@@ -1,0 +1,451 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,iso,modInner,modOuter,nbMods,noun,post,response,responseButton,suj,trial,nounSing
+22.0,seven darts,darts seven,,,dem-num,2017-11-14 16:21,M,,,seven,1,darts,1.0,darts seven,1.0,ENG1001,0.0,dart
+22.0,those trays,trays those,,,dem-num,2017-11-14 16:21,M,,,those,1,trays,1.0,trays those,1.0,ENG1001,1.0,tray
+22.0,these three ducks,three these ducks,ducks three these,ducks these three,dem-num,2017-11-14 16:21,M,0.0,three,these,2,ducks,,ducks these three,3.0,ENG1001,2.0,duck
+22.0,keys four those,those four keys,four those keys,keys those four,dem-num,2017-11-14 16:21,M,0.0,four,those,2,keys,,keys those four,3.0,ENG1001,3.0,key
+22.0,five these ribbons,ribbons these five,ribbons five these,these five ribbons,dem-num,2017-11-14 16:21,M,1.0,five,these,2,ribbons,,ribbons five these,2.0,ENG1001,4.0,ribbon
+22.0,trays five those,five those trays,those five trays,trays those five,dem-num,2017-11-14 16:21,M,0.0,five,those,2,trays,,trays those five,3.0,ENG1001,5.0,tray
+22.0,five cars,cars five,,,dem-num,2017-11-14 16:21,M,,,five,1,cars,1.0,cars five,1.0,ENG1001,6.0,car
+22.0,those two cars,two those cars,cars two those,cars those two,dem-num,2017-11-14 16:21,M,1.0,two,those,2,cars,,cars two those,2.0,ENG1001,7.0,car
+22.0,trays eight,eight trays,,,dem-num,2017-11-14 16:21,M,,,eight,1,trays,1.0,trays eight,0.0,ENG1001,8.0,tray
+22.0,four those couches,couches four those,couches those four,those four couches,dem-num,2017-11-14 16:21,M,1.0,four,those,2,couches,,couches four those,1.0,ENG1001,9.0,couch
+22.0,ribbons three these,these three ribbons,ribbons these three,three these ribbons,dem-num,2017-11-14 16:21,M,1.0,three,these,2,ribbons,,ribbons three these,0.0,ENG1001,10.0,ribbon
+22.0,these six shoes,shoes six these,six these shoes,shoes these six,dem-num,2017-11-14 16:21,M,1.0,six,these,2,shoes,,shoes six these,1.0,ENG1001,11.0,shoe
+22.0,these two pineapples,pineapples two these,pineapples these two,two these pineapples,dem-num,2017-11-14 16:21,M,1.0,two,these,2,pineapples,,pineapples two these,1.0,ENG1001,12.0,pineapple
+22.0,two these hats,hats these two,hats two these,these two hats,dem-num,2017-11-14 16:21,M,1.0,two,these,2,hats,,hats two these,2.0,ENG1001,13.0,hat
+22.0,chairs these nine,nine these chairs,chairs nine these,these nine chairs,dem-num,2017-11-14 16:21,M,1.0,nine,these,2,chairs,,chairs nine these,2.0,ENG1001,14.0,chair
+22.0,ten darts,darts ten,,,dem-num,2017-11-14 16:21,M,,,ten,1,darts,1.0,darts ten,1.0,ENG1001,15.0,dart
+22.0,vase this,this vase,,,dem-num,2017-11-14 16:21,M,,,this,1,vase,1.0,vase this,0.0,ENG1001,16.0,vase
+22.0,shoe that,that shoe,,,dem-num,2017-11-14 16:21,M,,,that,1,shoe,1.0,shoe that,0.0,ENG1001,17.0,shoe
+22.0,two these shoes,shoes these two,these two shoes,shoes two these,dem-num,2017-11-14 16:21,M,1.0,two,these,2,shoes,,shoes two these,3.0,ENG1001,18.0,shoe
+22.0,four cherries,cherries four,,,dem-num,2017-11-14 16:21,M,,,four,1,cherries,1.0,cherries four,1.0,ENG1001,19.0,cherry
+22.0,vases nine,nine vases,,,dem-num,2017-11-14 16:21,M,,,nine,1,vases,1.0,vases nine,0.0,ENG1001,20.0,vase
+22.0,cars these four,cars four these,four these cars,these four cars,dem-num,2017-11-14 16:21,M,1.0,four,these,2,cars,,cars four these,1.0,ENG1001,21.0,car
+22.0,ten those cows,cows those ten,cows ten those,those ten cows,dem-num,2017-11-14 16:21,M,1.0,ten,those,2,cows,,cows ten those,2.0,ENG1001,22.0,cow
+22.0,those eight ribbons,eight those ribbons,ribbons those eight,ribbons eight those,dem-num,2017-11-14 16:21,M,1.0,eight,those,2,ribbons,,ribbons eight those,3.0,ENG1001,23.0,ribbon
+22.0,these five cherries,cherries five these,five these cherries,cherries these five,dem-num,2017-11-14 16:21,M,1.0,five,these,2,cherries,,cherries five these,1.0,ENG1001,24.0,cherry
+22.0,these nine spatulas,spatulas these nine,spatulas nine these,nine these spatulas,dem-num,2017-11-14 16:21,M,1.0,nine,these,2,spatulas,,spatulas nine these,2.0,ENG1001,25.0,spatula
+22.0,those ten pears,ten those pears,pears ten those,pears those ten,dem-num,2017-11-14 16:21,M,1.0,ten,those,2,pears,,pears ten those,2.0,ENG1001,26.0,pear
+22.0,six these cars,cars six these,these six cars,cars these six,dem-num,2017-11-14 16:21,M,1.0,six,these,2,cars,,cars six these,1.0,ENG1001,27.0,car
+22.0,horses these,these horses,,,dem-num,2017-11-14 16:21,M,,,these,1,horses,1.0,horses these,0.0,ENG1001,28.0,horse
+22.0,pitcher that,that pitcher,,,dem-num,2017-11-14 16:21,M,,,that,1,pitcher,1.0,pitcher that,0.0,ENG1001,29.0,pitcher
+22.0,lamps four these,these four lamps,lamps these four,four these lamps,dem-num,2017-11-14 16:21,M,0.0,four,these,2,lamps,,these four lamps,1.0,ENG1001,30.0,lamp
+22.0,pears six,six pears,,,dem-num,2017-11-14 16:21,M,,,six,1,pears,1.0,pears six,0.0,ENG1001,31.0,pear
+22.0,those five cars,cars those five,cars five those,five those cars,dem-num,2017-11-14 16:21,M,0.0,five,those,2,cars,,five those cars,3.0,ENG1001,32.0,car
+22.0,handbags these nine,nine these handbags,these nine handbags,handbags nine these,dem-num,2017-11-14 16:21,M,0.0,nine,these,2,handbags,,handbags these nine,0.0,ENG1001,33.0,handbag
+22.0,this leaf,leaf this,,,dem-num,2017-11-14 16:21,M,,,this,1,leaf,1.0,leaf this,1.0,ENG1001,34.0,leaf
+22.0,one this cherry,cherry one this,this one cherry,cherry this one,dem-num,2017-11-14 16:21,M,1.0,one,this,2,cherry,,cherry one this,1.0,ENG1001,35.0,cherry
+22.0,cows two,two cows,,,dem-num,2017-11-14 16:21,M,,,two,1,cows,1.0,cows two,0.0,ENG1001,36.0,cow
+22.0,suitcases three,three suitcases,,,dem-num,2017-11-14 16:21,M,,,three,1,suitcases,1.0,suitcases three,0.0,ENG1001,37.0,suitcase
+22.0,keys seven these,seven these keys,keys these seven,these seven keys,dem-num,2017-11-14 16:21,M,1.0,seven,these,2,keys,,keys seven these,0.0,ENG1001,38.0,key
+22.0,those cars,cars those,,,dem-num,2017-11-14 16:21,M,,,those,1,cars,1.0,cars those,1.0,ENG1001,39.0,car
+22.0,one pear,pear one,,,dem-num,2017-11-14 16:21,M,,,one,1,pear,1.0,pear one,1.0,ENG1001,40.0,pear
+22.0,trays ten these,these ten trays,trays these ten,ten these trays,dem-num,2017-11-14 16:21,M,1.0,ten,these,2,trays,,trays ten these,0.0,ENG1001,41.0,tray
+22.0,couches these,these couches,,,dem-num,2017-11-14 16:21,M,,,these,1,couches,1.0,couches these,0.0,ENG1001,42.0,couch
+22.0,trays seven those,those seven trays,trays those seven,seven those trays,dem-num,2017-11-14 16:21,M,1.0,seven,those,2,trays,,trays seven those,0.0,ENG1001,43.0,tray
+22.0,pigs ten those,pigs those ten,ten those pigs,those ten pigs,dem-num,2017-11-14 16:21,M,0.0,ten,those,2,pigs,,pigs those ten,1.0,ENG1001,44.0,pig
+22.0,eight these cars,cars eight these,these eight cars,cars these eight,dem-num,2017-11-14 16:21,M,1.0,eight,these,2,cars,,cars eight these,1.0,ENG1001,45.0,car
+22.0,this horse,horse this,,,dem-num,2017-11-14 16:21,M,,,this,1,horse,1.0,horse this,1.0,ENG1001,46.0,horse
+22.0,these ribbons,ribbons these,,,dem-num,2017-11-14 16:21,M,,,these,1,ribbons,1.0,ribbons these,1.0,ENG1001,47.0,ribbon
+22.0,cows these eight,cows eight these,these eight cows,eight these cows,dem-num,2017-11-14 16:21,M,1.0,eight,these,2,cows,,cows eight these,1.0,ENG1001,48.0,cow
+22.0,eight those cherries,cherries eight those,cherries those eight,those eight cherries,dem-num,2017-11-14 16:21,M,1.0,eight,those,2,cherries,,cherries eight those,1.0,ENG1001,49.0,cherry
+18.0,four spotted spatulas,spatulas four spotted,spotted four spatulas,spatulas spotted four,num-adj,2017-11-16 14:58,M,1.0,spotted,four,2,spatulas,,spatulas spotted four,3.0,ENG1002,0.0,spatula
+18.0,furry shovel,shovel furry,,,num-adj,2017-11-16 14:58,M,,,furry,1,shovel,1.0,shovel furry,1.0,ENG1002,1.0,shovel
+18.0,purple four shoes,four purple shoes,shoes purple four,shoes four purple,num-adj,2017-11-16 14:58,M,1.0,purple,four,2,shoes,,shoes purple four,2.0,ENG1002,2.0,shoe
+18.0,ten green shirts,shirts green ten,shirts ten green,green ten shirts,num-adj,2017-11-16 14:58,M,1.0,green,ten,2,shirts,,shirts green ten,1.0,ENG1002,3.0,shirt
+18.0,nine trays,trays nine,,,num-adj,2017-11-16 14:58,M,,,nine,1,trays,1.0,trays nine,1.0,ENG1002,4.0,tray
+18.0,cherry dirty,dirty cherry,,,num-adj,2017-11-16 14:58,M,,,dirty,1,cherry,1.0,cherry dirty,0.0,ENG1002,5.0,cherry
+18.0,shoe furry one,one furry shoe,furry one shoe,shoe one furry,num-adj,2017-11-16 14:58,M,1.0,furry,one,2,shoe,,shoe furry one,0.0,ENG1002,6.0,shoe
+18.0,handbags three stone,stone three handbags,three stone handbags,handbags stone three,num-adj,2017-11-16 14:58,M,1.0,stone,three,2,handbags,,handbags stone three,3.0,ENG1002,7.0,handbag
+18.0,orange two spatulas,two orange spatulas,spatulas two orange,spatulas orange two,num-adj,2017-11-16 14:58,M,1.0,orange,two,2,spatulas,,spatulas orange two,3.0,ENG1002,8.0,spatula
+18.0,shoe purple,purple shoe,,,num-adj,2017-11-16 14:58,M,,,purple,1,shoe,1.0,shoe purple,0.0,ENG1002,9.0,shoe
+18.0,spotted car,car spotted,,,num-adj,2017-11-16 14:58,M,,,spotted,1,car,1.0,car spotted,1.0,ENG1002,10.0,car
+18.0,bowls ten,ten bowls,,,num-adj,2017-11-16 14:58,M,,,ten,1,bowls,1.0,bowls ten,0.0,ENG1002,11.0,bowl
+18.0,shovel furry one,shovel one furry,furry one shovel,one furry shovel,num-adj,2017-11-16 14:58,M,1.0,furry,one,2,shovel,,shovel furry one,0.0,ENG1002,12.0,shovel
+18.0,blue nine pineapples,nine blue pineapples,pineapples nine blue,pineapples blue nine,num-adj,2017-11-16 14:58,M,1.0,blue,nine,2,pineapples,,pineapples blue nine,3.0,ENG1002,13.0,pineapple
+18.0,seven pillows,pillows seven,,,num-adj,2017-11-16 14:58,M,,,seven,1,pillows,1.0,pillows seven,1.0,ENG1002,14.0,pillow
+18.0,stone nine couches,nine stone couches,couches nine stone,couches stone nine,num-adj,2017-11-16 14:58,M,1.0,stone,nine,2,couches,,couches stone nine,3.0,ENG1002,15.0,couch
+18.0,striped six cherries,six striped cherries,cherries striped six,cherries six striped,num-adj,2017-11-16 14:58,M,1.0,striped,six,2,cherries,,cherries striped six,2.0,ENG1002,16.0,cherry
+18.0,vase striped,striped vase,,,num-adj,2017-11-16 14:58,M,,,striped,1,vase,1.0,vase striped,0.0,ENG1002,17.0,vase
+18.0,vase stone,stone vase,,,num-adj,2017-11-16 14:58,M,,,stone,1,vase,1.0,vase stone,0.0,ENG1002,18.0,vase
+18.0,wooden five spatulas,spatulas wooden five,spatulas five wooden,five wooden spatulas,num-adj,2017-11-16 14:58,M,1.0,wooden,five,2,spatulas,,spatulas wooden five,1.0,ENG1002,19.0,spatula
+18.0,suitcases five orange,five orange suitcases,orange five suitcases,suitcases orange five,num-adj,2017-11-16 14:58,M,1.0,orange,five,2,suitcases,,suitcases orange five,3.0,ENG1002,20.0,suitcase
+18.0,pillows eight,eight pillows,,,num-adj,2017-11-16 14:58,M,,,eight,1,pillows,1.0,pillows eight,0.0,ENG1002,21.0,pillow
+18.0,handbags stone four,handbags four stone,four stone handbags,stone four handbags,num-adj,2017-11-16 14:58,M,1.0,stone,four,2,handbags,,handbags stone four,0.0,ENG1002,22.0,handbag
+18.0,two chairs,chairs two,,,num-adj,2017-11-16 14:58,M,,,two,1,chairs,1.0,chairs two,1.0,ENG1002,23.0,chair
+18.0,cars striped eight,cars eight striped,striped eight cars,eight striped cars,num-adj,2017-11-16 14:58,M,1.0,striped,eight,2,cars,,cars striped eight,0.0,ENG1002,24.0,car
+18.0,blue scarf,scarf blue,,,num-adj,2017-11-16 14:58,M,,,blue,1,scarf,1.0,scarf blue,1.0,ENG1002,25.0,scarf
+18.0,ten orange scarves,scarves orange ten,orange ten scarves,scarves ten orange,num-adj,2017-11-16 14:58,M,1.0,orange,ten,2,scarves,,scarves orange ten,1.0,ENG1002,26.0,scarf
+18.0,pears five,five pears,,,num-adj,2017-11-16 14:58,M,,,five,1,pears,1.0,pears five,0.0,ENG1002,27.0,pear
+18.0,three stone ribbons,ribbons stone three,stone three ribbons,ribbons three stone,num-adj,2017-11-16 14:58,M,1.0,stone,three,2,ribbons,,ribbons stone three,1.0,ENG1002,28.0,ribbon
+18.0,striped four spatulas,spatulas four striped,four striped spatulas,spatulas striped four,num-adj,2017-11-16 14:58,M,1.0,striped,four,2,spatulas,,spatulas striped four,3.0,ENG1002,29.0,spatula
+18.0,eight orange cows,cows orange eight,cows eight orange,orange eight cows,num-adj,2017-11-16 14:58,M,1.0,orange,eight,2,cows,,cows orange eight,1.0,ENG1002,30.0,cow
+18.0,scarves nine striped,scarves striped nine,striped nine scarves,nine striped scarves,num-adj,2017-11-16 14:58,M,1.0,striped,nine,2,scarves,,scarves striped nine,1.0,ENG1002,31.0,scarf
+18.0,pineapples four,four pineapples,,,num-adj,2017-11-16 14:58,M,,,four,1,pineapples,1.0,pineapples four,0.0,ENG1002,32.0,pineapple
+18.0,dirty nine darts,darts nine dirty,darts dirty nine,nine dirty darts,num-adj,2017-11-16 14:58,M,1.0,dirty,nine,2,darts,,darts dirty nine,2.0,ENG1002,33.0,dart
+18.0,stone four bowls,four stone bowls,bowls stone four,bowls four stone,num-adj,2017-11-16 14:58,M,1.0,stone,four,2,bowls,,bowls stone four,2.0,ENG1002,34.0,bowl
+18.0,boxes three,three boxes,,,num-adj,2017-11-16 14:58,M,,,three,1,boxes,1.0,boxes three,0.0,ENG1002,35.0,box
+18.0,lamp orange,orange lamp,,,num-adj,2017-11-16 14:58,M,,,orange,1,lamp,1.0,lamp orange,0.0,ENG1002,36.0,lamp
+18.0,dart one,one dart,,,num-adj,2017-11-16 14:58,M,,,one,1,dart,1.0,dart one,0.0,ENG1002,37.0,dart
+18.0,wooden tray,tray wooden,,,num-adj,2017-11-16 14:58,M,,,wooden,1,tray,1.0,tray wooden,1.0,ENG1002,38.0,tray
+18.0,one orange bowl,bowl orange one,orange one bowl,bowl one orange,num-adj,2017-11-16 14:58,M,1.0,orange,one,2,bowl,,bowl orange one,1.0,ENG1002,39.0,bowl
+18.0,one wooden pineapple,pineapple wooden one,pineapple one wooden,wooden one pineapple,num-adj,2017-11-16 14:58,M,1.0,wooden,one,2,pineapple,,pineapple wooden one,1.0,ENG1002,40.0,pineapple
+18.0,shovels seven purple,purple seven shovels,shovels purple seven,seven purple shovels,num-adj,2017-11-16 14:58,M,1.0,purple,seven,2,shovels,,shovels purple seven,2.0,ENG1002,41.0,shovel
+18.0,one orange banana,orange one banana,banana orange one,banana one orange,num-adj,2017-11-16 14:58,M,1.0,orange,one,2,banana,,banana orange one,2.0,ENG1002,42.0,banana
+18.0,box green,green box,,,num-adj,2017-11-16 14:58,M,,,green,1,box,1.0,box green,0.0,ENG1002,43.0,box
+18.0,six dirty cows,cows dirty six,cows six dirty,dirty six cows,num-adj,2017-11-16 14:58,M,1.0,dirty,six,2,cows,,cows dirty six,1.0,ENG1002,44.0,cow
+18.0,four purple ribbons,ribbons four purple,purple four ribbons,ribbons purple four,num-adj,2017-11-16 14:58,M,1.0,purple,four,2,ribbons,,ribbons purple four,3.0,ENG1002,45.0,ribbon
+18.0,five blue horses,blue five horses,horses blue five,horses five blue,num-adj,2017-11-16 14:58,M,1.0,blue,five,2,horses,,horses blue five,2.0,ENG1002,46.0,horse
+18.0,blue two darts,darts blue two,two blue darts,darts two blue,num-adj,2017-11-16 14:58,M,1.0,blue,two,2,darts,,darts blue two,1.0,ENG1002,47.0,dart
+18.0,six darts,darts six,,,num-adj,2017-11-16 14:58,M,,,six,1,darts,1.0,darts six,1.0,ENG1002,48.0,dart
+18.0,car one striped,striped one car,car striped one,one striped car,num-adj,2017-11-16 14:58,M,1.0,striped,one,2,car,,car striped one,2.0,ENG1002,49.0,car
+21.0,banana this striped,banana striped this,this striped banana,striped this banana,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,banana,,banana striped this,1.0,ENG1003,0.0,banana
+21.0,pear that,that pear,,,dem-adj,2017-11-16 15:24,F,,,that,1,pear,1.0,pear that,0.0,ENG1003,1.0,pear
+21.0,scarf orange,orange scarf,,,dem-adj,2017-11-16 15:24,F,,,orange,1,scarf,1.0,scarf orange,0.0,ENG1003,2.0,scarf
+21.0,this striped vase,striped this vase,vase this striped,vase striped this,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,vase,,vase striped this,3.0,ENG1003,3.0,vase
+21.0,blue that pillow,pillow that blue,that blue pillow,pillow blue that,dem-adj,2017-11-16 15:24,F,1.0,blue,that,2,pillow,,pillow blue that,3.0,ENG1003,4.0,pillow
+21.0,suitcase wooden this,wooden this suitcase,suitcase this wooden,this wooden suitcase,dem-adj,2017-11-16 15:24,F,1.0,wooden,this,2,suitcase,,suitcase wooden this,0.0,ENG1003,5.0,suitcase
+21.0,pineapples these purple,pineapples purple these,these purple pineapples,purple these pineapples,dem-adj,2017-11-16 15:24,F,1.0,purple,these,2,pineapples,,pineapples purple these,1.0,ENG1003,6.0,pineapple
+21.0,that cherry,cherry that,,,dem-adj,2017-11-16 15:24,F,,,that,1,cherry,1.0,cherry that,1.0,ENG1003,7.0,cherry
+21.0,stone pig,pig stone,,,dem-adj,2017-11-16 15:24,F,,,stone,1,pig,1.0,pig stone,1.0,ENG1003,8.0,pig
+21.0,furry bowl,bowl furry,,,dem-adj,2017-11-16 15:24,F,,,furry,1,bowl,1.0,bowl furry,1.0,ENG1003,9.0,bowl
+21.0,blue this shirt,shirt this blue,shirt blue this,this blue shirt,dem-adj,2017-11-16 15:24,F,1.0,blue,this,2,shirt,,shirt blue this,2.0,ENG1003,10.0,shirt
+21.0,suitcase wooden,wooden suitcase,,,dem-adj,2017-11-16 15:24,F,,,wooden,1,suitcase,1.0,suitcase wooden,0.0,ENG1003,11.0,suitcase
+21.0,that stone cherry,cherry stone that,cherry that stone,stone that cherry,dem-adj,2017-11-16 15:24,F,1.0,stone,that,2,cherry,,cherry stone that,1.0,ENG1003,12.0,cherry
+21.0,pear this striped,striped this pear,pear striped this,this striped pear,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,pear,,pear striped this,2.0,ENG1003,13.0,pear
+21.0,vase this,this vase,,,dem-adj,2017-11-16 15:24,F,,,this,1,vase,1.0,vase this,0.0,ENG1003,14.0,vase
+21.0,bowls dirty those,dirty those bowls,those dirty bowls,bowls those dirty,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,bowls,,bowls dirty those,0.0,ENG1003,15.0,bowl
+21.0,this lamp,lamp this,,,dem-adj,2017-11-16 15:24,F,,,this,1,lamp,1.0,lamp this,1.0,ENG1003,16.0,lamp
+21.0,key dirty that,key that dirty,that dirty key,dirty that key,dem-adj,2017-11-16 15:24,F,1.0,dirty,that,2,key,,key dirty that,0.0,ENG1003,17.0,key
+21.0,striped cherry,cherry striped,,,dem-adj,2017-11-16 15:24,F,,,striped,1,cherry,1.0,cherry striped,1.0,ENG1003,18.0,cherry
+21.0,pig this furry,this furry pig,furry this pig,pig furry this,dem-adj,2017-11-16 15:24,F,1.0,furry,this,2,pig,,pig furry this,3.0,ENG1003,19.0,pig
+21.0,spatulas these spotted,these spotted spatulas,spotted these spatulas,spatulas spotted these,dem-adj,2017-11-16 15:24,F,1.0,spotted,these,2,spatulas,,spatulas spotted these,3.0,ENG1003,20.0,spatula
+21.0,shovel dirty,dirty shovel,,,dem-adj,2017-11-16 15:24,F,,,dirty,1,shovel,1.0,shovel dirty,0.0,ENG1003,21.0,shovel
+21.0,ducks those dirty,dirty those ducks,ducks dirty those,those dirty ducks,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,ducks,,ducks dirty those,2.0,ENG1003,22.0,duck
+21.0,pitchers dirty those,pitchers those dirty,dirty those pitchers,those dirty pitchers,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,pitchers,,pitchers dirty those,0.0,ENG1003,23.0,pitcher
+21.0,spatulas these,these spatulas,,,dem-adj,2017-11-16 15:24,F,,,these,1,spatulas,1.0,spatulas these,0.0,ENG1003,24.0,spatula
+21.0,this striped chair,chair striped this,striped this chair,chair this striped,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,chair,,chair striped this,1.0,ENG1003,25.0,chair
+21.0,those striped hats,hats striped those,hats those striped,striped those hats,dem-adj,2017-11-16 15:24,F,1.0,striped,those,2,hats,,hats striped those,1.0,ENG1003,26.0,hat
+21.0,shoe spotted,spotted shoe,,,dem-adj,2017-11-16 15:24,F,,,spotted,1,shoe,1.0,shoe spotted,0.0,ENG1003,27.0,shoe
+21.0,shoe wooden this,shoe this wooden,wooden this shoe,this wooden shoe,dem-adj,2017-11-16 15:24,F,1.0,wooden,this,2,shoe,,shoe wooden this,0.0,ENG1003,28.0,shoe
+21.0,chair this,this chair,,,dem-adj,2017-11-16 15:24,F,,,this,1,chair,1.0,chair this,0.0,ENG1003,29.0,chair
+21.0,green pear,pear green,,,dem-adj,2017-11-16 15:24,F,,,green,1,pear,1.0,pear green,1.0,ENG1003,30.0,pear
+21.0,keys green these,keys these green,these green keys,green these keys,dem-adj,2017-11-16 15:24,F,1.0,green,these,2,keys,,keys green these,0.0,ENG1003,31.0,key
+21.0,those cows,cows those,,,dem-adj,2017-11-16 15:24,F,,,those,1,cows,1.0,cows those,1.0,ENG1003,32.0,cow
+21.0,darts dirty these,these dirty darts,dirty these darts,darts these dirty,dem-adj,2017-11-16 15:24,F,1.0,dirty,these,2,darts,,darts dirty these,0.0,ENG1003,33.0,dart
+21.0,shirt purple,purple shirt,,,dem-adj,2017-11-16 15:24,F,,,purple,1,shirt,1.0,shirt purple,0.0,ENG1003,34.0,shirt
+21.0,spatulas these stone,these stone spatulas,spatulas stone these,stone these spatulas,dem-adj,2017-11-16 15:24,F,1.0,stone,these,2,spatulas,,spatulas stone these,2.0,ENG1003,35.0,spatula
+21.0,those orange bowls,bowls those orange,orange those bowls,bowls orange those,dem-adj,2017-11-16 15:24,F,1.0,orange,those,2,bowls,,bowls orange those,3.0,ENG1003,36.0,bowl
+21.0,suitcase blue,blue suitcase,,,dem-adj,2017-11-16 15:24,F,,,blue,1,suitcase,1.0,suitcase blue,0.0,ENG1003,37.0,suitcase
+21.0,box this spotted,box spotted this,spotted this box,this spotted box,dem-adj,2017-11-16 15:24,F,1.0,spotted,this,2,box,,box spotted this,1.0,ENG1003,38.0,box
+21.0,pitchers orange these,orange these pitchers,these orange pitchers,pitchers these orange,dem-adj,2017-11-16 15:24,F,1.0,orange,these,2,pitchers,,pitchers orange these,0.0,ENG1003,39.0,pitcher
+21.0,these ribbons,ribbons these,,,dem-adj,2017-11-16 15:24,F,,,these,1,ribbons,1.0,ribbons these,1.0,ENG1003,40.0,ribbon
+21.0,hat this spotted,hat spotted this,spotted this hat,this spotted hat,dem-adj,2017-11-16 15:24,F,1.0,spotted,this,2,hat,,hat spotted this,1.0,ENG1003,41.0,hat
+21.0,this orange shirt,orange this shirt,shirt this orange,shirt orange this,dem-adj,2017-11-16 15:24,F,1.0,orange,this,2,shirt,,shirt orange this,3.0,ENG1003,42.0,shirt
+21.0,furry these pillows,pillows these furry,these furry pillows,pillows furry these,dem-adj,2017-11-16 15:24,F,1.0,furry,these,2,pillows,,pillows furry these,3.0,ENG1003,43.0,pillow
+21.0,those pillows,pillows those,,,dem-adj,2017-11-16 15:24,F,,,those,1,pillows,1.0,pillows those,1.0,ENG1003,44.0,pillow
+21.0,pillow dirty this,this dirty pillow,pillow this dirty,dirty this pillow,dem-adj,2017-11-16 15:24,F,1.0,dirty,this,2,pillow,,pillow dirty this,0.0,ENG1003,45.0,pillow
+21.0,scarves wooden these,these wooden scarves,wooden these scarves,scarves these wooden,dem-adj,2017-11-16 15:24,F,1.0,wooden,these,2,scarves,,scarves wooden these,0.0,ENG1003,46.0,scarf
+21.0,furry this pear,this furry pear,pear this furry,pear furry this,dem-adj,2017-11-16 15:24,F,1.0,furry,this,2,pear,,pear furry this,3.0,ENG1003,47.0,pear
+21.0,couches those,those couches,,,dem-adj,2017-11-16 15:24,F,,,those,1,couches,1.0,couches those,0.0,ENG1003,48.0,couch
+21.0,bowl that orange,that orange bowl,orange that bowl,bowl orange that,dem-adj,2017-11-16 15:24,F,1.0,orange,that,2,bowl,,bowl orange that,3.0,ENG1003,49.0,bowl
+22.0,seven darts,darts seven,,,dem-num,2017-11-14 16:21,M,,,seven,1,darts,1.0,darts seven,1.0,ENG1001,0.0,dart
+22.0,those trays,trays those,,,dem-num,2017-11-14 16:21,M,,,those,1,trays,1.0,trays those,1.0,ENG1001,1.0,tray
+22.0,these three ducks,three these ducks,ducks three these,ducks these three,dem-num,2017-11-14 16:21,M,0.0,three,these,2,ducks,,ducks these three,3.0,ENG1001,2.0,duck
+22.0,keys four those,those four keys,four those keys,keys those four,dem-num,2017-11-14 16:21,M,0.0,four,those,2,keys,,keys those four,3.0,ENG1001,3.0,key
+22.0,five these ribbons,ribbons these five,ribbons five these,these five ribbons,dem-num,2017-11-14 16:21,M,1.0,five,these,2,ribbons,,ribbons five these,2.0,ENG1001,4.0,ribbon
+22.0,trays five those,five those trays,those five trays,trays those five,dem-num,2017-11-14 16:21,M,0.0,five,those,2,trays,,trays those five,3.0,ENG1001,5.0,tray
+22.0,five cars,cars five,,,dem-num,2017-11-14 16:21,M,,,five,1,cars,1.0,cars five,1.0,ENG1001,6.0,car
+22.0,those two cars,two those cars,cars two those,cars those two,dem-num,2017-11-14 16:21,M,1.0,two,those,2,cars,,cars two those,2.0,ENG1001,7.0,car
+22.0,trays eight,eight trays,,,dem-num,2017-11-14 16:21,M,,,eight,1,trays,1.0,trays eight,0.0,ENG1001,8.0,tray
+22.0,four those couches,couches four those,couches those four,those four couches,dem-num,2017-11-14 16:21,M,1.0,four,those,2,couches,,couches four those,1.0,ENG1001,9.0,couch
+22.0,ribbons three these,these three ribbons,ribbons these three,three these ribbons,dem-num,2017-11-14 16:21,M,1.0,three,these,2,ribbons,,ribbons three these,0.0,ENG1001,10.0,ribbon
+22.0,these six shoes,shoes six these,six these shoes,shoes these six,dem-num,2017-11-14 16:21,M,1.0,six,these,2,shoes,,shoes six these,1.0,ENG1001,11.0,shoe
+22.0,these two pineapples,pineapples two these,pineapples these two,two these pineapples,dem-num,2017-11-14 16:21,M,1.0,two,these,2,pineapples,,pineapples two these,1.0,ENG1001,12.0,pineapple
+22.0,two these hats,hats these two,hats two these,these two hats,dem-num,2017-11-14 16:21,M,1.0,two,these,2,hats,,hats two these,2.0,ENG1001,13.0,hat
+22.0,chairs these nine,nine these chairs,chairs nine these,these nine chairs,dem-num,2017-11-14 16:21,M,1.0,nine,these,2,chairs,,chairs nine these,2.0,ENG1001,14.0,chair
+22.0,ten darts,darts ten,,,dem-num,2017-11-14 16:21,M,,,ten,1,darts,1.0,darts ten,1.0,ENG1001,15.0,dart
+22.0,vase this,this vase,,,dem-num,2017-11-14 16:21,M,,,this,1,vase,1.0,vase this,0.0,ENG1001,16.0,vase
+22.0,shoe that,that shoe,,,dem-num,2017-11-14 16:21,M,,,that,1,shoe,1.0,shoe that,0.0,ENG1001,17.0,shoe
+22.0,two these shoes,shoes these two,these two shoes,shoes two these,dem-num,2017-11-14 16:21,M,1.0,two,these,2,shoes,,shoes two these,3.0,ENG1001,18.0,shoe
+22.0,four cherries,cherries four,,,dem-num,2017-11-14 16:21,M,,,four,1,cherries,1.0,cherries four,1.0,ENG1001,19.0,cherry
+22.0,vases nine,nine vases,,,dem-num,2017-11-14 16:21,M,,,nine,1,vases,1.0,vases nine,0.0,ENG1001,20.0,vase
+22.0,cars these four,cars four these,four these cars,these four cars,dem-num,2017-11-14 16:21,M,1.0,four,these,2,cars,,cars four these,1.0,ENG1001,21.0,car
+22.0,ten those cows,cows those ten,cows ten those,those ten cows,dem-num,2017-11-14 16:21,M,1.0,ten,those,2,cows,,cows ten those,2.0,ENG1001,22.0,cow
+22.0,those eight ribbons,eight those ribbons,ribbons those eight,ribbons eight those,dem-num,2017-11-14 16:21,M,1.0,eight,those,2,ribbons,,ribbons eight those,3.0,ENG1001,23.0,ribbon
+22.0,these five cherries,cherries five these,five these cherries,cherries these five,dem-num,2017-11-14 16:21,M,1.0,five,these,2,cherries,,cherries five these,1.0,ENG1001,24.0,cherry
+22.0,these nine spatulas,spatulas these nine,spatulas nine these,nine these spatulas,dem-num,2017-11-14 16:21,M,1.0,nine,these,2,spatulas,,spatulas nine these,2.0,ENG1001,25.0,spatula
+22.0,those ten pears,ten those pears,pears ten those,pears those ten,dem-num,2017-11-14 16:21,M,1.0,ten,those,2,pears,,pears ten those,2.0,ENG1001,26.0,pear
+22.0,six these cars,cars six these,these six cars,cars these six,dem-num,2017-11-14 16:21,M,1.0,six,these,2,cars,,cars six these,1.0,ENG1001,27.0,car
+22.0,horses these,these horses,,,dem-num,2017-11-14 16:21,M,,,these,1,horses,1.0,horses these,0.0,ENG1001,28.0,horse
+22.0,pitcher that,that pitcher,,,dem-num,2017-11-14 16:21,M,,,that,1,pitcher,1.0,pitcher that,0.0,ENG1001,29.0,pitcher
+22.0,lamps four these,these four lamps,lamps these four,four these lamps,dem-num,2017-11-14 16:21,M,0.0,four,these,2,lamps,,these four lamps,1.0,ENG1001,30.0,lamp
+22.0,pears six,six pears,,,dem-num,2017-11-14 16:21,M,,,six,1,pears,1.0,pears six,0.0,ENG1001,31.0,pear
+22.0,those five cars,cars those five,cars five those,five those cars,dem-num,2017-11-14 16:21,M,0.0,five,those,2,cars,,five those cars,3.0,ENG1001,32.0,car
+22.0,handbags these nine,nine these handbags,these nine handbags,handbags nine these,dem-num,2017-11-14 16:21,M,0.0,nine,these,2,handbags,,handbags these nine,0.0,ENG1001,33.0,handbag
+22.0,this leaf,leaf this,,,dem-num,2017-11-14 16:21,M,,,this,1,leaf,1.0,leaf this,1.0,ENG1001,34.0,leaf
+22.0,one this cherry,cherry one this,this one cherry,cherry this one,dem-num,2017-11-14 16:21,M,1.0,one,this,2,cherry,,cherry one this,1.0,ENG1001,35.0,cherry
+22.0,cows two,two cows,,,dem-num,2017-11-14 16:21,M,,,two,1,cows,1.0,cows two,0.0,ENG1001,36.0,cow
+22.0,suitcases three,three suitcases,,,dem-num,2017-11-14 16:21,M,,,three,1,suitcases,1.0,suitcases three,0.0,ENG1001,37.0,suitcase
+22.0,keys seven these,seven these keys,keys these seven,these seven keys,dem-num,2017-11-14 16:21,M,1.0,seven,these,2,keys,,keys seven these,0.0,ENG1001,38.0,key
+22.0,those cars,cars those,,,dem-num,2017-11-14 16:21,M,,,those,1,cars,1.0,cars those,1.0,ENG1001,39.0,car
+22.0,one pear,pear one,,,dem-num,2017-11-14 16:21,M,,,one,1,pear,1.0,pear one,1.0,ENG1001,40.0,pear
+22.0,trays ten these,these ten trays,trays these ten,ten these trays,dem-num,2017-11-14 16:21,M,1.0,ten,these,2,trays,,trays ten these,0.0,ENG1001,41.0,tray
+22.0,couches these,these couches,,,dem-num,2017-11-14 16:21,M,,,these,1,couches,1.0,couches these,0.0,ENG1001,42.0,couch
+22.0,trays seven those,those seven trays,trays those seven,seven those trays,dem-num,2017-11-14 16:21,M,1.0,seven,those,2,trays,,trays seven those,0.0,ENG1001,43.0,tray
+22.0,pigs ten those,pigs those ten,ten those pigs,those ten pigs,dem-num,2017-11-14 16:21,M,0.0,ten,those,2,pigs,,pigs those ten,1.0,ENG1001,44.0,pig
+22.0,eight these cars,cars eight these,these eight cars,cars these eight,dem-num,2017-11-14 16:21,M,1.0,eight,these,2,cars,,cars eight these,1.0,ENG1001,45.0,car
+22.0,this horse,horse this,,,dem-num,2017-11-14 16:21,M,,,this,1,horse,1.0,horse this,1.0,ENG1001,46.0,horse
+22.0,these ribbons,ribbons these,,,dem-num,2017-11-14 16:21,M,,,these,1,ribbons,1.0,ribbons these,1.0,ENG1001,47.0,ribbon
+22.0,cows these eight,cows eight these,these eight cows,eight these cows,dem-num,2017-11-14 16:21,M,1.0,eight,these,2,cows,,cows eight these,1.0,ENG1001,48.0,cow
+22.0,eight those cherries,cherries eight those,cherries those eight,those eight cherries,dem-num,2017-11-14 16:21,M,1.0,eight,those,2,cherries,,cherries eight those,1.0,ENG1001,49.0,cherry
+18.0,four spotted spatulas,spatulas four spotted,spotted four spatulas,spatulas spotted four,num-adj,2017-11-16 14:58,M,1.0,spotted,four,2,spatulas,,spatulas spotted four,3.0,ENG1002,0.0,spatula
+18.0,furry shovel,shovel furry,,,num-adj,2017-11-16 14:58,M,,,furry,1,shovel,1.0,shovel furry,1.0,ENG1002,1.0,shovel
+18.0,purple four shoes,four purple shoes,shoes purple four,shoes four purple,num-adj,2017-11-16 14:58,M,1.0,purple,four,2,shoes,,shoes purple four,2.0,ENG1002,2.0,shoe
+18.0,ten green shirts,shirts green ten,shirts ten green,green ten shirts,num-adj,2017-11-16 14:58,M,1.0,green,ten,2,shirts,,shirts green ten,1.0,ENG1002,3.0,shirt
+18.0,nine trays,trays nine,,,num-adj,2017-11-16 14:58,M,,,nine,1,trays,1.0,trays nine,1.0,ENG1002,4.0,tray
+18.0,cherry dirty,dirty cherry,,,num-adj,2017-11-16 14:58,M,,,dirty,1,cherry,1.0,cherry dirty,0.0,ENG1002,5.0,cherry
+18.0,shoe furry one,one furry shoe,furry one shoe,shoe one furry,num-adj,2017-11-16 14:58,M,1.0,furry,one,2,shoe,,shoe furry one,0.0,ENG1002,6.0,shoe
+18.0,handbags three stone,stone three handbags,three stone handbags,handbags stone three,num-adj,2017-11-16 14:58,M,1.0,stone,three,2,handbags,,handbags stone three,3.0,ENG1002,7.0,handbag
+18.0,orange two spatulas,two orange spatulas,spatulas two orange,spatulas orange two,num-adj,2017-11-16 14:58,M,1.0,orange,two,2,spatulas,,spatulas orange two,3.0,ENG1002,8.0,spatula
+18.0,shoe purple,purple shoe,,,num-adj,2017-11-16 14:58,M,,,purple,1,shoe,1.0,shoe purple,0.0,ENG1002,9.0,shoe
+18.0,spotted car,car spotted,,,num-adj,2017-11-16 14:58,M,,,spotted,1,car,1.0,car spotted,1.0,ENG1002,10.0,car
+18.0,bowls ten,ten bowls,,,num-adj,2017-11-16 14:58,M,,,ten,1,bowls,1.0,bowls ten,0.0,ENG1002,11.0,bowl
+18.0,shovel furry one,shovel one furry,furry one shovel,one furry shovel,num-adj,2017-11-16 14:58,M,1.0,furry,one,2,shovel,,shovel furry one,0.0,ENG1002,12.0,shovel
+18.0,blue nine pineapples,nine blue pineapples,pineapples nine blue,pineapples blue nine,num-adj,2017-11-16 14:58,M,1.0,blue,nine,2,pineapples,,pineapples blue nine,3.0,ENG1002,13.0,pineapple
+18.0,seven pillows,pillows seven,,,num-adj,2017-11-16 14:58,M,,,seven,1,pillows,1.0,pillows seven,1.0,ENG1002,14.0,pillow
+18.0,stone nine couches,nine stone couches,couches nine stone,couches stone nine,num-adj,2017-11-16 14:58,M,1.0,stone,nine,2,couches,,couches stone nine,3.0,ENG1002,15.0,couch
+18.0,striped six cherries,six striped cherries,cherries striped six,cherries six striped,num-adj,2017-11-16 14:58,M,1.0,striped,six,2,cherries,,cherries striped six,2.0,ENG1002,16.0,cherry
+18.0,vase striped,striped vase,,,num-adj,2017-11-16 14:58,M,,,striped,1,vase,1.0,vase striped,0.0,ENG1002,17.0,vase
+18.0,vase stone,stone vase,,,num-adj,2017-11-16 14:58,M,,,stone,1,vase,1.0,vase stone,0.0,ENG1002,18.0,vase
+18.0,wooden five spatulas,spatulas wooden five,spatulas five wooden,five wooden spatulas,num-adj,2017-11-16 14:58,M,1.0,wooden,five,2,spatulas,,spatulas wooden five,1.0,ENG1002,19.0,spatula
+18.0,suitcases five orange,five orange suitcases,orange five suitcases,suitcases orange five,num-adj,2017-11-16 14:58,M,1.0,orange,five,2,suitcases,,suitcases orange five,3.0,ENG1002,20.0,suitcase
+18.0,pillows eight,eight pillows,,,num-adj,2017-11-16 14:58,M,,,eight,1,pillows,1.0,pillows eight,0.0,ENG1002,21.0,pillow
+18.0,handbags stone four,handbags four stone,four stone handbags,stone four handbags,num-adj,2017-11-16 14:58,M,1.0,stone,four,2,handbags,,handbags stone four,0.0,ENG1002,22.0,handbag
+18.0,two chairs,chairs two,,,num-adj,2017-11-16 14:58,M,,,two,1,chairs,1.0,chairs two,1.0,ENG1002,23.0,chair
+18.0,cars striped eight,cars eight striped,striped eight cars,eight striped cars,num-adj,2017-11-16 14:58,M,1.0,striped,eight,2,cars,,cars striped eight,0.0,ENG1002,24.0,car
+18.0,blue scarf,scarf blue,,,num-adj,2017-11-16 14:58,M,,,blue,1,scarf,1.0,scarf blue,1.0,ENG1002,25.0,scarf
+18.0,ten orange scarves,scarves orange ten,orange ten scarves,scarves ten orange,num-adj,2017-11-16 14:58,M,1.0,orange,ten,2,scarves,,scarves orange ten,1.0,ENG1002,26.0,scarf
+18.0,pears five,five pears,,,num-adj,2017-11-16 14:58,M,,,five,1,pears,1.0,pears five,0.0,ENG1002,27.0,pear
+18.0,three stone ribbons,ribbons stone three,stone three ribbons,ribbons three stone,num-adj,2017-11-16 14:58,M,1.0,stone,three,2,ribbons,,ribbons stone three,1.0,ENG1002,28.0,ribbon
+18.0,striped four spatulas,spatulas four striped,four striped spatulas,spatulas striped four,num-adj,2017-11-16 14:58,M,1.0,striped,four,2,spatulas,,spatulas striped four,3.0,ENG1002,29.0,spatula
+18.0,eight orange cows,cows orange eight,cows eight orange,orange eight cows,num-adj,2017-11-16 14:58,M,1.0,orange,eight,2,cows,,cows orange eight,1.0,ENG1002,30.0,cow
+18.0,scarves nine striped,scarves striped nine,striped nine scarves,nine striped scarves,num-adj,2017-11-16 14:58,M,1.0,striped,nine,2,scarves,,scarves striped nine,1.0,ENG1002,31.0,scarf
+18.0,pineapples four,four pineapples,,,num-adj,2017-11-16 14:58,M,,,four,1,pineapples,1.0,pineapples four,0.0,ENG1002,32.0,pineapple
+18.0,dirty nine darts,darts nine dirty,darts dirty nine,nine dirty darts,num-adj,2017-11-16 14:58,M,1.0,dirty,nine,2,darts,,darts dirty nine,2.0,ENG1002,33.0,dart
+18.0,stone four bowls,four stone bowls,bowls stone four,bowls four stone,num-adj,2017-11-16 14:58,M,1.0,stone,four,2,bowls,,bowls stone four,2.0,ENG1002,34.0,bowl
+18.0,boxes three,three boxes,,,num-adj,2017-11-16 14:58,M,,,three,1,boxes,1.0,boxes three,0.0,ENG1002,35.0,box
+18.0,lamp orange,orange lamp,,,num-adj,2017-11-16 14:58,M,,,orange,1,lamp,1.0,lamp orange,0.0,ENG1002,36.0,lamp
+18.0,dart one,one dart,,,num-adj,2017-11-16 14:58,M,,,one,1,dart,1.0,dart one,0.0,ENG1002,37.0,dart
+18.0,wooden tray,tray wooden,,,num-adj,2017-11-16 14:58,M,,,wooden,1,tray,1.0,tray wooden,1.0,ENG1002,38.0,tray
+18.0,one orange bowl,bowl orange one,orange one bowl,bowl one orange,num-adj,2017-11-16 14:58,M,1.0,orange,one,2,bowl,,bowl orange one,1.0,ENG1002,39.0,bowl
+18.0,one wooden pineapple,pineapple wooden one,pineapple one wooden,wooden one pineapple,num-adj,2017-11-16 14:58,M,1.0,wooden,one,2,pineapple,,pineapple wooden one,1.0,ENG1002,40.0,pineapple
+18.0,shovels seven purple,purple seven shovels,shovels purple seven,seven purple shovels,num-adj,2017-11-16 14:58,M,1.0,purple,seven,2,shovels,,shovels purple seven,2.0,ENG1002,41.0,shovel
+18.0,one orange banana,orange one banana,banana orange one,banana one orange,num-adj,2017-11-16 14:58,M,1.0,orange,one,2,banana,,banana orange one,2.0,ENG1002,42.0,banana
+18.0,box green,green box,,,num-adj,2017-11-16 14:58,M,,,green,1,box,1.0,box green,0.0,ENG1002,43.0,box
+18.0,six dirty cows,cows dirty six,cows six dirty,dirty six cows,num-adj,2017-11-16 14:58,M,1.0,dirty,six,2,cows,,cows dirty six,1.0,ENG1002,44.0,cow
+18.0,four purple ribbons,ribbons four purple,purple four ribbons,ribbons purple four,num-adj,2017-11-16 14:58,M,1.0,purple,four,2,ribbons,,ribbons purple four,3.0,ENG1002,45.0,ribbon
+18.0,five blue horses,blue five horses,horses blue five,horses five blue,num-adj,2017-11-16 14:58,M,1.0,blue,five,2,horses,,horses blue five,2.0,ENG1002,46.0,horse
+18.0,blue two darts,darts blue two,two blue darts,darts two blue,num-adj,2017-11-16 14:58,M,1.0,blue,two,2,darts,,darts blue two,1.0,ENG1002,47.0,dart
+18.0,six darts,darts six,,,num-adj,2017-11-16 14:58,M,,,six,1,darts,1.0,darts six,1.0,ENG1002,48.0,dart
+18.0,car one striped,striped one car,car striped one,one striped car,num-adj,2017-11-16 14:58,M,1.0,striped,one,2,car,,car striped one,2.0,ENG1002,49.0,car
+21.0,banana this striped,banana striped this,this striped banana,striped this banana,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,banana,,banana striped this,1.0,ENG1003,0.0,banana
+21.0,pear that,that pear,,,dem-adj,2017-11-16 15:24,F,,,that,1,pear,1.0,pear that,0.0,ENG1003,1.0,pear
+21.0,scarf orange,orange scarf,,,dem-adj,2017-11-16 15:24,F,,,orange,1,scarf,1.0,scarf orange,0.0,ENG1003,2.0,scarf
+21.0,this striped vase,striped this vase,vase this striped,vase striped this,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,vase,,vase striped this,3.0,ENG1003,3.0,vase
+21.0,blue that pillow,pillow that blue,that blue pillow,pillow blue that,dem-adj,2017-11-16 15:24,F,1.0,blue,that,2,pillow,,pillow blue that,3.0,ENG1003,4.0,pillow
+21.0,suitcase wooden this,wooden this suitcase,suitcase this wooden,this wooden suitcase,dem-adj,2017-11-16 15:24,F,1.0,wooden,this,2,suitcase,,suitcase wooden this,0.0,ENG1003,5.0,suitcase
+21.0,pineapples these purple,pineapples purple these,these purple pineapples,purple these pineapples,dem-adj,2017-11-16 15:24,F,1.0,purple,these,2,pineapples,,pineapples purple these,1.0,ENG1003,6.0,pineapple
+21.0,that cherry,cherry that,,,dem-adj,2017-11-16 15:24,F,,,that,1,cherry,1.0,cherry that,1.0,ENG1003,7.0,cherry
+21.0,stone pig,pig stone,,,dem-adj,2017-11-16 15:24,F,,,stone,1,pig,1.0,pig stone,1.0,ENG1003,8.0,pig
+21.0,furry bowl,bowl furry,,,dem-adj,2017-11-16 15:24,F,,,furry,1,bowl,1.0,bowl furry,1.0,ENG1003,9.0,bowl
+21.0,blue this shirt,shirt this blue,shirt blue this,this blue shirt,dem-adj,2017-11-16 15:24,F,1.0,blue,this,2,shirt,,shirt blue this,2.0,ENG1003,10.0,shirt
+21.0,suitcase wooden,wooden suitcase,,,dem-adj,2017-11-16 15:24,F,,,wooden,1,suitcase,1.0,suitcase wooden,0.0,ENG1003,11.0,suitcase
+21.0,that stone cherry,cherry stone that,cherry that stone,stone that cherry,dem-adj,2017-11-16 15:24,F,1.0,stone,that,2,cherry,,cherry stone that,1.0,ENG1003,12.0,cherry
+21.0,pear this striped,striped this pear,pear striped this,this striped pear,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,pear,,pear striped this,2.0,ENG1003,13.0,pear
+21.0,vase this,this vase,,,dem-adj,2017-11-16 15:24,F,,,this,1,vase,1.0,vase this,0.0,ENG1003,14.0,vase
+21.0,bowls dirty those,dirty those bowls,those dirty bowls,bowls those dirty,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,bowls,,bowls dirty those,0.0,ENG1003,15.0,bowl
+21.0,this lamp,lamp this,,,dem-adj,2017-11-16 15:24,F,,,this,1,lamp,1.0,lamp this,1.0,ENG1003,16.0,lamp
+21.0,key dirty that,key that dirty,that dirty key,dirty that key,dem-adj,2017-11-16 15:24,F,1.0,dirty,that,2,key,,key dirty that,0.0,ENG1003,17.0,key
+21.0,striped cherry,cherry striped,,,dem-adj,2017-11-16 15:24,F,,,striped,1,cherry,1.0,cherry striped,1.0,ENG1003,18.0,cherry
+21.0,pig this furry,this furry pig,furry this pig,pig furry this,dem-adj,2017-11-16 15:24,F,1.0,furry,this,2,pig,,pig furry this,3.0,ENG1003,19.0,pig
+21.0,spatulas these spotted,these spotted spatulas,spotted these spatulas,spatulas spotted these,dem-adj,2017-11-16 15:24,F,1.0,spotted,these,2,spatulas,,spatulas spotted these,3.0,ENG1003,20.0,spatula
+21.0,shovel dirty,dirty shovel,,,dem-adj,2017-11-16 15:24,F,,,dirty,1,shovel,1.0,shovel dirty,0.0,ENG1003,21.0,shovel
+21.0,ducks those dirty,dirty those ducks,ducks dirty those,those dirty ducks,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,ducks,,ducks dirty those,2.0,ENG1003,22.0,duck
+21.0,pitchers dirty those,pitchers those dirty,dirty those pitchers,those dirty pitchers,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,pitchers,,pitchers dirty those,0.0,ENG1003,23.0,pitcher
+21.0,spatulas these,these spatulas,,,dem-adj,2017-11-16 15:24,F,,,these,1,spatulas,1.0,spatulas these,0.0,ENG1003,24.0,spatula
+21.0,this striped chair,chair striped this,striped this chair,chair this striped,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,chair,,chair striped this,1.0,ENG1003,25.0,chair
+21.0,those striped hats,hats striped those,hats those striped,striped those hats,dem-adj,2017-11-16 15:24,F,1.0,striped,those,2,hats,,hats striped those,1.0,ENG1003,26.0,hat
+21.0,shoe spotted,spotted shoe,,,dem-adj,2017-11-16 15:24,F,,,spotted,1,shoe,1.0,shoe spotted,0.0,ENG1003,27.0,shoe
+21.0,shoe wooden this,shoe this wooden,wooden this shoe,this wooden shoe,dem-adj,2017-11-16 15:24,F,1.0,wooden,this,2,shoe,,shoe wooden this,0.0,ENG1003,28.0,shoe
+21.0,chair this,this chair,,,dem-adj,2017-11-16 15:24,F,,,this,1,chair,1.0,chair this,0.0,ENG1003,29.0,chair
+21.0,green pear,pear green,,,dem-adj,2017-11-16 15:24,F,,,green,1,pear,1.0,pear green,1.0,ENG1003,30.0,pear
+21.0,keys green these,keys these green,these green keys,green these keys,dem-adj,2017-11-16 15:24,F,1.0,green,these,2,keys,,keys green these,0.0,ENG1003,31.0,key
+21.0,those cows,cows those,,,dem-adj,2017-11-16 15:24,F,,,those,1,cows,1.0,cows those,1.0,ENG1003,32.0,cow
+21.0,darts dirty these,these dirty darts,dirty these darts,darts these dirty,dem-adj,2017-11-16 15:24,F,1.0,dirty,these,2,darts,,darts dirty these,0.0,ENG1003,33.0,dart
+21.0,shirt purple,purple shirt,,,dem-adj,2017-11-16 15:24,F,,,purple,1,shirt,1.0,shirt purple,0.0,ENG1003,34.0,shirt
+21.0,spatulas these stone,these stone spatulas,spatulas stone these,stone these spatulas,dem-adj,2017-11-16 15:24,F,1.0,stone,these,2,spatulas,,spatulas stone these,2.0,ENG1003,35.0,spatula
+21.0,those orange bowls,bowls those orange,orange those bowls,bowls orange those,dem-adj,2017-11-16 15:24,F,1.0,orange,those,2,bowls,,bowls orange those,3.0,ENG1003,36.0,bowl
+21.0,suitcase blue,blue suitcase,,,dem-adj,2017-11-16 15:24,F,,,blue,1,suitcase,1.0,suitcase blue,0.0,ENG1003,37.0,suitcase
+21.0,box this spotted,box spotted this,spotted this box,this spotted box,dem-adj,2017-11-16 15:24,F,1.0,spotted,this,2,box,,box spotted this,1.0,ENG1003,38.0,box
+21.0,pitchers orange these,orange these pitchers,these orange pitchers,pitchers these orange,dem-adj,2017-11-16 15:24,F,1.0,orange,these,2,pitchers,,pitchers orange these,0.0,ENG1003,39.0,pitcher
+21.0,these ribbons,ribbons these,,,dem-adj,2017-11-16 15:24,F,,,these,1,ribbons,1.0,ribbons these,1.0,ENG1003,40.0,ribbon
+21.0,hat this spotted,hat spotted this,spotted this hat,this spotted hat,dem-adj,2017-11-16 15:24,F,1.0,spotted,this,2,hat,,hat spotted this,1.0,ENG1003,41.0,hat
+21.0,this orange shirt,orange this shirt,shirt this orange,shirt orange this,dem-adj,2017-11-16 15:24,F,1.0,orange,this,2,shirt,,shirt orange this,3.0,ENG1003,42.0,shirt
+21.0,furry these pillows,pillows these furry,these furry pillows,pillows furry these,dem-adj,2017-11-16 15:24,F,1.0,furry,these,2,pillows,,pillows furry these,3.0,ENG1003,43.0,pillow
+21.0,those pillows,pillows those,,,dem-adj,2017-11-16 15:24,F,,,those,1,pillows,1.0,pillows those,1.0,ENG1003,44.0,pillow
+21.0,pillow dirty this,this dirty pillow,pillow this dirty,dirty this pillow,dem-adj,2017-11-16 15:24,F,1.0,dirty,this,2,pillow,,pillow dirty this,0.0,ENG1003,45.0,pillow
+21.0,scarves wooden these,these wooden scarves,wooden these scarves,scarves these wooden,dem-adj,2017-11-16 15:24,F,1.0,wooden,these,2,scarves,,scarves wooden these,0.0,ENG1003,46.0,scarf
+21.0,furry this pear,this furry pear,pear this furry,pear furry this,dem-adj,2017-11-16 15:24,F,1.0,furry,this,2,pear,,pear furry this,3.0,ENG1003,47.0,pear
+21.0,couches those,those couches,,,dem-adj,2017-11-16 15:24,F,,,those,1,couches,1.0,couches those,0.0,ENG1003,48.0,couch
+21.0,bowl that orange,that orange bowl,orange that bowl,bowl orange that,dem-adj,2017-11-16 15:24,F,1.0,orange,that,2,bowl,,bowl orange that,3.0,ENG1003,49.0,bowl
+22.0,seven darts,darts seven,,,dem-num,2017-11-14 16:21,M,,,seven,1,darts,1.0,darts seven,1.0,ENG1001,0.0,dart
+22.0,those trays,trays those,,,dem-num,2017-11-14 16:21,M,,,those,1,trays,1.0,trays those,1.0,ENG1001,1.0,tray
+22.0,these three ducks,three these ducks,ducks three these,ducks these three,dem-num,2017-11-14 16:21,M,0.0,three,these,2,ducks,,ducks these three,3.0,ENG1001,2.0,duck
+22.0,keys four those,those four keys,four those keys,keys those four,dem-num,2017-11-14 16:21,M,0.0,four,those,2,keys,,keys those four,3.0,ENG1001,3.0,key
+22.0,five these ribbons,ribbons these five,ribbons five these,these five ribbons,dem-num,2017-11-14 16:21,M,1.0,five,these,2,ribbons,,ribbons five these,2.0,ENG1001,4.0,ribbon
+22.0,trays five those,five those trays,those five trays,trays those five,dem-num,2017-11-14 16:21,M,0.0,five,those,2,trays,,trays those five,3.0,ENG1001,5.0,tray
+22.0,five cars,cars five,,,dem-num,2017-11-14 16:21,M,,,five,1,cars,1.0,cars five,1.0,ENG1001,6.0,car
+22.0,those two cars,two those cars,cars two those,cars those two,dem-num,2017-11-14 16:21,M,1.0,two,those,2,cars,,cars two those,2.0,ENG1001,7.0,car
+22.0,trays eight,eight trays,,,dem-num,2017-11-14 16:21,M,,,eight,1,trays,1.0,trays eight,0.0,ENG1001,8.0,tray
+22.0,four those couches,couches four those,couches those four,those four couches,dem-num,2017-11-14 16:21,M,1.0,four,those,2,couches,,couches four those,1.0,ENG1001,9.0,couch
+22.0,ribbons three these,these three ribbons,ribbons these three,three these ribbons,dem-num,2017-11-14 16:21,M,1.0,three,these,2,ribbons,,ribbons three these,0.0,ENG1001,10.0,ribbon
+22.0,these six shoes,shoes six these,six these shoes,shoes these six,dem-num,2017-11-14 16:21,M,1.0,six,these,2,shoes,,shoes six these,1.0,ENG1001,11.0,shoe
+22.0,these two pineapples,pineapples two these,pineapples these two,two these pineapples,dem-num,2017-11-14 16:21,M,1.0,two,these,2,pineapples,,pineapples two these,1.0,ENG1001,12.0,pineapple
+22.0,two these hats,hats these two,hats two these,these two hats,dem-num,2017-11-14 16:21,M,1.0,two,these,2,hats,,hats two these,2.0,ENG1001,13.0,hat
+22.0,chairs these nine,nine these chairs,chairs nine these,these nine chairs,dem-num,2017-11-14 16:21,M,1.0,nine,these,2,chairs,,chairs nine these,2.0,ENG1001,14.0,chair
+22.0,ten darts,darts ten,,,dem-num,2017-11-14 16:21,M,,,ten,1,darts,1.0,darts ten,1.0,ENG1001,15.0,dart
+22.0,vase this,this vase,,,dem-num,2017-11-14 16:21,M,,,this,1,vase,1.0,vase this,0.0,ENG1001,16.0,vase
+22.0,shoe that,that shoe,,,dem-num,2017-11-14 16:21,M,,,that,1,shoe,1.0,shoe that,0.0,ENG1001,17.0,shoe
+22.0,two these shoes,shoes these two,these two shoes,shoes two these,dem-num,2017-11-14 16:21,M,1.0,two,these,2,shoes,,shoes two these,3.0,ENG1001,18.0,shoe
+22.0,four cherries,cherries four,,,dem-num,2017-11-14 16:21,M,,,four,1,cherries,1.0,cherries four,1.0,ENG1001,19.0,cherry
+22.0,vases nine,nine vases,,,dem-num,2017-11-14 16:21,M,,,nine,1,vases,1.0,vases nine,0.0,ENG1001,20.0,vase
+22.0,cars these four,cars four these,four these cars,these four cars,dem-num,2017-11-14 16:21,M,1.0,four,these,2,cars,,cars four these,1.0,ENG1001,21.0,car
+22.0,ten those cows,cows those ten,cows ten those,those ten cows,dem-num,2017-11-14 16:21,M,1.0,ten,those,2,cows,,cows ten those,2.0,ENG1001,22.0,cow
+22.0,those eight ribbons,eight those ribbons,ribbons those eight,ribbons eight those,dem-num,2017-11-14 16:21,M,1.0,eight,those,2,ribbons,,ribbons eight those,3.0,ENG1001,23.0,ribbon
+22.0,these five cherries,cherries five these,five these cherries,cherries these five,dem-num,2017-11-14 16:21,M,1.0,five,these,2,cherries,,cherries five these,1.0,ENG1001,24.0,cherry
+22.0,these nine spatulas,spatulas these nine,spatulas nine these,nine these spatulas,dem-num,2017-11-14 16:21,M,1.0,nine,these,2,spatulas,,spatulas nine these,2.0,ENG1001,25.0,spatula
+22.0,those ten pears,ten those pears,pears ten those,pears those ten,dem-num,2017-11-14 16:21,M,1.0,ten,those,2,pears,,pears ten those,2.0,ENG1001,26.0,pear
+22.0,six these cars,cars six these,these six cars,cars these six,dem-num,2017-11-14 16:21,M,1.0,six,these,2,cars,,cars six these,1.0,ENG1001,27.0,car
+22.0,horses these,these horses,,,dem-num,2017-11-14 16:21,M,,,these,1,horses,1.0,horses these,0.0,ENG1001,28.0,horse
+22.0,pitcher that,that pitcher,,,dem-num,2017-11-14 16:21,M,,,that,1,pitcher,1.0,pitcher that,0.0,ENG1001,29.0,pitcher
+22.0,lamps four these,these four lamps,lamps these four,four these lamps,dem-num,2017-11-14 16:21,M,0.0,four,these,2,lamps,,these four lamps,1.0,ENG1001,30.0,lamp
+22.0,pears six,six pears,,,dem-num,2017-11-14 16:21,M,,,six,1,pears,1.0,pears six,0.0,ENG1001,31.0,pear
+22.0,those five cars,cars those five,cars five those,five those cars,dem-num,2017-11-14 16:21,M,0.0,five,those,2,cars,,five those cars,3.0,ENG1001,32.0,car
+22.0,handbags these nine,nine these handbags,these nine handbags,handbags nine these,dem-num,2017-11-14 16:21,M,0.0,nine,these,2,handbags,,handbags these nine,0.0,ENG1001,33.0,handbag
+22.0,this leaf,leaf this,,,dem-num,2017-11-14 16:21,M,,,this,1,leaf,1.0,leaf this,1.0,ENG1001,34.0,leaf
+22.0,one this cherry,cherry one this,this one cherry,cherry this one,dem-num,2017-11-14 16:21,M,1.0,one,this,2,cherry,,cherry one this,1.0,ENG1001,35.0,cherry
+22.0,cows two,two cows,,,dem-num,2017-11-14 16:21,M,,,two,1,cows,1.0,cows two,0.0,ENG1001,36.0,cow
+22.0,suitcases three,three suitcases,,,dem-num,2017-11-14 16:21,M,,,three,1,suitcases,1.0,suitcases three,0.0,ENG1001,37.0,suitcase
+22.0,keys seven these,seven these keys,keys these seven,these seven keys,dem-num,2017-11-14 16:21,M,1.0,seven,these,2,keys,,keys seven these,0.0,ENG1001,38.0,key
+22.0,those cars,cars those,,,dem-num,2017-11-14 16:21,M,,,those,1,cars,1.0,cars those,1.0,ENG1001,39.0,car
+22.0,one pear,pear one,,,dem-num,2017-11-14 16:21,M,,,one,1,pear,1.0,pear one,1.0,ENG1001,40.0,pear
+22.0,trays ten these,these ten trays,trays these ten,ten these trays,dem-num,2017-11-14 16:21,M,1.0,ten,these,2,trays,,trays ten these,0.0,ENG1001,41.0,tray
+22.0,couches these,these couches,,,dem-num,2017-11-14 16:21,M,,,these,1,couches,1.0,couches these,0.0,ENG1001,42.0,couch
+22.0,trays seven those,those seven trays,trays those seven,seven those trays,dem-num,2017-11-14 16:21,M,1.0,seven,those,2,trays,,trays seven those,0.0,ENG1001,43.0,tray
+22.0,pigs ten those,pigs those ten,ten those pigs,those ten pigs,dem-num,2017-11-14 16:21,M,0.0,ten,those,2,pigs,,pigs those ten,1.0,ENG1001,44.0,pig
+22.0,eight these cars,cars eight these,these eight cars,cars these eight,dem-num,2017-11-14 16:21,M,1.0,eight,these,2,cars,,cars eight these,1.0,ENG1001,45.0,car
+22.0,this horse,horse this,,,dem-num,2017-11-14 16:21,M,,,this,1,horse,1.0,horse this,1.0,ENG1001,46.0,horse
+22.0,these ribbons,ribbons these,,,dem-num,2017-11-14 16:21,M,,,these,1,ribbons,1.0,ribbons these,1.0,ENG1001,47.0,ribbon
+22.0,cows these eight,cows eight these,these eight cows,eight these cows,dem-num,2017-11-14 16:21,M,1.0,eight,these,2,cows,,cows eight these,1.0,ENG1001,48.0,cow
+22.0,eight those cherries,cherries eight those,cherries those eight,those eight cherries,dem-num,2017-11-14 16:21,M,1.0,eight,those,2,cherries,,cherries eight those,1.0,ENG1001,49.0,cherry
+18.0,four spotted spatulas,spatulas four spotted,spotted four spatulas,spatulas spotted four,num-adj,2017-11-16 14:58,M,1.0,spotted,four,2,spatulas,,spatulas spotted four,3.0,ENG1002,0.0,spatula
+18.0,furry shovel,shovel furry,,,num-adj,2017-11-16 14:58,M,,,furry,1,shovel,1.0,shovel furry,1.0,ENG1002,1.0,shovel
+18.0,purple four shoes,four purple shoes,shoes purple four,shoes four purple,num-adj,2017-11-16 14:58,M,1.0,purple,four,2,shoes,,shoes purple four,2.0,ENG1002,2.0,shoe
+18.0,ten green shirts,shirts green ten,shirts ten green,green ten shirts,num-adj,2017-11-16 14:58,M,1.0,green,ten,2,shirts,,shirts green ten,1.0,ENG1002,3.0,shirt
+18.0,nine trays,trays nine,,,num-adj,2017-11-16 14:58,M,,,nine,1,trays,1.0,trays nine,1.0,ENG1002,4.0,tray
+18.0,cherry dirty,dirty cherry,,,num-adj,2017-11-16 14:58,M,,,dirty,1,cherry,1.0,cherry dirty,0.0,ENG1002,5.0,cherry
+18.0,shoe furry one,one furry shoe,furry one shoe,shoe one furry,num-adj,2017-11-16 14:58,M,1.0,furry,one,2,shoe,,shoe furry one,0.0,ENG1002,6.0,shoe
+18.0,handbags three stone,stone three handbags,three stone handbags,handbags stone three,num-adj,2017-11-16 14:58,M,1.0,stone,three,2,handbags,,handbags stone three,3.0,ENG1002,7.0,handbag
+18.0,orange two spatulas,two orange spatulas,spatulas two orange,spatulas orange two,num-adj,2017-11-16 14:58,M,1.0,orange,two,2,spatulas,,spatulas orange two,3.0,ENG1002,8.0,spatula
+18.0,shoe purple,purple shoe,,,num-adj,2017-11-16 14:58,M,,,purple,1,shoe,1.0,shoe purple,0.0,ENG1002,9.0,shoe
+18.0,spotted car,car spotted,,,num-adj,2017-11-16 14:58,M,,,spotted,1,car,1.0,car spotted,1.0,ENG1002,10.0,car
+18.0,bowls ten,ten bowls,,,num-adj,2017-11-16 14:58,M,,,ten,1,bowls,1.0,bowls ten,0.0,ENG1002,11.0,bowl
+18.0,shovel furry one,shovel one furry,furry one shovel,one furry shovel,num-adj,2017-11-16 14:58,M,1.0,furry,one,2,shovel,,shovel furry one,0.0,ENG1002,12.0,shovel
+18.0,blue nine pineapples,nine blue pineapples,pineapples nine blue,pineapples blue nine,num-adj,2017-11-16 14:58,M,1.0,blue,nine,2,pineapples,,pineapples blue nine,3.0,ENG1002,13.0,pineapple
+18.0,seven pillows,pillows seven,,,num-adj,2017-11-16 14:58,M,,,seven,1,pillows,1.0,pillows seven,1.0,ENG1002,14.0,pillow
+18.0,stone nine couches,nine stone couches,couches nine stone,couches stone nine,num-adj,2017-11-16 14:58,M,1.0,stone,nine,2,couches,,couches stone nine,3.0,ENG1002,15.0,couch
+18.0,striped six cherries,six striped cherries,cherries striped six,cherries six striped,num-adj,2017-11-16 14:58,M,1.0,striped,six,2,cherries,,cherries striped six,2.0,ENG1002,16.0,cherry
+18.0,vase striped,striped vase,,,num-adj,2017-11-16 14:58,M,,,striped,1,vase,1.0,vase striped,0.0,ENG1002,17.0,vase
+18.0,vase stone,stone vase,,,num-adj,2017-11-16 14:58,M,,,stone,1,vase,1.0,vase stone,0.0,ENG1002,18.0,vase
+18.0,wooden five spatulas,spatulas wooden five,spatulas five wooden,five wooden spatulas,num-adj,2017-11-16 14:58,M,1.0,wooden,five,2,spatulas,,spatulas wooden five,1.0,ENG1002,19.0,spatula
+18.0,suitcases five orange,five orange suitcases,orange five suitcases,suitcases orange five,num-adj,2017-11-16 14:58,M,1.0,orange,five,2,suitcases,,suitcases orange five,3.0,ENG1002,20.0,suitcase
+18.0,pillows eight,eight pillows,,,num-adj,2017-11-16 14:58,M,,,eight,1,pillows,1.0,pillows eight,0.0,ENG1002,21.0,pillow
+18.0,handbags stone four,handbags four stone,four stone handbags,stone four handbags,num-adj,2017-11-16 14:58,M,1.0,stone,four,2,handbags,,handbags stone four,0.0,ENG1002,22.0,handbag
+18.0,two chairs,chairs two,,,num-adj,2017-11-16 14:58,M,,,two,1,chairs,1.0,chairs two,1.0,ENG1002,23.0,chair
+18.0,cars striped eight,cars eight striped,striped eight cars,eight striped cars,num-adj,2017-11-16 14:58,M,1.0,striped,eight,2,cars,,cars striped eight,0.0,ENG1002,24.0,car
+18.0,blue scarf,scarf blue,,,num-adj,2017-11-16 14:58,M,,,blue,1,scarf,1.0,scarf blue,1.0,ENG1002,25.0,scarf
+18.0,ten orange scarves,scarves orange ten,orange ten scarves,scarves ten orange,num-adj,2017-11-16 14:58,M,1.0,orange,ten,2,scarves,,scarves orange ten,1.0,ENG1002,26.0,scarf
+18.0,pears five,five pears,,,num-adj,2017-11-16 14:58,M,,,five,1,pears,1.0,pears five,0.0,ENG1002,27.0,pear
+18.0,three stone ribbons,ribbons stone three,stone three ribbons,ribbons three stone,num-adj,2017-11-16 14:58,M,1.0,stone,three,2,ribbons,,ribbons stone three,1.0,ENG1002,28.0,ribbon
+18.0,striped four spatulas,spatulas four striped,four striped spatulas,spatulas striped four,num-adj,2017-11-16 14:58,M,1.0,striped,four,2,spatulas,,spatulas striped four,3.0,ENG1002,29.0,spatula
+18.0,eight orange cows,cows orange eight,cows eight orange,orange eight cows,num-adj,2017-11-16 14:58,M,1.0,orange,eight,2,cows,,cows orange eight,1.0,ENG1002,30.0,cow
+18.0,scarves nine striped,scarves striped nine,striped nine scarves,nine striped scarves,num-adj,2017-11-16 14:58,M,1.0,striped,nine,2,scarves,,scarves striped nine,1.0,ENG1002,31.0,scarf
+18.0,pineapples four,four pineapples,,,num-adj,2017-11-16 14:58,M,,,four,1,pineapples,1.0,pineapples four,0.0,ENG1002,32.0,pineapple
+18.0,dirty nine darts,darts nine dirty,darts dirty nine,nine dirty darts,num-adj,2017-11-16 14:58,M,1.0,dirty,nine,2,darts,,darts dirty nine,2.0,ENG1002,33.0,dart
+18.0,stone four bowls,four stone bowls,bowls stone four,bowls four stone,num-adj,2017-11-16 14:58,M,1.0,stone,four,2,bowls,,bowls stone four,2.0,ENG1002,34.0,bowl
+18.0,boxes three,three boxes,,,num-adj,2017-11-16 14:58,M,,,three,1,boxes,1.0,boxes three,0.0,ENG1002,35.0,box
+18.0,lamp orange,orange lamp,,,num-adj,2017-11-16 14:58,M,,,orange,1,lamp,1.0,lamp orange,0.0,ENG1002,36.0,lamp
+18.0,dart one,one dart,,,num-adj,2017-11-16 14:58,M,,,one,1,dart,1.0,dart one,0.0,ENG1002,37.0,dart
+18.0,wooden tray,tray wooden,,,num-adj,2017-11-16 14:58,M,,,wooden,1,tray,1.0,tray wooden,1.0,ENG1002,38.0,tray
+18.0,one orange bowl,bowl orange one,orange one bowl,bowl one orange,num-adj,2017-11-16 14:58,M,1.0,orange,one,2,bowl,,bowl orange one,1.0,ENG1002,39.0,bowl
+18.0,one wooden pineapple,pineapple wooden one,pineapple one wooden,wooden one pineapple,num-adj,2017-11-16 14:58,M,1.0,wooden,one,2,pineapple,,pineapple wooden one,1.0,ENG1002,40.0,pineapple
+18.0,shovels seven purple,purple seven shovels,shovels purple seven,seven purple shovels,num-adj,2017-11-16 14:58,M,1.0,purple,seven,2,shovels,,shovels purple seven,2.0,ENG1002,41.0,shovel
+18.0,one orange banana,orange one banana,banana orange one,banana one orange,num-adj,2017-11-16 14:58,M,1.0,orange,one,2,banana,,banana orange one,2.0,ENG1002,42.0,banana
+18.0,box green,green box,,,num-adj,2017-11-16 14:58,M,,,green,1,box,1.0,box green,0.0,ENG1002,43.0,box
+18.0,six dirty cows,cows dirty six,cows six dirty,dirty six cows,num-adj,2017-11-16 14:58,M,1.0,dirty,six,2,cows,,cows dirty six,1.0,ENG1002,44.0,cow
+18.0,four purple ribbons,ribbons four purple,purple four ribbons,ribbons purple four,num-adj,2017-11-16 14:58,M,1.0,purple,four,2,ribbons,,ribbons purple four,3.0,ENG1002,45.0,ribbon
+18.0,five blue horses,blue five horses,horses blue five,horses five blue,num-adj,2017-11-16 14:58,M,1.0,blue,five,2,horses,,horses blue five,2.0,ENG1002,46.0,horse
+18.0,blue two darts,darts blue two,two blue darts,darts two blue,num-adj,2017-11-16 14:58,M,1.0,blue,two,2,darts,,darts blue two,1.0,ENG1002,47.0,dart
+18.0,six darts,darts six,,,num-adj,2017-11-16 14:58,M,,,six,1,darts,1.0,darts six,1.0,ENG1002,48.0,dart
+18.0,car one striped,striped one car,car striped one,one striped car,num-adj,2017-11-16 14:58,M,1.0,striped,one,2,car,,car striped one,2.0,ENG1002,49.0,car
+21.0,banana this striped,banana striped this,this striped banana,striped this banana,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,banana,,banana striped this,1.0,ENG1003,0.0,banana
+21.0,pear that,that pear,,,dem-adj,2017-11-16 15:24,F,,,that,1,pear,1.0,pear that,0.0,ENG1003,1.0,pear
+21.0,scarf orange,orange scarf,,,dem-adj,2017-11-16 15:24,F,,,orange,1,scarf,1.0,scarf orange,0.0,ENG1003,2.0,scarf
+21.0,this striped vase,striped this vase,vase this striped,vase striped this,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,vase,,vase striped this,3.0,ENG1003,3.0,vase
+21.0,blue that pillow,pillow that blue,that blue pillow,pillow blue that,dem-adj,2017-11-16 15:24,F,1.0,blue,that,2,pillow,,pillow blue that,3.0,ENG1003,4.0,pillow
+21.0,suitcase wooden this,wooden this suitcase,suitcase this wooden,this wooden suitcase,dem-adj,2017-11-16 15:24,F,1.0,wooden,this,2,suitcase,,suitcase wooden this,0.0,ENG1003,5.0,suitcase
+21.0,pineapples these purple,pineapples purple these,these purple pineapples,purple these pineapples,dem-adj,2017-11-16 15:24,F,1.0,purple,these,2,pineapples,,pineapples purple these,1.0,ENG1003,6.0,pineapple
+21.0,that cherry,cherry that,,,dem-adj,2017-11-16 15:24,F,,,that,1,cherry,1.0,cherry that,1.0,ENG1003,7.0,cherry
+21.0,stone pig,pig stone,,,dem-adj,2017-11-16 15:24,F,,,stone,1,pig,1.0,pig stone,1.0,ENG1003,8.0,pig
+21.0,furry bowl,bowl furry,,,dem-adj,2017-11-16 15:24,F,,,furry,1,bowl,1.0,bowl furry,1.0,ENG1003,9.0,bowl
+21.0,blue this shirt,shirt this blue,shirt blue this,this blue shirt,dem-adj,2017-11-16 15:24,F,1.0,blue,this,2,shirt,,shirt blue this,2.0,ENG1003,10.0,shirt
+21.0,suitcase wooden,wooden suitcase,,,dem-adj,2017-11-16 15:24,F,,,wooden,1,suitcase,1.0,suitcase wooden,0.0,ENG1003,11.0,suitcase
+21.0,that stone cherry,cherry stone that,cherry that stone,stone that cherry,dem-adj,2017-11-16 15:24,F,1.0,stone,that,2,cherry,,cherry stone that,1.0,ENG1003,12.0,cherry
+21.0,pear this striped,striped this pear,pear striped this,this striped pear,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,pear,,pear striped this,2.0,ENG1003,13.0,pear
+21.0,vase this,this vase,,,dem-adj,2017-11-16 15:24,F,,,this,1,vase,1.0,vase this,0.0,ENG1003,14.0,vase
+21.0,bowls dirty those,dirty those bowls,those dirty bowls,bowls those dirty,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,bowls,,bowls dirty those,0.0,ENG1003,15.0,bowl
+21.0,this lamp,lamp this,,,dem-adj,2017-11-16 15:24,F,,,this,1,lamp,1.0,lamp this,1.0,ENG1003,16.0,lamp
+21.0,key dirty that,key that dirty,that dirty key,dirty that key,dem-adj,2017-11-16 15:24,F,1.0,dirty,that,2,key,,key dirty that,0.0,ENG1003,17.0,key
+21.0,striped cherry,cherry striped,,,dem-adj,2017-11-16 15:24,F,,,striped,1,cherry,1.0,cherry striped,1.0,ENG1003,18.0,cherry
+21.0,pig this furry,this furry pig,furry this pig,pig furry this,dem-adj,2017-11-16 15:24,F,1.0,furry,this,2,pig,,pig furry this,3.0,ENG1003,19.0,pig
+21.0,spatulas these spotted,these spotted spatulas,spotted these spatulas,spatulas spotted these,dem-adj,2017-11-16 15:24,F,1.0,spotted,these,2,spatulas,,spatulas spotted these,3.0,ENG1003,20.0,spatula
+21.0,shovel dirty,dirty shovel,,,dem-adj,2017-11-16 15:24,F,,,dirty,1,shovel,1.0,shovel dirty,0.0,ENG1003,21.0,shovel
+21.0,ducks those dirty,dirty those ducks,ducks dirty those,those dirty ducks,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,ducks,,ducks dirty those,2.0,ENG1003,22.0,duck
+21.0,pitchers dirty those,pitchers those dirty,dirty those pitchers,those dirty pitchers,dem-adj,2017-11-16 15:24,F,1.0,dirty,those,2,pitchers,,pitchers dirty those,0.0,ENG1003,23.0,pitcher
+21.0,spatulas these,these spatulas,,,dem-adj,2017-11-16 15:24,F,,,these,1,spatulas,1.0,spatulas these,0.0,ENG1003,24.0,spatula
+21.0,this striped chair,chair striped this,striped this chair,chair this striped,dem-adj,2017-11-16 15:24,F,1.0,striped,this,2,chair,,chair striped this,1.0,ENG1003,25.0,chair
+21.0,those striped hats,hats striped those,hats those striped,striped those hats,dem-adj,2017-11-16 15:24,F,1.0,striped,those,2,hats,,hats striped those,1.0,ENG1003,26.0,hat
+21.0,shoe spotted,spotted shoe,,,dem-adj,2017-11-16 15:24,F,,,spotted,1,shoe,1.0,shoe spotted,0.0,ENG1003,27.0,shoe
+21.0,shoe wooden this,shoe this wooden,wooden this shoe,this wooden shoe,dem-adj,2017-11-16 15:24,F,1.0,wooden,this,2,shoe,,shoe wooden this,0.0,ENG1003,28.0,shoe
+21.0,chair this,this chair,,,dem-adj,2017-11-16 15:24,F,,,this,1,chair,1.0,chair this,0.0,ENG1003,29.0,chair
+21.0,green pear,pear green,,,dem-adj,2017-11-16 15:24,F,,,green,1,pear,1.0,pear green,1.0,ENG1003,30.0,pear
+21.0,keys green these,keys these green,these green keys,green these keys,dem-adj,2017-11-16 15:24,F,1.0,green,these,2,keys,,keys green these,0.0,ENG1003,31.0,key
+21.0,those cows,cows those,,,dem-adj,2017-11-16 15:24,F,,,those,1,cows,1.0,cows those,1.0,ENG1003,32.0,cow
+21.0,darts dirty these,these dirty darts,dirty these darts,darts these dirty,dem-adj,2017-11-16 15:24,F,1.0,dirty,these,2,darts,,darts dirty these,0.0,ENG1003,33.0,dart
+21.0,shirt purple,purple shirt,,,dem-adj,2017-11-16 15:24,F,,,purple,1,shirt,1.0,shirt purple,0.0,ENG1003,34.0,shirt
+21.0,spatulas these stone,these stone spatulas,spatulas stone these,stone these spatulas,dem-adj,2017-11-16 15:24,F,1.0,stone,these,2,spatulas,,spatulas stone these,2.0,ENG1003,35.0,spatula
+21.0,those orange bowls,bowls those orange,orange those bowls,bowls orange those,dem-adj,2017-11-16 15:24,F,1.0,orange,those,2,bowls,,bowls orange those,3.0,ENG1003,36.0,bowl
+21.0,suitcase blue,blue suitcase,,,dem-adj,2017-11-16 15:24,F,,,blue,1,suitcase,1.0,suitcase blue,0.0,ENG1003,37.0,suitcase
+21.0,box this spotted,box spotted this,spotted this box,this spotted box,dem-adj,2017-11-16 15:24,F,1.0,spotted,this,2,box,,box spotted this,1.0,ENG1003,38.0,box
+21.0,pitchers orange these,orange these pitchers,these orange pitchers,pitchers these orange,dem-adj,2017-11-16 15:24,F,1.0,orange,these,2,pitchers,,pitchers orange these,0.0,ENG1003,39.0,pitcher
+21.0,these ribbons,ribbons these,,,dem-adj,2017-11-16 15:24,F,,,these,1,ribbons,1.0,ribbons these,1.0,ENG1003,40.0,ribbon
+21.0,hat this spotted,hat spotted this,spotted this hat,this spotted hat,dem-adj,2017-11-16 15:24,F,1.0,spotted,this,2,hat,,hat spotted this,1.0,ENG1003,41.0,hat
+21.0,this orange shirt,orange this shirt,shirt this orange,shirt orange this,dem-adj,2017-11-16 15:24,F,1.0,orange,this,2,shirt,,shirt orange this,3.0,ENG1003,42.0,shirt
+21.0,furry these pillows,pillows these furry,these furry pillows,pillows furry these,dem-adj,2017-11-16 15:24,F,1.0,furry,these,2,pillows,,pillows furry these,3.0,ENG1003,43.0,pillow
+21.0,those pillows,pillows those,,,dem-adj,2017-11-16 15:24,F,,,those,1,pillows,1.0,pillows those,1.0,ENG1003,44.0,pillow
+21.0,pillow dirty this,this dirty pillow,pillow this dirty,dirty this pillow,dem-adj,2017-11-16 15:24,F,1.0,dirty,this,2,pillow,,pillow dirty this,0.0,ENG1003,45.0,pillow
+21.0,scarves wooden these,these wooden scarves,wooden these scarves,scarves these wooden,dem-adj,2017-11-16 15:24,F,1.0,wooden,these,2,scarves,,scarves wooden these,0.0,ENG1003,46.0,scarf
+21.0,furry this pear,this furry pear,pear this furry,pear furry this,dem-adj,2017-11-16 15:24,F,1.0,furry,this,2,pear,,pear furry this,3.0,ENG1003,47.0,pear
+21.0,couches those,those couches,,,dem-adj,2017-11-16 15:24,F,,,those,1,couches,1.0,couches those,0.0,ENG1003,48.0,couch
+21.0,bowl that orange,that orange bowl,orange that bowl,bowl orange that,dem-adj,2017-11-16 15:24,F,1.0,orange,that,2,bowl,,bowl orange that,3.0,ENG1003,49.0,bowl

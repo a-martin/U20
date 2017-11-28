@@ -94,12 +94,20 @@ def isIso(i):
 
     return checkResp(outer, inner, response)
         
-            
+def makeSing(i):
+     row = df.ix[i]
+     if row.noun in list(nouns.plur):
+          return nouns.ix[nouns[nouns.plur==row.noun].index[0], 'sing']
+     else:
+          return row.noun
 
+     
 df['nbMods'] = df.modInner.map(lambda x: 2 if x is not nan else 1)
+df['nounSing'] = df.index.map(lambda x: makeSing(x))
+df['post'] = df.index.map(lambda x: isPost(x))
 df['iso'] = df.index.map(lambda x: isIso(x))
     
-df.to_csv(chemin+'ENGtest.csv', index=False)
+df.to_csv('ENGtest.csv', index=False)
 
 
 

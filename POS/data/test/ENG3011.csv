@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+21.0,pineapples seven,seven pineapples,,,num-adj,2017-11-23 15:48,F,,seven,pineapples,pineapples seven,0.0,ENG3011,0.0
+21.0,five spotted shoes,spotted five shoes,shoes five spotted,shoes spotted five,num-adj,2017-11-23 15:48,F,spotted,five,shoes,shoes spotted five,3.0,ENG3011,1.0
+21.0,furry eight suitcases,suitcases furry eight,suitcases eight furry,eight furry suitcases,num-adj,2017-11-23 15:48,F,furry,eight,suitcases,suitcases furry eight,1.0,ENG3011,2.0
+21.0,stone five pineapples,pineapples five stone,five stone pineapples,pineapples stone five,num-adj,2017-11-23 15:48,F,stone,five,pineapples,pineapples stone five,3.0,ENG3011,3.0
+21.0,spatulas nine purple,nine purple spatulas,purple nine spatulas,spatulas purple nine,num-adj,2017-11-23 15:48,F,purple,nine,spatulas,spatulas purple nine,3.0,ENG3011,4.0
+21.0,dirty four pigs,pigs dirty four,pigs four dirty,four dirty pigs,num-adj,2017-11-23 15:48,F,dirty,four,pigs,pigs dirty four,1.0,ENG3011,5.0
+21.0,dirty one horse,horse one dirty,one dirty horse,horse dirty one,num-adj,2017-11-23 15:48,F,dirty,one,horse,horse dirty one,3.0,ENG3011,6.0
+21.0,couch spotted one,spotted one couch,one spotted couch,couch one spotted,num-adj,2017-11-23 15:48,F,spotted,one,couch,couch spotted one,0.0,ENG3011,7.0
+21.0,orange car,car orange,,,num-adj,2017-11-23 15:48,F,,orange,car,car orange,1.0,ENG3011,8.0
+21.0,duck purple,purple duck,,,num-adj,2017-11-23 15:48,F,,purple,duck,duck purple,0.0,ENG3011,9.0
+21.0,six purple ducks,ducks purple six,ducks six purple,purple six ducks,num-adj,2017-11-23 15:48,F,purple,six,ducks,ducks purple six,1.0,ENG3011,10.0
+21.0,hat blue,blue hat,,,num-adj,2017-11-23 15:48,F,,blue,hat,hat blue,0.0,ENG3011,11.0
+21.0,ducks seven orange,seven orange ducks,ducks orange seven,orange seven ducks,num-adj,2017-11-23 15:48,F,orange,seven,ducks,ducks orange seven,2.0,ENG3011,12.0
+21.0,cows five dirty,dirty five cows,five dirty cows,cows dirty five,num-adj,2017-11-23 15:48,F,dirty,five,cows,cows dirty five,3.0,ENG3011,13.0
+21.0,five green suitcases,suitcases green five,green five suitcases,suitcases five green,num-adj,2017-11-23 15:48,F,green,five,suitcases,suitcases green five,1.0,ENG3011,14.0
+21.0,pigs orange eight,eight orange pigs,orange eight pigs,pigs eight orange,num-adj,2017-11-23 15:48,F,orange,eight,pigs,pigs orange eight,0.0,ENG3011,15.0
+21.0,dart dirty,dirty dart,,,num-adj,2017-11-23 15:48,F,,dirty,dart,dart dirty,0.0,ENG3011,16.0
+21.0,two wooden trays,trays wooden two,wooden two trays,trays two wooden,num-adj,2017-11-23 15:48,F,wooden,two,trays,trays wooden two,1.0,ENG3011,17.0
+21.0,darts four dirty,darts dirty four,dirty four darts,four dirty darts,num-adj,2017-11-23 15:48,F,dirty,four,darts,darts dirty four,1.0,ENG3011,18.0
+21.0,spotted key,key spotted,,,num-adj,2017-11-23 15:48,F,,spotted,key,key spotted,1.0,ENG3011,19.0
+21.0,five green horses,horses five green,green five horses,horses green five,num-adj,2017-11-23 15:48,F,green,five,horses,horses green five,3.0,ENG3011,20.0
+21.0,spatula furry,furry spatula,,,num-adj,2017-11-23 15:48,F,,furry,spatula,spatula furry,0.0,ENG3011,21.0
+21.0,vases stone four,stone four vases,four stone vases,vases four stone,num-adj,2017-11-23 15:48,F,stone,four,vases,vases stone four,0.0,ENG3011,22.0
+21.0,stone shoe,shoe stone,,,num-adj,2017-11-23 15:48,F,,stone,shoe,shoe stone,1.0,ENG3011,23.0
+21.0,green nine shoes,shoes nine green,nine green shoes,shoes green nine,num-adj,2017-11-23 15:48,F,green,nine,shoes,shoes green nine,3.0,ENG3011,24.0
+21.0,lamps ten furry,furry ten lamps,lamps furry ten,ten furry lamps,num-adj,2017-11-23 15:48,F,furry,ten,lamps,lamps furry ten,2.0,ENG3011,25.0
+21.0,orange four ducks,ducks orange four,ducks four orange,four orange ducks,num-adj,2017-11-23 15:48,F,orange,four,ducks,ducks orange four,1.0,ENG3011,26.0
+21.0,cherries four,four cherries,,,num-adj,2017-11-23 15:48,F,,four,cherries,cherries four,0.0,ENG3011,27.0
+21.0,wooden cherry,cherry wooden,,,num-adj,2017-11-23 15:48,F,,wooden,cherry,cherry wooden,1.0,ENG3011,28.0
+21.0,three blue keys,keys blue three,keys three blue,blue three keys,num-adj,2017-11-23 15:48,F,blue,three,keys,keys blue three,1.0,ENG3011,29.0
+21.0,boxes five,five boxes,,,num-adj,2017-11-23 15:48,F,,five,boxes,boxes five,0.0,ENG3011,30.0
+21.0,pigs ten,ten pigs,,,num-adj,2017-11-23 15:48,F,,ten,pigs,pigs ten,0.0,ENG3011,31.0
+21.0,stone ten handbags,handbags ten stone,ten stone handbags,handbags stone ten,num-adj,2017-11-23 15:48,F,stone,ten,handbags,handbags stone ten,3.0,ENG3011,32.0
+21.0,chairs dirty six,six dirty chairs,chairs six dirty,dirty six chairs,num-adj,2017-11-23 15:48,F,dirty,six,chairs,chairs dirty six,0.0,ENG3011,33.0
+21.0,five green keys,keys five green,keys green five,green five keys,num-adj,2017-11-23 15:48,F,green,five,keys,keys green five,2.0,ENG3011,34.0
+21.0,cherries nine,nine cherries,,,num-adj,2017-11-23 15:48,F,,nine,cherries,cherries nine,0.0,ENG3011,35.0
+21.0,spotted one spatula,spatula spotted one,spatula one spotted,one spotted spatula,num-adj,2017-11-23 15:48,F,spotted,one,spatula,spatula spotted one,1.0,ENG3011,36.0
+21.0,spotted eight shoes,shoes spotted eight,shoes eight spotted,eight spotted shoes,num-adj,2017-11-23 15:48,F,spotted,eight,shoes,shoes spotted eight,1.0,ENG3011,37.0
+21.0,shirts eight,eight shirts,,,num-adj,2017-11-23 15:48,F,,eight,shirts,shirts eight,0.0,ENG3011,38.0
+21.0,pitcher one,one pitcher,,,num-adj,2017-11-23 15:48,F,,one,pitcher,pitcher one,0.0,ENG3011,39.0
+21.0,six bananas,bananas six,,,num-adj,2017-11-23 15:48,F,,six,bananas,bananas six,1.0,ENG3011,40.0
+21.0,two chairs,chairs two,,,num-adj,2017-11-23 15:48,F,,two,chairs,chairs two,1.0,ENG3011,41.0
+21.0,three leaves,leaves three,,,num-adj,2017-11-23 15:48,F,,three,leaves,leaves three,1.0,ENG3011,42.0
+21.0,bowl green,green bowl,,,num-adj,2017-11-23 15:48,F,,green,bowl,bowl green,0.0,ENG3011,43.0
+21.0,orange eight spatulas,spatulas eight orange,eight orange spatulas,spatulas orange eight,num-adj,2017-11-23 15:48,F,orange,eight,spatulas,spatulas orange eight,3.0,ENG3011,44.0
+21.0,darts stone six,six stone darts,stone six darts,darts six stone,num-adj,2017-11-23 15:48,F,stone,six,darts,darts stone six,0.0,ENG3011,45.0
+21.0,blue nine cars,nine blue cars,cars blue nine,cars nine blue,num-adj,2017-11-23 15:48,F,blue,nine,cars,cars blue nine,2.0,ENG3011,46.0
+21.0,spatulas spotted three,spatulas three spotted,spotted three spatulas,three spotted spatulas,num-adj,2017-11-23 15:48,F,spotted,three,spatulas,spatulas spotted three,0.0,ENG3011,47.0
+21.0,pitchers wooden seven,wooden seven pitchers,seven wooden pitchers,pitchers seven wooden,num-adj,2017-11-23 15:48,F,wooden,seven,pitchers,pitchers wooden seven,0.0,ENG3011,48.0
+21.0,striped horse,horse striped,,,num-adj,2017-11-23 15:48,F,,striped,horse,horse striped,1.0,ENG3011,49.0

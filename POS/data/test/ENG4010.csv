@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+18.0,these nine shovels,nine these shovels,shovels nine these,shovels these nine,dem-num,2017-11-23 15:38,F,nine,these,shovels,nine these shovels,1.0,ENG4010,0.0
+18.0,that one car,car one that,car that one,one that car,dem-num,2017-11-23 15:38,F,one,that,car,one that car,3.0,ENG4010,1.0
+18.0,six horses,horses six,,,dem-num,2017-11-23 15:38,F,,six,horses,horses six,1.0,ENG4010,2.0
+18.0,leaves eight these,leaves these eight,these eight leaves,eight these leaves,dem-num,2017-11-23 15:38,F,eight,these,leaves,leaves eight these,0.0,ENG4010,3.0
+18.0,shoe that,that shoe,,,dem-num,2017-11-23 15:38,F,,that,shoe,shoe that,0.0,ENG4010,4.0
+18.0,one that pillow,that one pillow,pillow one that,pillow that one,dem-num,2017-11-23 15:38,F,one,that,pillow,pillow one that,2.0,ENG4010,5.0
+18.0,these two cows,two these cows,cows these two,cows two these,dem-num,2017-11-23 15:38,F,two,these,cows,cows two these,3.0,ENG4010,6.0
+18.0,tray this one,this one tray,tray one this,one this tray,dem-num,2017-11-23 15:38,F,one,this,tray,tray one this,2.0,ENG4010,7.0
+18.0,shoes four,four shoes,,,dem-num,2017-11-23 15:38,F,,four,shoes,shoes four,0.0,ENG4010,8.0
+18.0,that tray,tray that,,,dem-num,2017-11-23 15:38,F,,that,tray,tray that,1.0,ENG4010,9.0
+18.0,cherries nine these,cherries these nine,nine these cherries,these nine cherries,dem-num,2017-11-23 15:38,F,nine,these,cherries,cherries nine these,0.0,ENG4010,10.0
+18.0,three those cars,those three cars,cars three those,cars those three,dem-num,2017-11-23 15:38,F,three,those,cars,cars three those,2.0,ENG4010,11.0
+18.0,five vases,vases five,,,dem-num,2017-11-23 15:38,F,,five,vases,vases five,1.0,ENG4010,12.0
+18.0,these couches,couches these,,,dem-num,2017-11-23 15:38,F,,these,couches,couches these,1.0,ENG4010,13.0
+18.0,those couches,couches those,,,dem-num,2017-11-23 15:38,F,,those,couches,couches those,1.0,ENG4010,14.0
+18.0,shovel that,that shovel,,,dem-num,2017-11-23 15:38,F,,that,shovel,shovel that,0.0,ENG4010,15.0
+18.0,handbags seven these,handbags these seven,seven these handbags,these seven handbags,dem-num,2017-11-23 15:38,F,seven,these,handbags,handbags seven these,0.0,ENG4010,16.0
+18.0,six those horses,horses those six,horses six those,those six horses,dem-num,2017-11-23 15:38,F,six,those,horses,horses six those,2.0,ENG4010,17.0
+18.0,handbags six these,these six handbags,handbags these six,six these handbags,dem-num,2017-11-23 15:38,F,six,these,handbags,handbags six these,0.0,ENG4010,18.0
+18.0,seven those ducks,ducks those seven,ducks seven those,those seven ducks,dem-num,2017-11-23 15:38,F,seven,those,ducks,ducks seven those,2.0,ENG4010,19.0
+18.0,shoe one that,one that shoe,that one shoe,shoe that one,dem-num,2017-11-23 15:38,F,one,that,shoe,shoe one that,0.0,ENG4010,20.0
+18.0,ten darts,darts ten,,,dem-num,2017-11-23 15:38,F,,ten,darts,darts ten,1.0,ENG4010,21.0
+18.0,seven horses,horses seven,,,dem-num,2017-11-23 15:38,F,,seven,horses,horses seven,1.0,ENG4010,22.0
+18.0,handbag this,this handbag,,,dem-num,2017-11-23 15:38,F,,this,handbag,handbag this,0.0,ENG4010,23.0
+18.0,suitcases two those,those two suitcases,two those suitcases,suitcases those two,dem-num,2017-11-23 15:38,F,two,those,suitcases,suitcases two those,0.0,ENG4010,24.0
+18.0,horses two these,two these horses,horses these two,these two horses,dem-num,2017-11-23 15:38,F,two,these,horses,horses two these,0.0,ENG4010,25.0
+18.0,four those spatulas,those four spatulas,spatulas four those,spatulas those four,dem-num,2017-11-23 15:38,F,four,those,spatulas,spatulas four those,2.0,ENG4010,26.0
+18.0,these shirts,shirts these,,,dem-num,2017-11-23 15:38,F,,these,shirts,shirts these,1.0,ENG4010,27.0
+18.0,eight those shirts,shirts those eight,shirts eight those,those eight shirts,dem-num,2017-11-23 15:38,F,eight,those,shirts,shirts eight those,2.0,ENG4010,28.0
+18.0,four those scarves,scarves four those,scarves those four,those four scarves,dem-num,2017-11-23 15:38,F,four,those,scarves,scarves four those,1.0,ENG4010,29.0
+18.0,seven these handbags,these seven handbags,handbags these seven,handbags seven these,dem-num,2017-11-23 15:38,F,seven,these,handbags,handbags seven these,3.0,ENG4010,30.0
+18.0,four those cows,cows four those,those four cows,cows those four,dem-num,2017-11-23 15:38,F,four,those,cows,cows four those,1.0,ENG4010,31.0
+18.0,eight pitchers,pitchers eight,,,dem-num,2017-11-23 15:38,F,,eight,pitchers,pitchers eight,1.0,ENG4010,32.0
+18.0,spatulas these eight,these eight spatulas,spatulas eight these,eight these spatulas,dem-num,2017-11-23 15:38,F,eight,these,spatulas,spatulas eight these,2.0,ENG4010,33.0
+18.0,these six bananas,bananas these six,bananas six these,six these bananas,dem-num,2017-11-23 15:38,F,six,these,bananas,bananas six these,2.0,ENG4010,34.0
+18.0,those scarves,scarves those,,,dem-num,2017-11-23 15:38,F,,those,scarves,scarves those,1.0,ENG4010,35.0
+18.0,one vase,vase one,,,dem-num,2017-11-23 15:38,F,,one,vase,vase one,1.0,ENG4010,36.0
+18.0,four those chairs,those four chairs,chairs four those,chairs those four,dem-num,2017-11-23 15:38,F,four,those,chairs,chairs four those,2.0,ENG4010,37.0
+18.0,scarves two,two scarves,,,dem-num,2017-11-23 15:38,F,,two,scarves,scarves two,0.0,ENG4010,38.0
+18.0,nine cars,cars nine,,,dem-num,2017-11-23 15:38,F,,nine,cars,cars nine,1.0,ENG4010,39.0
+18.0,leaves seven those,those seven leaves,leaves those seven,seven those leaves,dem-num,2017-11-23 15:38,F,seven,those,leaves,leaves seven those,0.0,ENG4010,40.0
+18.0,nine those pineapples,pineapples nine those,those nine pineapples,pineapples those nine,dem-num,2017-11-23 15:38,F,nine,those,pineapples,pineapples nine those,1.0,ENG4010,41.0
+18.0,these bowls,bowls these,,,dem-num,2017-11-23 15:38,F,,these,bowls,bowls these,1.0,ENG4010,42.0
+18.0,this scarf,scarf this,,,dem-num,2017-11-23 15:38,F,,this,scarf,scarf this,1.0,ENG4010,43.0
+18.0,eight those pillows,pillows eight those,pillows those eight,those eight pillows,dem-num,2017-11-23 15:38,F,eight,those,pillows,pillows eight those,1.0,ENG4010,44.0
+18.0,four these ribbons,these four ribbons,ribbons these four,ribbons four these,dem-num,2017-11-23 15:38,F,four,these,ribbons,ribbons four these,3.0,ENG4010,45.0
+18.0,leaves these two,leaves two these,these two leaves,two these leaves,dem-num,2017-11-23 15:38,F,two,these,leaves,leaves two these,1.0,ENG4010,46.0
+18.0,pitchers these four,four these pitchers,these four pitchers,pitchers four these,dem-num,2017-11-23 15:38,F,four,these,pitchers,pitchers four these,3.0,ENG4010,47.0
+18.0,vases those seven,those seven vases,vases seven those,seven those vases,dem-num,2017-11-23 15:38,F,seven,those,vases,vases seven those,2.0,ENG4010,48.0
+18.0,three bananas,bananas three,,,dem-num,2017-11-23 15:38,F,,three,bananas,bananas three,1.0,ENG4010,49.0
