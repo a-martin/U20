@@ -47,7 +47,7 @@ adjs = mods[mods.cat=='adj']
         
 def isPost(i):
 
-    row = df.ix[i]
+    row = df.loc[i]
 
     if row.nbMods == 2:
         return nan
@@ -68,7 +68,7 @@ def checkResp(outer, inner, response):
                 
 def isIso(i):
 
-    row = df.ix[i]
+    row = df.loc[i]
 
     if row.nbMods == 1:
         return nan
@@ -95,9 +95,9 @@ def isIso(i):
     return checkResp(outer, inner, response)
         
 def makeSing(i):
-     row = df.ix[i]
+     row = df.loc[i]
      if row.noun in list(nouns.plur):
-          return nouns.ix[nouns[nouns.plur==row.noun].index[0], 'sing']
+          return nouns.loc[nouns[nouns.plur==row.noun].index[0], 'sing']
      else:
           return row.noun
 
