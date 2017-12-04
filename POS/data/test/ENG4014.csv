@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+22.0,car furry one,furry one car,one furry car,car one furry,num-adj,2017-11-24 17:03,F,furry,one,car,car furry one,0.0,ENG4014,0.0
+22.0,vases spotted nine,spotted nine vases,nine spotted vases,vases nine spotted,num-adj,2017-11-24 17:03,F,spotted,nine,vases,vases spotted nine,0.0,ENG4014,1.0
+22.0,seven furry ribbons,ribbons seven furry,furry seven ribbons,ribbons furry seven,num-adj,2017-11-24 17:03,F,furry,seven,ribbons,ribbons furry seven,3.0,ENG4014,2.0
+22.0,pitcher orange,orange pitcher,,,num-adj,2017-11-24 17:03,F,,orange,pitcher,pitcher orange,0.0,ENG4014,3.0
+22.0,four orange pears,pears orange four,pears four orange,orange four pears,num-adj,2017-11-24 17:03,F,orange,four,pears,pears orange four,1.0,ENG4014,4.0
+22.0,five stone handbags,stone five handbags,handbags five stone,handbags stone five,num-adj,2017-11-24 17:03,F,stone,five,handbags,handbags stone five,3.0,ENG4014,5.0
+22.0,dart furry,furry dart,,,num-adj,2017-11-24 17:03,F,,furry,dart,dart furry,0.0,ENG4014,6.0
+22.0,chairs ten striped,ten striped chairs,striped ten chairs,chairs striped ten,num-adj,2017-11-24 17:03,F,striped,ten,chairs,chairs striped ten,3.0,ENG4014,7.0
+22.0,striped two bananas,bananas striped two,two striped bananas,bananas two striped,num-adj,2017-11-24 17:03,F,striped,two,bananas,bananas striped two,1.0,ENG4014,8.0
+22.0,car striped,striped car,,,num-adj,2017-11-24 17:03,F,,striped,car,car striped,0.0,ENG4014,9.0
+22.0,green pillow,pillow green,,,num-adj,2017-11-24 17:03,F,,green,pillow,pillow green,1.0,ENG4014,10.0
+22.0,keys seven spotted,spotted seven keys,keys spotted seven,seven spotted keys,num-adj,2017-11-24 17:03,F,spotted,seven,keys,keys spotted seven,2.0,ENG4014,11.0
+22.0,spotted horse,horse spotted,,,num-adj,2017-11-24 17:03,F,,spotted,horse,horse spotted,1.0,ENG4014,12.0
+22.0,four cars,cars four,,,num-adj,2017-11-24 17:03,F,,four,cars,cars four,1.0,ENG4014,13.0
+22.0,one green box,box green one,green one box,box one green,num-adj,2017-11-24 17:03,F,green,one,box,box green one,1.0,ENG4014,14.0
+22.0,suitcases blue seven,blue seven suitcases,seven blue suitcases,suitcases seven blue,num-adj,2017-11-24 17:03,F,blue,seven,suitcases,suitcases blue seven,0.0,ENG4014,15.0
+22.0,boxes three,three boxes,,,num-adj,2017-11-24 17:03,F,,three,boxes,boxes three,0.0,ENG4014,16.0
+22.0,cows blue two,two blue cows,blue two cows,cows two blue,num-adj,2017-11-24 17:03,F,blue,two,cows,cows blue two,0.0,ENG4014,17.0
+22.0,suitcases eight furry,eight furry suitcases,suitcases furry eight,furry eight suitcases,num-adj,2017-11-24 17:03,F,furry,eight,suitcases,suitcases furry eight,2.0,ENG4014,18.0
+22.0,boxes green eight,eight green boxes,boxes eight green,green eight boxes,num-adj,2017-11-24 17:03,F,green,eight,boxes,boxes green eight,0.0,ENG4014,19.0
+22.0,car green one,car one green,one green car,green one car,num-adj,2017-11-24 17:03,F,green,one,car,car green one,0.0,ENG4014,20.0
+22.0,pitchers ten dirty,dirty ten pitchers,pitchers dirty ten,ten dirty pitchers,num-adj,2017-11-24 17:03,F,dirty,ten,pitchers,pitchers dirty ten,2.0,ENG4014,21.0
+22.0,furry six pillows,pillows six furry,six furry pillows,pillows furry six,num-adj,2017-11-24 17:03,F,furry,six,pillows,pillows furry six,3.0,ENG4014,22.0
+22.0,bananas two,two bananas,,,num-adj,2017-11-24 17:03,F,,two,bananas,bananas two,0.0,ENG4014,23.0
+22.0,duck one purple,duck purple one,purple one duck,one purple duck,num-adj,2017-11-24 17:03,F,purple,one,duck,duck purple one,1.0,ENG4014,24.0
+22.0,boxes nine blue,boxes blue nine,nine blue boxes,blue nine boxes,num-adj,2017-11-24 17:03,F,blue,nine,boxes,boxes blue nine,1.0,ENG4014,25.0
+22.0,key purple,purple key,,,num-adj,2017-11-24 17:03,F,,purple,key,key purple,0.0,ENG4014,26.0
+22.0,scarves five,five scarves,,,num-adj,2017-11-24 17:03,F,,five,scarves,scarves five,0.0,ENG4014,27.0
+22.0,shovel blue,blue shovel,,,num-adj,2017-11-24 17:03,F,,blue,shovel,shovel blue,0.0,ENG4014,28.0
+22.0,cars blue two,two blue cars,cars two blue,blue two cars,num-adj,2017-11-24 17:03,F,blue,two,cars,cars blue two,0.0,ENG4014,29.0
+22.0,leaves two dirty,leaves dirty two,two dirty leaves,dirty two leaves,num-adj,2017-11-24 17:03,F,dirty,two,leaves,leaves dirty two,1.0,ENG4014,30.0
+22.0,pear stone,stone pear,,,num-adj,2017-11-24 17:03,F,,stone,pear,pear stone,0.0,ENG4014,31.0
+22.0,two green handbags,handbags green two,handbags two green,green two handbags,num-adj,2017-11-24 17:03,F,green,two,handbags,handbags green two,1.0,ENG4014,32.0
+22.0,ten stone scarves,scarves ten stone,scarves stone ten,stone ten scarves,num-adj,2017-11-24 17:03,F,stone,ten,scarves,scarves stone ten,2.0,ENG4014,33.0
+22.0,eight darts,darts eight,,,num-adj,2017-11-24 17:03,F,,eight,darts,darts eight,1.0,ENG4014,34.0
+22.0,one purple key,key one purple,key purple one,purple one key,num-adj,2017-11-24 17:03,F,purple,one,key,key purple one,2.0,ENG4014,35.0
+22.0,cherries six blue,cherries blue six,blue six cherries,six blue cherries,num-adj,2017-11-24 17:03,F,blue,six,cherries,cherries blue six,1.0,ENG4014,36.0
+22.0,three striped cars,cars striped three,cars three striped,striped three cars,num-adj,2017-11-24 17:03,F,striped,three,cars,cars striped three,1.0,ENG4014,37.0
+22.0,seven purple darts,darts purple seven,darts seven purple,purple seven darts,num-adj,2017-11-24 17:03,F,purple,seven,darts,darts purple seven,1.0,ENG4014,38.0
+22.0,ten pillows,pillows ten,,,num-adj,2017-11-24 17:03,F,,ten,pillows,pillows ten,1.0,ENG4014,39.0
+22.0,seven shovels,shovels seven,,,num-adj,2017-11-24 17:03,F,,seven,shovels,shovels seven,1.0,ENG4014,40.0
+22.0,dirty pillow,pillow dirty,,,num-adj,2017-11-24 17:03,F,,dirty,pillow,pillow dirty,1.0,ENG4014,41.0
+22.0,six leaves,leaves six,,,num-adj,2017-11-24 17:03,F,,six,leaves,leaves six,1.0,ENG4014,42.0
+22.0,vases five green,green five vases,five green vases,vases green five,num-adj,2017-11-24 17:03,F,green,five,vases,vases green five,3.0,ENG4014,43.0
+22.0,one pear,pear one,,,num-adj,2017-11-24 17:03,F,,one,pear,pear one,1.0,ENG4014,44.0
+22.0,ten orange boxes,boxes ten orange,boxes orange ten,orange ten boxes,num-adj,2017-11-24 17:03,F,orange,ten,boxes,boxes orange ten,2.0,ENG4014,45.0
+22.0,purple nine handbags,nine purple handbags,handbags purple nine,handbags nine purple,num-adj,2017-11-24 17:03,F,purple,nine,handbags,handbags purple nine,2.0,ENG4014,46.0
+22.0,box furry one,one furry box,furry one box,box one furry,num-adj,2017-11-24 17:03,F,furry,one,box,box furry one,0.0,ENG4014,47.0
+22.0,lamp wooden,wooden lamp,,,num-adj,2017-11-24 17:03,F,,wooden,lamp,wooden lamp,1.0,ENG4014,48.0
+22.0,horses nine,nine horses,,,num-adj,2017-11-24 17:03,F,,nine,horses,horses nine,0.0,ENG4014,49.0
