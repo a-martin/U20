@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+19.0,one horse,horse one,,,dem-num,2018-01-26 10:06,M,,one,horse,horse one,1.0,ENG1010,0.0
+19.0,keys these,these keys,,,dem-num,2018-01-26 10:06,M,,these,keys,keys these,0.0,ENG1010,1.0
+19.0,three those ribbons,ribbons three those,those three ribbons,ribbons those three,dem-num,2018-01-26 10:06,M,three,those,ribbons,ribbons those three,3.0,ENG1010,2.0
+19.0,these three trays,trays these three,trays three these,three these trays,dem-num,2018-01-26 10:06,M,three,these,trays,trays three these,2.0,ENG1010,3.0
+19.0,those shoes,shoes those,,,dem-num,2018-01-26 10:06,M,,those,shoes,shoes those,1.0,ENG1010,4.0
+19.0,horses two,two horses,,,dem-num,2018-01-26 10:06,M,,two,horses,horses two,0.0,ENG1010,5.0
+19.0,keys these,these keys,,,dem-num,2018-01-26 10:06,M,,these,keys,keys these,0.0,ENG1010,6.0
+19.0,pitcher one this,pitcher this one,one this pitcher,this one pitcher,dem-num,2018-01-26 10:06,M,one,this,pitcher,pitcher one this,0.0,ENG1010,7.0
+19.0,those eight keys,keys eight those,eight those keys,keys those eight,dem-num,2018-01-26 10:06,M,eight,those,keys,keys eight those,1.0,ENG1010,8.0
+19.0,that cow,cow that,,,dem-num,2018-01-26 10:06,M,,that,cow,cow that,1.0,ENG1010,9.0
+19.0,three couches,couches three,,,dem-num,2018-01-26 10:06,M,,three,couches,couches three,1.0,ENG1010,10.0
+19.0,couches those five,five those couches,couches five those,those five couches,dem-num,2018-01-26 10:06,M,five,those,couches,couches five those,2.0,ENG1010,11.0
+19.0,pitchers ten,ten pitchers,,,dem-num,2018-01-26 10:06,M,,ten,pitchers,pitchers ten,0.0,ENG1010,12.0
+19.0,four those horses,horses four those,those four horses,horses those four,dem-num,2018-01-26 10:06,M,four,those,horses,horses four those,1.0,ENG1010,13.0
+19.0,bowls those four,four those bowls,bowls four those,those four bowls,dem-num,2018-01-26 10:06,M,four,those,bowls,bowls four those,2.0,ENG1010,14.0
+19.0,those eight boxes,boxes eight those,boxes those eight,eight those boxes,dem-num,2018-01-26 10:06,M,eight,those,boxes,boxes eight those,1.0,ENG1010,15.0
+19.0,pineapples those,those pineapples,,,dem-num,2018-01-26 10:06,M,,those,pineapples,pineapples those,0.0,ENG1010,16.0
+19.0,this pineapple,pineapple this,,,dem-num,2018-01-26 10:06,M,,this,pineapple,pineapple this,1.0,ENG1010,17.0
+19.0,eight scarves,scarves eight,,,dem-num,2018-01-26 10:06,M,,eight,scarves,scarves eight,1.0,ENG1010,18.0
+19.0,bananas these two,these two bananas,bananas two these,two these bananas,dem-num,2018-01-26 10:06,M,two,these,bananas,bananas two these,2.0,ENG1010,19.0
+19.0,cherries eight these,cherries these eight,these eight cherries,eight these cherries,dem-num,2018-01-26 10:06,M,eight,these,cherries,cherries eight these,0.0,ENG1010,20.0
+19.0,eight these shovels,shovels eight these,these eight shovels,shovels these eight,dem-num,2018-01-26 10:06,M,eight,these,shovels,shovels eight these,1.0,ENG1010,21.0
+19.0,that pig,pig that,,,dem-num,2018-01-26 10:06,M,,that,pig,pig that,1.0,ENG1010,22.0
+19.0,vases six those,six those vases,vases those six,those six vases,dem-num,2018-01-26 10:06,M,six,those,vases,vases six those,0.0,ENG1010,23.0
+19.0,darts these nine,these nine darts,darts nine these,nine these darts,dem-num,2018-01-26 10:06,M,nine,these,darts,darts nine these,2.0,ENG1010,24.0
+19.0,those seven scarves,seven those scarves,scarves seven those,scarves those seven,dem-num,2018-01-26 10:06,M,seven,those,scarves,scarves seven those,2.0,ENG1010,25.0
+19.0,cherry this one,one this cherry,this one cherry,cherry one this,dem-num,2018-01-26 10:06,M,one,this,cherry,cherry one this,3.0,ENG1010,26.0
+19.0,these five trays,five these trays,trays these five,trays five these,dem-num,2018-01-26 10:06,M,five,these,trays,trays five these,3.0,ENG1010,27.0
+19.0,cows these ten,cows ten these,ten these cows,these ten cows,dem-num,2018-01-26 10:06,M,ten,these,cows,cows ten these,1.0,ENG1010,28.0
+19.0,eight these cows,these eight cows,cows these eight,cows eight these,dem-num,2018-01-26 10:06,M,eight,these,cows,cows eight these,3.0,ENG1010,29.0
+19.0,this cherry,cherry this,,,dem-num,2018-01-26 10:06,M,,this,cherry,cherry this,1.0,ENG1010,30.0
+19.0,eight these bowls,bowls eight these,these eight bowls,bowls these eight,dem-num,2018-01-26 10:06,M,eight,these,bowls,bowls eight these,1.0,ENG1010,31.0
+19.0,nine those cows,cows those nine,cows nine those,those nine cows,dem-num,2018-01-26 10:06,M,nine,those,cows,cows nine those,2.0,ENG1010,32.0
+19.0,seven those ducks,ducks those seven,those seven ducks,ducks seven those,dem-num,2018-01-26 10:06,M,seven,those,ducks,ducks seven those,3.0,ENG1010,33.0
+19.0,ribbons eight these,ribbons these eight,these eight ribbons,eight these ribbons,dem-num,2018-01-26 10:06,M,eight,these,ribbons,ribbons eight these,0.0,ENG1010,34.0
+19.0,couch this one,couch one this,one this couch,this one couch,dem-num,2018-01-26 10:06,M,one,this,couch,couch one this,1.0,ENG1010,35.0
+19.0,bananas four those,those four bananas,four those bananas,bananas those four,dem-num,2018-01-26 10:06,M,four,those,bananas,bananas four those,0.0,ENG1010,36.0
+19.0,this tray,tray this,,,dem-num,2018-01-26 10:06,M,,this,tray,tray this,1.0,ENG1010,37.0
+19.0,bowls those seven,bowls seven those,those seven bowls,seven those bowls,dem-num,2018-01-26 10:06,M,seven,those,bowls,bowls seven those,1.0,ENG1010,38.0
+19.0,seven shovels,shovels seven,,,dem-num,2018-01-26 10:06,M,,seven,shovels,shovels seven,1.0,ENG1010,39.0
+19.0,those seven suitcases,suitcases seven those,suitcases those seven,seven those suitcases,dem-num,2018-01-26 10:06,M,seven,those,suitcases,suitcases seven those,1.0,ENG1010,40.0
+19.0,pears four,four pears,,,dem-num,2018-01-26 10:06,M,,four,pears,pears four,0.0,ENG1010,41.0
+19.0,scarves six these,these six scarves,six these scarves,scarves these six,dem-num,2018-01-26 10:06,M,six,these,scarves,scarves six these,0.0,ENG1010,42.0
+19.0,that vase,vase that,,,dem-num,2018-01-26 10:06,M,,that,vase,vase that,1.0,ENG1010,43.0
+19.0,boxes nine,nine boxes,,,dem-num,2018-01-26 10:06,M,,nine,boxes,boxes nine,0.0,ENG1010,44.0
+19.0,spatulas five,five spatulas,,,dem-num,2018-01-26 10:06,M,,five,spatulas,spatulas five,0.0,ENG1010,45.0
+19.0,those three cars,cars those three,three those cars,cars three those,dem-num,2018-01-26 10:06,M,three,those,cars,cars three those,3.0,ENG1010,46.0
+19.0,three these trays,trays these three,trays three these,these three trays,dem-num,2018-01-26 10:06,M,three,these,trays,trays three these,2.0,ENG1010,47.0
+19.0,pineapples ten those,those ten pineapples,ten those pineapples,pineapples those ten,dem-num,2018-01-26 10:06,M,ten,those,pineapples,pineapples ten those,0.0,ENG1010,48.0
+19.0,six trays,trays six,,,dem-num,2018-01-26 10:06,M,,six,trays,trays six,1.0,ENG1010,49.0

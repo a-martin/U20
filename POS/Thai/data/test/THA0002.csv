@@ -1,0 +1,6 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+0.0,handbagtwogreen,twogreenhandbag,handbaggreentwo,greentwohandbag,num-adj,2018-02-02 16:10,X,green,two,handbag,twogreenhandbag,1.0,THA0002,0.0
+0.0,hatonepurple,onepurplehat,purpleonehat,hatpurpleone,num-adj,2018-02-02 16:10,X,purple,one,hat,hatpurpleone,3.0,THA0002,1.0
+0.0,leaftwo,twoleaf,,,num-adj,2018-02-02 16:10,X,,two,leaf,twoleaf,1.0,THA0002,2.0
+0.0,dartorange,orangedart,,,num-adj,2018-02-02 16:10,X,,orange,dart,dartorange,0.0,THA0002,3.0
+0.0,shirtroundone,shirtoneround,oneroundshirt,roundoneshirt,num-adj,2018-02-02 16:10,X,round,one,shirt,shirtoneround,1.0,THA0002,4.0

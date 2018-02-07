@@ -1,0 +1,10 @@
+Reading preferences
+PROMPT;When choosing to read a text available in all your languages, in what percentage
+PROMPT;of cases would you choose to read it in each of your languages?
+PROMPT;Assume that the original was written in another language, which is unknown to you.
+PROMPT;Give numbers only (i.e., omit the % sign).  Your figures should add up to 100%.
+p;read_lg_1;dom_lg_1
+p;read_lg_2;dom_lg_2
+p;read_lg_3;dom_lg_3
+p;read_lg_4;dom_lg_4
+p;read_lg_5;dom_lg_5

@@ -1,0 +1,5 @@
+ข้อมูลของผู้เข้าร่วมการทดลอง
+t;surname;นามสกุล
+t;given;ชื่อ
+t;age;อายุ
+x;gender;เพศ;gender-choices.txt

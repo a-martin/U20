@@ -1,0 +1,10 @@
+Speaking preferences
+PROMPT;When choosing a language to speak with a person who is equally fluent in all your 
+PROMPT;languages, what percentage of the time would you choose to speak each language?
+PROMPT;Please report percent of total time.
+PROMPT;Give numbers only (i.e., omit the % sign).  Your figures should add up to 100%.
+p;speak_lg_1;dom_lg_1
+p;speak_lg_2;dom_lg_2
+p;speak_lg_3;dom_lg_3
+p;speak_lg_4;dom_lg_4
+p;speak_lg_5;dom_lg_5

@@ -1,0 +1,11 @@
+Contributions to learning
+PROMPT;On a scale from zero to ten, please select how much the following factors
+PROMPT;contributed to your learning of {}.
+x;cont_friends;Interacting with friends;contributions-choices.txt
+x;cont_family;Interacting with family;contributions-choices.txt
+x;cont_reading;Reading;contributions-choices.txt
+x;cont_selfinstruct;Language tapes/self instruction;contributions-choices.txt
+x;cont_tv;Watching TV;contributions-choices.txt
+x;cont_radio;Listening to the radio;contributions-choices.txt
+x;cont_class;Formal learning (e.g., classroom);contributions-choices.txt
+x;cont_work;Workplace;contributions-choices.txt

@@ -1,0 +1,7 @@
+Cultural affiliation
+PROMPT;Please select the cultures with which you identify.
+x;culture_1;Culture 1;culture-choices.txt
+x;culture_2;Culture 2;culture-choices.txt
+x;culture_3;Culture 3;culture-choices.txt
+x;culture_4;Culture 4;culture-choices.txt
+x;culture_5;Culture 5;culture-choices.txt

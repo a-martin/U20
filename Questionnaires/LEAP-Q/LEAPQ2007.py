@@ -3,6 +3,7 @@
 from psychopy import gui, misc, core
 import pandas as pd
 from numpy import nan
+import codecs
 
 ####################
 
@@ -21,7 +22,7 @@ def displayPrompt(promptFile):
     Display a prompt from a text file.
     '''
 
-    with open(promptFile) as f:
+    with codecs.open(promptFile, encoding='utf-8') as f:
         lines = f.readlines()
         dlgP = gui.Dlg(title=lines[0])
         lines = lines[1:] # extract title line from file
@@ -66,7 +67,7 @@ def displayQuestion(chemin, questionFile, n='', language=''):
     if n != '':
         n = '_lg' + n
     
-    with open(chemin + questionFile) as f:
+    with codecs.open(chemin + questionFile, encoding='utf-8') as f:
         lines = f.readlines()
         dlgQ = gui.Dlg(title=lines[0]) # make dialogue box title first line of file
         lines = lines[1:] # extract title line from file
@@ -93,7 +94,7 @@ def displayQuestion(chemin, questionFile, n='', language=''):
             elif qType == 'x': # drop-down choice quesiton
                 choiceFile = l[3] # these questions should have an additional field with filename
                 # fill dico with choices from choiceFile
-                with open(cheminT + choiceFile) as xf:
+                with codecs.open(cheminT + choiceFile, encoding="utf-8") as xf:
                     choiceLines = xf.readlines()
                     displayOptions = []
 
@@ -139,7 +140,7 @@ def doLgQ(chemin, language, n):
     lgDisplay = translate(language)
 
     # Prompt
-    with open(cheminT+'lg-prompt.txt') as f:
+    with codecs.open(cheminT+'lg-prompt.txt', encoding='utf-8') as f:
          lines = f.readlines()
          dlgPrompt = gui.Dlg(title=lgDisplay)
          prompt = lines[0].format(lgDisplay)
@@ -180,7 +181,7 @@ Vietnamese / VIE
 # choices for lg to complete the questionnaire in
 displayLgs = [
     'ENG',
-    # 'THA',
+    'THA',
     # 'VIE',
     # 'THK'
 ]

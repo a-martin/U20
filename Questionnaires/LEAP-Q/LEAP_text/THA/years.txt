@@ -1,0 +1,5 @@
+Time
+PROMPT;Please report the number of years you spent in each environment.
+t;time_country;A country where {} is spoken.
+t;time_family;A family where {} is spoken.
+t;time_prof;A school and/or working environment where {} is spoken.

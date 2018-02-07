@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+21.0,pitcher striped,striped pitcher,,,dem-adj,2018-01-24 17:03,F,,striped,pitcher,pitcher striped,0.0,ENG4024,0.0
+21.0,scarf purple,purple scarf,,,dem-adj,2018-01-24 17:03,F,,purple,scarf,scarf purple,0.0,ENG4024,1.0
+21.0,these cars,cars these,,,dem-adj,2018-01-24 17:03,F,,these,cars,cars these,1.0,ENG4024,2.0
+21.0,that spotted ribbon,spotted that ribbon,ribbon that spotted,ribbon spotted that,dem-adj,2018-01-24 17:03,F,spotted,that,ribbon,ribbon spotted that,3.0,ENG4024,3.0
+21.0,this bowl,bowl this,,,dem-adj,2018-01-24 17:03,F,,this,bowl,bowl this,1.0,ENG4024,4.0
+21.0,stone handbag,handbag stone,,,dem-adj,2018-01-24 17:03,F,,stone,handbag,handbag stone,1.0,ENG4024,5.0
+21.0,those dirty shovels,shovels dirty those,shovels those dirty,dirty those shovels,dem-adj,2018-01-24 17:03,F,dirty,those,shovels,shovels dirty those,1.0,ENG4024,6.0
+21.0,wooden these pigs,these wooden pigs,pigs wooden these,pigs these wooden,dem-adj,2018-01-24 17:03,F,wooden,these,pigs,pigs wooden these,2.0,ENG4024,7.0
+21.0,orange that key,key that orange,key orange that,that orange key,dem-adj,2018-01-24 17:03,F,orange,that,key,key orange that,2.0,ENG4024,8.0
+21.0,that stone box,stone that box,box that stone,box stone that,dem-adj,2018-01-24 17:03,F,stone,that,box,box stone that,3.0,ENG4024,9.0
+21.0,those green trays,trays those green,trays green those,green those trays,dem-adj,2018-01-24 17:03,F,green,those,trays,trays green those,2.0,ENG4024,10.0
+21.0,car that,that car,,,dem-adj,2018-01-24 17:03,F,,that,car,car that,0.0,ENG4024,11.0
+21.0,ribbon that orange,orange that ribbon,that orange ribbon,ribbon orange that,dem-adj,2018-01-24 17:03,F,orange,that,ribbon,ribbon orange that,3.0,ENG4024,12.0
+21.0,shoes blue those,blue those shoes,shoes those blue,those blue shoes,dem-adj,2018-01-24 17:03,F,blue,those,shoes,shoes blue those,0.0,ENG4024,13.0
+21.0,those green scarves,green those scarves,scarves those green,scarves green those,dem-adj,2018-01-24 17:03,F,green,those,scarves,scarves green those,3.0,ENG4024,14.0
+21.0,pigs these furry,furry these pigs,these furry pigs,pigs furry these,dem-adj,2018-01-24 17:03,F,furry,these,pigs,pigs furry these,3.0,ENG4024,15.0
+21.0,striped these spatulas,spatulas striped these,spatulas these striped,these striped spatulas,dem-adj,2018-01-24 17:03,F,striped,these,spatulas,spatulas striped these,1.0,ENG4024,16.0
+21.0,those striped boxes,boxes those striped,striped those boxes,boxes striped those,dem-adj,2018-01-24 17:03,F,striped,those,boxes,boxes striped those,3.0,ENG4024,17.0
+21.0,these leaves,leaves these,,,dem-adj,2018-01-24 17:03,F,,these,leaves,leaves these,1.0,ENG4024,18.0
+21.0,ribbon stone that,stone that ribbon,ribbon that stone,that stone ribbon,dem-adj,2018-01-24 17:03,F,stone,that,ribbon,ribbon stone that,0.0,ENG4024,19.0
+21.0,cows those,those cows,,,dem-adj,2018-01-24 17:03,F,,those,cows,cows those,0.0,ENG4024,20.0
+21.0,blue this banana,banana blue this,banana this blue,this blue banana,dem-adj,2018-01-24 17:03,F,blue,this,banana,banana blue this,1.0,ENG4024,21.0
+21.0,orange those pillows,pillows orange those,those orange pillows,pillows those orange,dem-adj,2018-01-24 17:03,F,orange,those,pillows,pillows orange those,1.0,ENG4024,22.0
+21.0,shirt this,this shirt,,,dem-adj,2018-01-24 17:03,F,,this,shirt,shirt this,0.0,ENG4024,23.0
+21.0,that green vase,vase that green,green that vase,vase green that,dem-adj,2018-01-24 17:03,F,green,that,vase,vase green that,3.0,ENG4024,24.0
+21.0,bananas those,those bananas,,,dem-adj,2018-01-24 17:03,F,,those,bananas,bananas those,0.0,ENG4024,25.0
+21.0,cow that,that cow,,,dem-adj,2018-01-24 17:03,F,,that,cow,cow that,0.0,ENG4024,26.0
+21.0,shirt that,that shirt,,,dem-adj,2018-01-24 17:03,F,,that,shirt,shirt that,0.0,ENG4024,27.0
+21.0,dart blue,blue dart,,,dem-adj,2018-01-24 17:03,F,,blue,dart,dart blue,0.0,ENG4024,28.0
+21.0,duck that blue,blue that duck,that blue duck,duck blue that,dem-adj,2018-01-24 17:03,F,blue,that,duck,duck blue that,3.0,ENG4024,29.0
+21.0,pear stone this,stone this pear,this stone pear,pear this stone,dem-adj,2018-01-24 17:03,F,stone,this,pear,pear stone this,0.0,ENG4024,30.0
+21.0,spatula this stone,this stone spatula,spatula stone this,stone this spatula,dem-adj,2018-01-24 17:03,F,stone,this,spatula,spatula stone this,2.0,ENG4024,31.0
+21.0,hat furry,furry hat,,,dem-adj,2018-01-24 17:03,F,,furry,hat,hat furry,0.0,ENG4024,32.0
+21.0,these handbags,handbags these,,,dem-adj,2018-01-24 17:03,F,,these,handbags,handbags these,1.0,ENG4024,33.0
+21.0,purple these keys,keys these purple,these purple keys,keys purple these,dem-adj,2018-01-24 17:03,F,purple,these,keys,keys purple these,3.0,ENG4024,34.0
+21.0,that striped ribbon,ribbon that striped,ribbon striped that,striped that ribbon,dem-adj,2018-01-24 17:03,F,striped,that,ribbon,ribbon striped that,2.0,ENG4024,35.0
+21.0,shovel this green,this green shovel,shovel green this,green this shovel,dem-adj,2018-01-24 17:03,F,green,this,shovel,shovel green this,2.0,ENG4024,36.0
+21.0,orange couch,couch orange,,,dem-adj,2018-01-24 17:03,F,,orange,couch,couch orange,1.0,ENG4024,37.0
+21.0,spatulas furry those,spatulas those furry,those furry spatulas,furry those spatulas,dem-adj,2018-01-24 17:03,F,furry,those,spatulas,spatulas furry those,0.0,ENG4024,38.0
+21.0,stone those suitcases,suitcases those stone,suitcases stone those,those stone suitcases,dem-adj,2018-01-24 17:03,F,stone,those,suitcases,suitcases stone those,2.0,ENG4024,39.0
+21.0,hat dirty,dirty hat,,,dem-adj,2018-01-24 17:03,F,,dirty,hat,hat dirty,0.0,ENG4024,40.0
+21.0,shirts these orange,these orange shirts,shirts orange these,orange these shirts,dem-adj,2018-01-24 17:03,F,orange,these,shirts,shirts orange these,2.0,ENG4024,41.0
+21.0,orange these cows,these orange cows,cows these orange,cows orange these,dem-adj,2018-01-24 17:03,F,orange,these,cows,cows orange these,3.0,ENG4024,42.0
+21.0,those furry bowls,bowls those furry,bowls furry those,furry those bowls,dem-adj,2018-01-24 17:03,F,furry,those,bowls,bowls furry those,2.0,ENG4024,43.0
+21.0,car spotted that,that spotted car,car that spotted,spotted that car,dem-adj,2018-01-24 17:03,F,spotted,that,car,car spotted that,0.0,ENG4024,44.0
+21.0,shovel that purple,that purple shovel,purple that shovel,shovel purple that,dem-adj,2018-01-24 17:03,F,purple,that,shovel,shovel purple that,3.0,ENG4024,45.0
+21.0,leaf spotted,spotted leaf,,,dem-adj,2018-01-24 17:03,F,,spotted,leaf,leaf spotted,0.0,ENG4024,46.0
+21.0,lamp green that,green that lamp,lamp that green,that green lamp,dem-adj,2018-01-24 17:03,F,green,that,lamp,lamp green that,0.0,ENG4024,47.0
+21.0,hat green,green hat,,,dem-adj,2018-01-24 17:03,F,,green,hat,hat green,0.0,ENG4024,48.0
+21.0,chair wooden,wooden chair,,,dem-adj,2018-01-24 17:03,F,,wooden,chair,chair wooden,0.0,ENG4024,49.0

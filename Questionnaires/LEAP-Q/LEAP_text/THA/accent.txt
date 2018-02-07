@@ -1,0 +1,3 @@
+Perception of accent
+PROMPT;In your perception, how much of a non-native accent do you have in {}?
+x;accent;;accent-choices.txt

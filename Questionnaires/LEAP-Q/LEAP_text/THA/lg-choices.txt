@@ -1,0 +1,101 @@
+;
+AKA;Akan
+AMH;Amharic
+ARA;Arabic
+ASM;Assamese
+AWA;Awadhi
+AZE;Azerbaijani
+BAL;Balochi
+BEL;Belarusian
+BEN;Bengali
+BHO;Bhojpuri
+MYA;Burmese
+CEB;Cebuano (Visayan)
+NYA;Chewa
+HNE;Chhattisgarhi
+CTG;Chittagonian
+CES;Czech
+DCC;Deccan
+DHD;Dhundhari
+NLD;Dutch
+CDO;Eastern Min (inc. Fuzhounese)
+ENG;English
+FRA;French
+FUL;Fula
+GAN;Gan Chinese
+DEU;German
+ELL;Greek
+GUJ;Gujarati
+HAT;Haitian Creole
+HAK;Hakka
+BGC;Haryanvi
+HAU;Hausa
+HIL;Hiligaynon/Ilonggo (Visayan)
+HIN;Hindi
+HMN;Hmong
+HUN;Hungarian
+IBO;Igbo
+ILO;Ilocano
+ITA;Italian
+JPN;Japanese
+JAV;Javanese
+CJY;Jin
+KAN;Kannada
+KAZ;Kazakh
+KHM;Khmer
+KIN;Kinyarwanda
+RUN;Kirundi
+KOK;Konkani
+KOR;Korean
+KUR;Kurdish
+MAD;Madurese
+MAG;Magahi
+MAI;Maithili
+MLG;Malagasy
+MSA;Malay (inc. Malaysian and Indonesian)
+MAL;Malayalam
+ZHO;Mandarin
+MAR;Marathi
+MWR;Marwari
+MOS;Mossi
+NEP;Nepali
+MNP;Northern Min
+ORI;Odia (Oriya)
+ORM;Oromo
+PUS;Pashto
+FAS;Persian
+POL;Polish
+POR;Portuguese
+PAN;Punjabi
+QUE;Quechua
+RON;Romanian
+RUS;Russian
+SKR;Saraiki
+HBS;Serbo-Croatian
+SNA;Shona
+SND;Sindhi
+SIN;Sinhalese
+SOM;Somali
+NAN;Southern Min (incl. Hokkien and Teochew)
+SPA;Spanish
+SUN;Sundanese
+SWE;Swedish
+SYL;Sylheti
+TGL;Tagalog (Filipino)
+TAM;Tamil
+TEL;Telugu
+THA;Thai
+TUR;Turkish
+TUK;Turkmen
+UKR;Ukrainian
+URD;Urdu
+UIG;Uyghur
+UZB;Uzbek
+VIE;Vietnamese
+WUU;Wu (e.g. Shanghainese)
+XHO;Xhosa
+HSN;Xiang (Hunanese)
+YOR;Yoruba
+YUE;Yue (incl. Cantonese)
+ZHA;Zhuang
+ZUL;Zulu

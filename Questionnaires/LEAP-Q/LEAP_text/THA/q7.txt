@@ -1,0 +1,4 @@
+Education
+t;education_years;How many years of formal education do you have?
+PROMPT;Please select your highest education level from the list below.
+x;education_level;;education-choices.txt

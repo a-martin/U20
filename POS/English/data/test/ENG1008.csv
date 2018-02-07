@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+25.0,ten furry hats,hats ten furry,hats furry ten,furry ten hats,num-adj,2018-01-24 14:51,M,furry,ten,hats,hats furry ten,2.0,ENG1008,0.0
+25.0,seven striped spatulas,spatulas striped seven,striped seven spatulas,spatulas seven striped,num-adj,2018-01-24 14:51,M,striped,seven,spatulas,spatulas striped seven,1.0,ENG1008,1.0
+25.0,hats nine green,nine green hats,green nine hats,hats green nine,num-adj,2018-01-24 14:51,M,green,nine,hats,hats green nine,3.0,ENG1008,2.0
+25.0,keys seven stone,stone seven keys,keys stone seven,seven stone keys,num-adj,2018-01-24 14:51,M,stone,seven,keys,keys stone seven,2.0,ENG1008,3.0
+25.0,boxes six striped,boxes striped six,six striped boxes,striped six boxes,num-adj,2018-01-24 14:51,M,striped,six,boxes,boxes striped six,1.0,ENG1008,4.0
+25.0,shovel orange,orange shovel,,,num-adj,2018-01-24 14:51,M,,orange,shovel,shovel orange,0.0,ENG1008,5.0
+25.0,chairs ten spotted,ten spotted chairs,spotted ten chairs,chairs spotted ten,num-adj,2018-01-24 14:51,M,spotted,ten,chairs,chairs spotted ten,3.0,ENG1008,6.0
+25.0,five vases,vases five,,,num-adj,2018-01-24 14:51,M,,five,vases,vases five,1.0,ENG1008,7.0
+25.0,pineapples eight purple,pineapples purple eight,purple eight pineapples,eight purple pineapples,num-adj,2018-01-24 14:51,M,purple,eight,pineapples,pineapples purple eight,1.0,ENG1008,8.0
+25.0,purple five cows,cows five purple,cows purple five,five purple cows,num-adj,2018-01-24 14:51,M,purple,five,cows,cows purple five,2.0,ENG1008,9.0
+25.0,lamps eight,eight lamps,,,num-adj,2018-01-24 14:51,M,,eight,lamps,lamps eight,0.0,ENG1008,10.0
+25.0,purple spatula,spatula purple,,,num-adj,2018-01-24 14:51,M,,purple,spatula,spatula purple,1.0,ENG1008,11.0
+25.0,nine spotted vases,vases spotted nine,vases nine spotted,spotted nine vases,num-adj,2018-01-24 14:51,M,spotted,nine,vases,vases spotted nine,1.0,ENG1008,12.0
+25.0,cow one,one cow,,,num-adj,2018-01-24 14:51,M,,one,cow,cow one,0.0,ENG1008,13.0
+25.0,dirty seven bowls,seven dirty bowls,bowls seven dirty,bowls dirty seven,num-adj,2018-01-24 14:51,M,dirty,seven,bowls,bowls dirty seven,3.0,ENG1008,14.0
+25.0,striped six pigs,pigs six striped,pigs striped six,six striped pigs,num-adj,2018-01-24 14:51,M,striped,six,pigs,pigs striped six,2.0,ENG1008,15.0
+25.0,chairs blue eight,blue eight chairs,eight blue chairs,chairs eight blue,num-adj,2018-01-24 14:51,M,blue,eight,chairs,chairs blue eight,0.0,ENG1008,16.0
+25.0,ribbons four purple,ribbons purple four,purple four ribbons,four purple ribbons,num-adj,2018-01-24 14:51,M,purple,four,ribbons,ribbons purple four,1.0,ENG1008,17.0
+25.0,vases furry ten,ten furry vases,furry ten vases,vases ten furry,num-adj,2018-01-24 14:51,M,furry,ten,vases,vases furry ten,0.0,ENG1008,18.0
+25.0,handbag dirty one,one dirty handbag,dirty one handbag,handbag one dirty,num-adj,2018-01-24 14:51,M,dirty,one,handbag,handbag dirty one,0.0,ENG1008,19.0
+25.0,eight orange pillows,pillows orange eight,orange eight pillows,pillows eight orange,num-adj,2018-01-24 14:51,M,orange,eight,pillows,pillows orange eight,1.0,ENG1008,20.0
+25.0,spotted ten vases,vases spotted ten,vases ten spotted,ten spotted vases,num-adj,2018-01-24 14:51,M,spotted,ten,vases,vases spotted ten,1.0,ENG1008,21.0
+25.0,nine green pears,pears nine green,green nine pears,pears green nine,num-adj,2018-01-24 14:51,M,green,nine,pears,pears green nine,3.0,ENG1008,22.0
+25.0,striped four vases,vases four striped,vases striped four,four striped vases,num-adj,2018-01-24 14:51,M,striped,four,vases,vases striped four,2.0,ENG1008,23.0
+25.0,dirty shirt,shirt dirty,,,num-adj,2018-01-24 14:51,M,,dirty,shirt,shirt dirty,1.0,ENG1008,24.0
+25.0,nine furry shoes,shoes furry nine,furry nine shoes,shoes nine furry,num-adj,2018-01-24 14:51,M,furry,nine,shoes,shoes furry nine,1.0,ENG1008,25.0
+25.0,suitcases nine,nine suitcases,,,num-adj,2018-01-24 14:51,M,,nine,suitcases,suitcases nine,0.0,ENG1008,26.0
+25.0,wooden cherry,cherry wooden,,,num-adj,2018-01-24 14:51,M,,wooden,cherry,cherry wooden,1.0,ENG1008,27.0
+25.0,banana spotted,spotted banana,,,num-adj,2018-01-24 14:51,M,,spotted,banana,banana spotted,0.0,ENG1008,28.0
+25.0,six ducks,ducks six,,,num-adj,2018-01-24 14:51,M,,six,ducks,ducks six,1.0,ENG1008,29.0
+25.0,green car,car green,,,num-adj,2018-01-24 14:51,M,,green,car,car green,1.0,ENG1008,30.0
+25.0,eight orange spatulas,spatulas eight orange,spatulas orange eight,orange eight spatulas,num-adj,2018-01-24 14:51,M,orange,eight,spatulas,spatulas orange eight,2.0,ENG1008,31.0
+25.0,two chairs,chairs two,,,num-adj,2018-01-24 14:51,M,,two,chairs,chairs two,1.0,ENG1008,32.0
+25.0,furry box,box furry,,,num-adj,2018-01-24 14:51,M,,furry,box,box furry,1.0,ENG1008,33.0
+25.0,darts stone five,darts five stone,five stone darts,stone five darts,num-adj,2018-01-24 14:51,M,stone,five,darts,darts stone five,0.0,ENG1008,34.0
+25.0,three spotted boxes,boxes spotted three,spotted three boxes,boxes three spotted,num-adj,2018-01-24 14:51,M,spotted,three,boxes,boxes spotted three,1.0,ENG1008,35.0
+25.0,pears orange ten,ten orange pears,orange ten pears,pears ten orange,num-adj,2018-01-24 14:51,M,orange,ten,pears,pears orange ten,0.0,ENG1008,36.0
+25.0,cherries ten,ten cherries,,,num-adj,2018-01-24 14:51,M,,ten,cherries,cherries ten,0.0,ENG1008,37.0
+25.0,three spotted couches,couches three spotted,couches spotted three,spotted three couches,num-adj,2018-01-24 14:51,M,spotted,three,couches,couches spotted three,2.0,ENG1008,38.0
+25.0,blue horse,horse blue,,,num-adj,2018-01-24 14:51,M,,blue,horse,horse blue,1.0,ENG1008,39.0
+25.0,vases wooden ten,ten wooden vases,vases ten wooden,wooden ten vases,num-adj,2018-01-24 14:51,M,wooden,ten,vases,vases wooden ten,0.0,ENG1008,40.0
+25.0,trays furry three,furry three trays,trays three furry,three furry trays,num-adj,2018-01-24 14:51,M,furry,three,trays,trays furry three,0.0,ENG1008,41.0
+25.0,dirty six horses,six dirty horses,horses six dirty,horses dirty six,num-adj,2018-01-24 14:51,M,dirty,six,horses,horses dirty six,3.0,ENG1008,42.0
+25.0,pitchers four,four pitchers,,,num-adj,2018-01-24 14:51,M,,four,pitchers,pitchers four,0.0,ENG1008,43.0
+25.0,cars three,three cars,,,num-adj,2018-01-24 14:51,M,,three,cars,cars three,0.0,ENG1008,44.0
+25.0,bowl striped,striped bowl,,,num-adj,2018-01-24 14:51,M,,striped,bowl,bowl striped,0.0,ENG1008,45.0
+25.0,tray stone,stone tray,,,num-adj,2018-01-24 14:51,M,,stone,tray,tray stone,0.0,ENG1008,46.0
+25.0,striped ten shoes,ten striped shoes,shoes ten striped,shoes striped ten,num-adj,2018-01-24 14:51,M,striped,ten,shoes,shoes striped ten,3.0,ENG1008,47.0
+25.0,green three suitcases,suitcases three green,suitcases green three,three green suitcases,num-adj,2018-01-24 14:51,M,green,three,suitcases,suitcases green three,2.0,ENG1008,48.0
+25.0,seven shoes,shoes seven,,,num-adj,2018-01-24 14:51,M,,seven,shoes,shoes seven,1.0,ENG1008,49.0

@@ -1,0 +1,6 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+0.0,pigeightthose,eightthosepig,pigthoseeight,thoseeightpig,dem-num,2018-01-31 16:27,X,eight,those,pig,eightthosepig,1.0,THA0001,0.0
+0.0,sixpig,pigsix,,,dem-num,2018-01-31 16:27,X,,six,pig,pigsix,1.0,THA0001,1.0
+0.0,thesesevencow,cowtheseseven,seventhesecow,cowseventhese,dem-num,2018-01-31 16:27,X,seven,these,cow,cowtheseseven,1.0,THA0001,2.0
+0.0,sixthosepear,pearthosesix,thosesixpear,pearsixthose,dem-num,2018-01-31 16:27,X,six,those,pear,pearthosesix,1.0,THA0001,3.0
+0.0,bananathesesix,bananasixthese,thesesixbanana,sixthesebanana,dem-num,2018-01-31 16:27,X,six,these,banana,bananasixthese,1.0,THA0001,4.0

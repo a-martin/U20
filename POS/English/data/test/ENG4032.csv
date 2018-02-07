@@ -1,0 +1,51 @@
+age,buttonA,buttonB,buttonC,buttonD,cond,date,gender,modInner,modOuter,noun,response,responseButton,suj,trial
+18.0,horses seven stone,stone seven horses,horses stone seven,seven stone horses,num-adj,2018-01-31 15:40,F,stone,seven,horses,horses seven stone,0.0,ENG4032,0.0
+18.0,furry pear,pear furry,,,num-adj,2018-01-31 15:40,F,,furry,pear,pear furry,1.0,ENG4032,1.0
+18.0,five orange cars,cars orange five,orange five cars,cars five orange,num-adj,2018-01-31 15:40,F,orange,five,cars,cars orange five,1.0,ENG4032,2.0
+18.0,horses five blue,blue five horses,five blue horses,horses blue five,num-adj,2018-01-31 15:40,F,blue,five,horses,horses five blue,0.0,ENG4032,3.0
+18.0,ducks wooden eight,eight wooden ducks,wooden eight ducks,ducks eight wooden,num-adj,2018-01-31 15:40,F,wooden,eight,ducks,ducks eight wooden,3.0,ENG4032,4.0
+18.0,horse one green,green one horse,one green horse,horse green one,num-adj,2018-01-31 15:40,F,green,one,horse,horse one green,0.0,ENG4032,5.0
+18.0,two orange pineapples,pineapples two orange,pineapples orange two,orange two pineapples,num-adj,2018-01-31 15:40,F,orange,two,pineapples,pineapples two orange,1.0,ENG4032,6.0
+18.0,ten spotted bowls,bowls ten spotted,bowls spotted ten,spotted ten bowls,num-adj,2018-01-31 15:40,F,spotted,ten,bowls,bowls ten spotted,1.0,ENG4032,7.0
+18.0,striped eight ducks,ducks eight striped,ducks striped eight,eight striped ducks,num-adj,2018-01-31 15:40,F,striped,eight,ducks,ducks eight striped,1.0,ENG4032,8.0
+18.0,green five darts,darts green five,five green darts,darts five green,num-adj,2018-01-31 15:40,F,green,five,darts,darts five green,3.0,ENG4032,9.0
+18.0,lamps eight dirty,eight dirty lamps,dirty eight lamps,lamps dirty eight,num-adj,2018-01-31 15:40,F,dirty,eight,lamps,lamps eight dirty,0.0,ENG4032,10.0
+18.0,spotted suitcase,suitcase spotted,,,num-adj,2018-01-31 15:40,F,,spotted,suitcase,suitcase spotted,1.0,ENG4032,11.0
+18.0,purple three cars,cars purple three,cars three purple,three purple cars,num-adj,2018-01-31 15:40,F,purple,three,cars,cars three purple,2.0,ENG4032,12.0
+18.0,three hats,hats three,,,num-adj,2018-01-31 15:40,F,,three,hats,hats three,1.0,ENG4032,13.0
+18.0,pineapple one green,one green pineapple,pineapple green one,green one pineapple,num-adj,2018-01-31 15:40,F,green,one,pineapple,pineapple one green,0.0,ENG4032,14.0
+18.0,orange key,key orange,,,num-adj,2018-01-31 15:40,F,,orange,key,key orange,1.0,ENG4032,15.0
+18.0,green five shirts,shirts green five,five green shirts,shirts five green,num-adj,2018-01-31 15:40,F,green,five,shirts,shirts five green,3.0,ENG4032,16.0
+18.0,leaves dirty five,leaves five dirty,dirty five leaves,five dirty leaves,num-adj,2018-01-31 15:40,F,dirty,five,leaves,leaves five dirty,1.0,ENG4032,17.0
+18.0,pears two,two pears,,,num-adj,2018-01-31 15:40,F,,two,pears,pears two,0.0,ENG4032,18.0
+18.0,six blue keys,keys blue six,keys six blue,blue six keys,num-adj,2018-01-31 15:40,F,blue,six,keys,keys six blue,2.0,ENG4032,19.0
+18.0,pear green,green pear,,,num-adj,2018-01-31 15:40,F,,green,pear,pear green,0.0,ENG4032,20.0
+18.0,shovels ten,ten shovels,,,num-adj,2018-01-31 15:40,F,,ten,shovels,shovels ten,0.0,ENG4032,21.0
+18.0,eight cherries,cherries eight,,,num-adj,2018-01-31 15:40,F,,eight,cherries,cherries eight,1.0,ENG4032,22.0
+18.0,ten orange pitchers,pitchers ten orange,orange ten pitchers,pitchers orange ten,num-adj,2018-01-31 15:40,F,orange,ten,pitchers,pitchers ten orange,1.0,ENG4032,23.0
+18.0,three dirty suitcases,suitcases three dirty,dirty three suitcases,suitcases dirty three,num-adj,2018-01-31 15:40,F,dirty,three,suitcases,suitcases three dirty,1.0,ENG4032,24.0
+18.0,blue spatula,spatula blue,,,num-adj,2018-01-31 15:40,F,,blue,spatula,spatula blue,1.0,ENG4032,25.0
+18.0,stone duck,duck stone,,,num-adj,2018-01-31 15:40,F,,stone,duck,duck stone,1.0,ENG4032,26.0
+18.0,spotted ten suitcases,suitcases ten spotted,suitcases spotted ten,ten spotted suitcases,num-adj,2018-01-31 15:40,F,spotted,ten,suitcases,suitcases ten spotted,1.0,ENG4032,27.0
+18.0,four handbags,handbags four,,,num-adj,2018-01-31 15:40,F,,four,handbags,handbags four,1.0,ENG4032,28.0
+18.0,dirty four vases,vases dirty four,four dirty vases,vases four dirty,num-adj,2018-01-31 15:40,F,dirty,four,vases,vases four dirty,3.0,ENG4032,29.0
+18.0,striped shoe,shoe striped,,,num-adj,2018-01-31 15:40,F,,striped,shoe,shoe striped,1.0,ENG4032,30.0
+18.0,leaf one,one leaf,,,num-adj,2018-01-31 15:40,F,,one,leaf,leaf one,0.0,ENG4032,31.0
+18.0,pigs furry ten,furry ten pigs,ten furry pigs,pigs ten furry,num-adj,2018-01-31 15:40,F,furry,ten,pigs,pigs ten furry,3.0,ENG4032,32.0
+18.0,hats six,six hats,,,num-adj,2018-01-31 15:40,F,,six,hats,hats six,0.0,ENG4032,33.0
+18.0,five suitcases,suitcases five,,,num-adj,2018-01-31 15:40,F,,five,suitcases,suitcases five,1.0,ENG4032,34.0
+18.0,purple shovel,shovel purple,,,num-adj,2018-01-31 15:40,F,,purple,shovel,shovel purple,1.0,ENG4032,35.0
+18.0,seven spatulas,spatulas seven,,,num-adj,2018-01-31 15:40,F,,seven,spatulas,spatulas seven,1.0,ENG4032,36.0
+18.0,pear wooden,wooden pear,,,num-adj,2018-01-31 15:40,F,,wooden,pear,pear wooden,0.0,ENG4032,37.0
+18.0,wooden two shovels,two wooden shovels,shovels wooden two,shovels two wooden,num-adj,2018-01-31 15:40,F,wooden,two,shovels,shovels two wooden,3.0,ENG4032,38.0
+18.0,striped eight leaves,eight striped leaves,leaves striped eight,leaves eight striped,num-adj,2018-01-31 15:40,F,striped,eight,leaves,leaves eight striped,3.0,ENG4032,39.0
+18.0,suitcases green three,three green suitcases,suitcases three green,green three suitcases,num-adj,2018-01-31 15:40,F,green,three,suitcases,suitcases three green,2.0,ENG4032,40.0
+18.0,shirts striped three,three striped shirts,shirts three striped,striped three shirts,num-adj,2018-01-31 15:40,F,striped,three,shirts,shirts three striped,2.0,ENG4032,41.0
+18.0,cherries five spotted,spotted five cherries,five spotted cherries,cherries spotted five,num-adj,2018-01-31 15:40,F,spotted,five,cherries,cherries five spotted,0.0,ENG4032,42.0
+18.0,pears eight purple,purple eight pears,pears purple eight,eight purple pears,num-adj,2018-01-31 15:40,F,purple,eight,pears,pears eight purple,0.0,ENG4032,43.0
+18.0,furry seven shirts,shirts seven furry,seven furry shirts,shirts furry seven,num-adj,2018-01-31 15:40,F,furry,seven,shirts,shirts seven furry,1.0,ENG4032,44.0
+18.0,keys nine,nine keys,,,num-adj,2018-01-31 15:40,F,,nine,keys,keys nine,0.0,ENG4032,45.0
+18.0,nine orange cows,orange nine cows,cows orange nine,cows nine orange,num-adj,2018-01-31 15:40,F,orange,nine,cows,cows nine orange,3.0,ENG4032,46.0
+18.0,dirty pineapple,pineapple dirty,,,num-adj,2018-01-31 15:40,F,,dirty,pineapple,pineapple dirty,1.0,ENG4032,47.0
+18.0,wooden three shirts,shirts three wooden,three wooden shirts,shirts wooden three,num-adj,2018-01-31 15:40,F,wooden,three,shirts,shirts three wooden,1.0,ENG4032,48.0
+18.0,key striped one,key one striped,striped one key,one striped key,num-adj,2018-01-31 15:40,F,striped,one,key,key one striped,1.0,ENG4032,49.0
