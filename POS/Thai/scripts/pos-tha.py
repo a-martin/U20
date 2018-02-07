@@ -113,7 +113,7 @@ def initializeTrial(displayText, buttonNames, buttonTexts):
 
     cons = visual.ImageStim(
         win,
-        image='../stimuli/tha/consignes/traduisez.png',
+        image='../stimuli/consignes/traduisez.png',
         pos=(0,260),
     )
     cons.setAutoDraw(True)
@@ -143,7 +143,7 @@ def initializeTrial(displayText, buttonNames, buttonTexts):
     
 def makePhrase(words):
     # make list of sound objects based on words
-    stimulus = [sound.Sound('../stimuli/tha/sounds/'+i+'.wav') for i in words]
+    stimulus = [sound.Sound('../stimuli/sounds/'+i+'.wav') for i in words]
 
     return stimulus
     
@@ -178,7 +178,7 @@ def doTrainingTrial(noun, modifier, nTrial):
     # wait 500 ms after sound
     core.wait(0.5)
 
-    consBisText = '../stimuli/tha/consignes/30trial{}.png'.format(nTrial+1)
+    consBisText = '../stimuli/consignes/30trial{}.png'.format(nTrial+1)
     consBis = visual.ImageStim(
         win,
         image=consBisText,
@@ -318,7 +318,7 @@ def doTestTrial(nTrial, noun, modOuter, modInner=None):
     # wait 1000 ms before displaying possible answers
     core.wait(1)
 
-    consBisText = '../stimuli/tha/consignes/50trial{}.png'.format(nTrial+1)
+    consBisText = '../stimuli/consignes/50trial{}.png'.format(nTrial+1)
     consBis = visual.ImageStim(
         win,
         image=consBisText,
@@ -493,8 +493,8 @@ testCols = [
 ]
 testDf = pd.DataFrame(columns=testCols)
 
-imageChemin = '../stimuli/tha/images/'
-thai = pd.read_csv('../stimuli/tha/vocab.csv', index_col=0).tha.to_dict()
+imageChemin = '../stimuli/images/'
+thai = pd.read_csv('../stimuli/vocab.csv', index_col=0).tha.to_dict()
 
 #########################
 #########################
@@ -502,7 +502,7 @@ thai = pd.read_csv('../stimuli/tha/vocab.csv', index_col=0).tha.to_dict()
 # GENERATE TRIALS
 
 # Nouns
-noms = pd.read_csv('../stimuli/tha/nouns.csv')
+noms = pd.read_csv('../stimuli/nouns.csv')
 
 # sample 20 nouns..half will be repeated for training, thus 30 trials
 nomsSample = noms.sample(20)
@@ -511,7 +511,7 @@ trainingNoms = pd.concat([nomsSample, repeatNoms]).reset_index(range(30), drop=T
 
 
 # Modifiers
-mods = pd.read_csv('../stimuli/tha/modifiers.csv')
+mods = pd.read_csv('../stimuli/modifiers.csv')
 nums = mods[mods.cat=='num']
 dems = mods[mods.cat=='dem']
 adjs = mods[mods.cat=='adj']
